@@ -34,6 +34,16 @@ Il libro cita altri esempi di squadre eccezionali, come gli equipaggi aerei e le
 
 Il problema della task force non era dentro le squadre, ma tra le squadre. Ogni team era fortissimo, ma i team non si fidavano l'uno dell'altro, non condividevano informazioni e vedevano solo il proprio pezzo del problema. La domanda diventò allora: come si possono estendere la fiducia e lo scopo comune, tipici di un piccolo team, a un'organizzazione di migliaia di persone? La risposta è il team di team.
 
+## Dal bisogno di sapere al bisogno di condividere
+
+Una delle resistenze più forti che McChrystal dovette affrontare riguardava la gestione delle informazioni. Nelle organizzazioni militari e di intelligence vigeva il principio del bisogno di sapere: ogni persona riceve solo le informazioni strettamente necessarie al proprio compito. È un principio nato per proteggere i segreti, ed è comprensibile. Ma ha un effetto collaterale: nessuno vede il quadro completo, e nessuno può accorgersi dei collegamenti tra informazioni sparse in reparti diversi.
+
+La task force passò a un principio opposto, il bisogno di condividere. Le informazioni venivano rese disponibili al maggior numero possibile di persone, perché il loro valore stava proprio nel poter essere collegate da qualcuno che vedeva qualcosa che altri non vedevano. Naturalmente, c'era il rischio che qualche informazione finisse dove non doveva. Ma gli autori sostengono che il costo di non condividere era molto più alto.
+
+Il libro racconta anche esempi fuori dall'ambito militare. Uno riguarda il programma spaziale americano degli anni sessanta. All'inizio, i diversi componenti dei razzi venivano progettati da gruppi separati, che comunicavano poco. I componenti funzionavano bene singolarmente, ma i problemi esplodevano quando venivano messi insieme. La NASA rispose con un approccio di gestione dei sistemi basato sulla condivisione continua delle informazioni tra tutti i gruppi, in modo che ciascuno capisse come il proprio lavoro influenzava gli altri.
+
+Gli autori osservano che i silos non nascono dalla cattiva volontà. Nascono dal fatto che ogni gruppo è premiato per i propri risultati, si fida solo di chi conosce, e parla un linguaggio specifico. Per superarli non bastano le dichiarazioni: servono strutture, abitudini e relazioni personali che rendano la condivisione naturale.
+
 ## Consapevolezza condivisa
 
 Il primo pilastro della trasformazione è la consapevolezza condivisa. L'idea è che ogni persona dell'organizzazione debba avere una visione dell'insieme, non solo del proprio compito. Solo così le persone possono capire come il loro lavoro si collega a quello degli altri, e prendere decisioni coerenti.

@@ -50,6 +50,18 @@ Per descrivere questi comportamenti coniano una parola: teamicidio, cioè l'ucci
 
 Il team affiatato ha bisogno anche di successi. Gli autori suggeriscono di dare al team occasioni frequenti di raggiungere obiettivi e celebrarli, perché il successo condiviso rafforza l'identità del gruppo.
 
+## Metodologie, competizione interna ed effetto Hawthorne
+
+Gli autori dedicano alcuni capitoli a pratiche aziendali diffuse che, secondo loro, danneggiano i team.
+
+La prima riguarda le metodologie rigide. Gli autori distinguono tra un metodo, con la emme minuscola, cioè un insieme di pratiche che il team sceglie e adatta, e una Metodologia, con la emme maiuscola, cioè un sistema imposto dall'alto che stabilisce in ogni dettaglio come le persone devono lavorare. Le grandi metodologie promettono di rendere il lavoro prevedibile e indipendente dalle persone, ma producono montagne di documenti, tolgono responsabilità e motivazione, e trattano persone intelligenti come esecutori. Gli autori suggeriscono un'alternativa: formazione, strumenti condivisi e revisioni tra colleghi, che portano coerenza senza soffocare il pensiero.
+
+La seconda riguarda la competizione interna. Molte aziende mettono i membri di un team in competizione tra loro, con classifiche, premi individuali e valutazioni comparative. Gli autori sostengono che questo distrugge la collaborazione: se il mio successo dipende dal fatto che tu faccia peggio di me, non ho alcun interesse ad aiutarti. In un team, invece, l'apprendimento avviene proprio attraverso l'aiuto reciproco e l'insegnamento tra colleghi.
+
+La terza riguarda l'effetto Hawthorne, dal nome di uno stabilimento americano in cui, negli anni venti, alcuni ricercatori studiarono l'effetto dell'illuminazione sulla produttività. Scoprirono che la produttività aumentava quasi con qualsiasi cambiamento, anche quando l'illuminazione veniva ridotta. La spiegazione più accettata è che le persone lavorano meglio quando sentono che qualcuno si interessa a loro e quando provano qualcosa di nuovo. Gli autori suggeriscono di sfruttare questo effetto in modo positivo: sperimentare spesso nuovi modi di lavorare, perché la sperimentazione stessa produce energia e coinvolgimento.
+
+Infine, gli autori parlano dello spazio per l'errore. Un'organizzazione che punisce ogni errore insegna alle persone a non rischiare, a non provare nulla di nuovo, a coprire i problemi. Per imparare, bisogna poter sbagliare.
+
 ## Il lavoro deve essere divertente
 
 L'ultima parte del libro, aggiunta nelle edizioni successive, parla di cultura, cambiamento e divertimento. Gli autori sostengono che il lavoro dovrebbe essere, almeno in parte, divertente. Non nel senso di feste e giochi, ma nel senso del piacere di fare qualcosa di interessante insieme a persone che si stimano.

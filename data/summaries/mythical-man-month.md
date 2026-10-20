@@ -54,6 +54,18 @@ Per ottenere integrità concettuale, Brooks propone di separare l'architettura d
 
 Brooks mette anche in guardia dall'effetto del secondo sistema. Quando un architetto progetta il suo secondo sistema, dopo il successo del primo, tende a inserirci tutte le idee che aveva dovuto scartare la prima volta. Il risultato è spesso un sistema sovraccarico e complicato.
 
+## La torre di Babele e i documenti essenziali
+
+Brooks dedica un capitolo alla storia della torre di Babele, che descrive come il primo grande progetto di ingegneria fallito. Gli uomini avevano tutto ciò che serviva: uno scopo chiaro, le persone, i materiali, il tempo, la tecnologia. Ciò che mancò fu la comunicazione, e con la comunicazione l'organizzazione. Quando le persone non riuscirono più a capirsi, il progetto si fermò.
+
+Secondo Brooks, molti progetti software falliscono per lo stesso motivo. I team si dividono il lavoro, ma ognuno fa ipotesi sul lavoro degli altri senza verificarle. Le interfacce cambiano senza che tutti lo sappiano. Le decisioni prese in una parte del progetto non arrivano alle altre. Brooks suggerisce di comunicare in tutti i modi possibili: in modo informale, con riunioni regolari, e con una documentazione condivisa e aggiornata del progetto.
+
+Brooks osserva anche che, in mezzo a tutta la carta che un progetto produce, ci sono pochi documenti davvero essenziali. Per un progetto software, sono gli obiettivi, le specifiche, il calendario, il budget, l'organizzazione e la distribuzione dello spazio e delle risorse. Questi documenti non servono tanto a informare gli altri, quanto a costringere chi li scrive a prendere decisioni chiare. Spesso è proprio mentre si cerca di scrivere qualcosa che ci si accorge di non aver deciso, o di non essere d'accordo.
+
+Un altro tema riguarda gli strumenti. Brooks racconta che ogni programmatore tende a costruire e custodire i propri strumenti personali, e suggerisce invece di investire in strumenti condivisi, mantenuti da persone dedicate. È un'intuizione che oggi ritroviamo nei team di piattaforma e nell'automazione condivisa.
+
+Infine, Brooks riflette sulle stime. Osserva che i programmatori stimano bene il tempo per scrivere il codice, ma dimenticano tutto il resto: progettazione, test, integrazione, documentazione, problemi imprevisti. Nella sua esperienza, la scrittura del codice era solo una parte minoritaria del tempo totale di un progetto, mentre una parte molto grande era dedicata ai test e all'integrazione dei componenti.
+
 ## Prepararsi a buttarne uno
 
 Un altro consiglio famoso è: preparati a buttarne via uno, lo farai comunque. Brooks osserva che, nella maggior parte dei progetti, il primo sistema costruito è troppo lento, troppo grande o troppo difficile da usare. Si impara solo costruendo. La domanda non è se buttare via il primo sistema, ma se farlo in modo pianificato, considerandolo un prototipo, o se consegnarlo ai clienti e costringerli a soffrire.
