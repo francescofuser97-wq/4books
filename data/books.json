@@ -1,0 +1,161 @@
+{
+  "paths": [
+    {
+      "id": "nuovo-manager",
+      "title": "Da collaboratore a manager",
+      "description": "Il percorso essenziale per chi guida un team per la prima volta: metodo, primi mesi, abitudini e strumenti.",
+      "books": ["manager-minuto", "making-of-a-manager", "primi-90-giorni", "sette-regole", "manager-efficace", "high-output-management"]
+    },
+    {
+      "id": "persone",
+      "title": "Guidare le persone",
+      "description": "Feedback, fiducia, motivazione e lavoro di squadra: il lato umano della leadership.",
+      "books": ["radical-candor", "carnegie", "intelligenza-emotiva", "drive", "cinque-disfunzioni", "leader-ultimi", "extreme-ownership"]
+    }
+  ],
+  "books": [
+    {
+      "id": "manager-minuto",
+      "title": "Il manager minuto",
+      "originalTitle": "The One Minute Manager",
+      "author": "Ken Blanchard e Spencer Johnson",
+      "year": 1982,
+      "category": "Management",
+      "colors": ["#ff7a59", "#ffb347"],
+      "tagline": "Tre strumenti da un minuto per guidare le persone e ottenere risultati.",
+      "keyIdeas": ["Obiettivi da un minuto", "Elogi da un minuto", "Correzioni da un minuto"]
+    },
+    {
+      "id": "making-of-a-manager",
+      "title": "The Making of a Manager",
+      "originalTitle": "The Making of a Manager",
+      "author": "Julie Zhuo",
+      "year": 2019,
+      "category": "Primo incarico",
+      "colors": ["#6a5af9", "#b06ab3"],
+      "tagline": "Cosa fare quando, per la prima volta, tutti guardano a te.",
+      "keyIdeas": ["Scopo, persone, processo", "Riunioni individuali", "Feedback e sindrome dell'impostore"]
+    },
+    {
+      "id": "primi-90-giorni",
+      "title": "I primi 90 giorni",
+      "originalTitle": "The First 90 Days",
+      "author": "Michael D. Watkins",
+      "year": 2003,
+      "category": "Primo incarico",
+      "colors": ["#11998e", "#38ef7d"],
+      "tagline": "Le strategie per affrontare un nuovo ruolo e raggiungere in fretta il punto di pareggio.",
+      "keyIdeas": ["Promuovi te stesso", "Il modello STARS", "Le cinque conversazioni con il capo"]
+    },
+    {
+      "id": "sette-regole",
+      "title": "Le 7 regole per avere successo",
+      "originalTitle": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "year": 1989,
+      "category": "Crescita personale",
+      "colors": ["#1e3c72", "#2a5298"],
+      "tagline": "Sette abitudini per passare dalla dipendenza all'interdipendenza.",
+      "keyIdeas": ["Cerchio di influenza", "Il secondo quadrante", "Prima capire, poi farsi capire"]
+    },
+    {
+      "id": "manager-efficace",
+      "title": "Il manager efficace",
+      "originalTitle": "The Effective Executive",
+      "author": "Peter F. Drucker",
+      "year": 1967,
+      "category": "Produttività",
+      "colors": ["#373b44", "#4286f4"],
+      "tagline": "Le cinque pratiche che trasformano intelligenza e talento in risultati.",
+      "keyIdeas": ["Conosci il tuo tempo", "Costruisci sui punti di forza", "Decisioni efficaci"]
+    },
+    {
+      "id": "high-output-management",
+      "title": "High Output Management",
+      "originalTitle": "High Output Management",
+      "author": "Andrew S. Grove",
+      "year": 1983,
+      "category": "Management",
+      "colors": ["#0f2027", "#2c5364"],
+      "tagline": "Il manuale dell'ex CEO di Intel: il risultato di un manager è il risultato del suo team.",
+      "keyIdeas": ["Leva manageriale", "Riunioni individuali", "Maturità rispetto al compito"]
+    },
+    {
+      "id": "radical-candor",
+      "title": "Radical Candor",
+      "originalTitle": "Radical Candor",
+      "author": "Kim Scott",
+      "year": 2017,
+      "category": "Feedback",
+      "colors": ["#e52d27", "#b31217"],
+      "tagline": "Tenere alle persone e sfidarle direttamente: come essere un capo franco e umano.",
+      "keyIdeas": ["I quattro quadranti", "Chiedere feedback", "Rockstar e superstar"]
+    },
+    {
+      "id": "carnegie",
+      "title": "Come trattare gli altri e farseli amici",
+      "originalTitle": "How to Win Friends and Influence People",
+      "author": "Dale Carnegie",
+      "year": 1936,
+      "category": "Comunicazione",
+      "colors": ["#f7971e", "#ffd200"],
+      "tagline": "Il classico senza tempo sulle relazioni, la persuasione e la leadership.",
+      "keyIdeas": ["Non criticare", "Apprezzamento sincero", "Correggere senza offendere"]
+    },
+    {
+      "id": "intelligenza-emotiva",
+      "title": "Intelligenza emotiva",
+      "originalTitle": "Emotional Intelligence",
+      "author": "Daniel Goleman",
+      "year": 1995,
+      "category": "Crescita personale",
+      "colors": ["#c94b4b", "#4b134f"],
+      "tagline": "Perché le emozioni contano più del quoziente intellettivo nel lavoro e nella vita.",
+      "keyIdeas": ["Sequestro emotivo", "I cinque pilastri", "Il clima creato dal leader"]
+    },
+    {
+      "id": "drive",
+      "title": "Drive",
+      "originalTitle": "Drive",
+      "author": "Daniel H. Pink",
+      "year": 2009,
+      "category": "Motivazione",
+      "colors": ["#00b09b", "#96c93d"],
+      "tagline": "La sorprendente verità su ciò che ci motiva: autonomia, padronanza e scopo.",
+      "keyIdeas": ["Oltre il bastone e la carota", "Autonomia e padronanza", "Lo scopo"]
+    },
+    {
+      "id": "cinque-disfunzioni",
+      "title": "Le cinque disfunzioni del team",
+      "originalTitle": "The Five Dysfunctions of a Team",
+      "author": "Patrick Lencioni",
+      "year": 2002,
+      "category": "Team",
+      "colors": ["#834d9b", "#d04ed6"],
+      "tagline": "Una favola aziendale sulla fiducia, il conflitto e la responsabilità nel team.",
+      "keyIdeas": ["Fiducia e vulnerabilità", "Conflitto costruttivo", "Risultati collettivi"]
+    },
+    {
+      "id": "leader-ultimi",
+      "title": "Leaders Eat Last",
+      "originalTitle": "Leaders Eat Last",
+      "author": "Simon Sinek",
+      "year": 2014,
+      "category": "Leadership",
+      "colors": ["#141e30", "#243b55"],
+      "tagline": "Perché alcuni team si fidano e altri no: il cerchio di sicurezza.",
+      "keyIdeas": ["Cerchio di sicurezza", "Biologia della fiducia", "Leadership è una scelta"]
+    },
+    {
+      "id": "extreme-ownership",
+      "title": "Extreme Ownership",
+      "originalTitle": "Extreme Ownership",
+      "author": "Jocko Willink e Leif Babin",
+      "year": 2015,
+      "category": "Leadership",
+      "colors": ["#3a6073", "#16222a"],
+      "tagline": "Le lezioni dei Navy SEAL: il leader è responsabile di tutto.",
+      "keyIdeas": ["Responsabilità totale", "Semplicità", "Comando decentralizzato"]
+    }
+  ]
+}

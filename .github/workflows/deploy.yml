@@ -1,0 +1,82 @@
+name: Genera audio e pubblica
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  VOICE: it_IT-paola-medium
+  VOICE_URL: https://huggingface.co/rhasspy/piper-voices/resolve/main/it/it_IT/paola/medium
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa Piper e ffmpeg
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install piper-tts==1.8.0
+
+      - name: Cache voce
+        uses: actions/cache@v4
+        with:
+          path: voices
+          key: voice-${{ env.VOICE }}
+
+      - name: Scarica la voce italiana
+        run: |
+          mkdir -p voices
+          for f in "$VOICE.onnx" "$VOICE.onnx.json"; do
+            [ -s "voices/$f" ] || curl -fsSL --retry 4 -o "voices/$f" "$VOICE_URL/$f"
+          done
+
+      - name: Cache audio generati
+        uses: actions/cache@v4
+        with:
+          path: audio
+          key: audio-${{ hashFiles('data/**', 'scripts/generate_audio.py') }}
+          restore-keys: audio-
+
+      - name: Genera gli audiolibri
+        run: python scripts/generate_audio.py --model "voices/$VOICE.onnx"
+
+      - name: Prepara il sito
+        run: |
+          mkdir -p _site
+          cp -r index.html manifest.webmanifest sw.js css js icons data audio _site/
+          sed -i "s/const VERSION = 'dev'/const VERSION = '${GITHUB_SHA::12}'/" _site/sw.js
+          touch _site/.nojekyll
+          du -sh _site _site/audio
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
