@@ -60,6 +60,18 @@ Ad esempio: un collega arriva in ritardo alla Daily. Seleziono questo dato, gli 
 
 Gli autori suggeriscono di scendere la scala: condividere i dati che abbiamo osservato e il ragionamento che abbiamo fatto, e chiedere all'altro se vede le cose allo stesso modo. Spesso scopriamo che mancavano informazioni importanti.
 
+## Errori comuni e come iniziare
+
+Gli autori sono realisti: cambiare il modo di conversare è difficile, e all'inizio si sbaglia spesso. Indicano alcuni errori ricorrenti.
+
+Il primo è la domanda finta: una domanda che in realtà è un'affermazione travestita. Non pensi che dovremmo rifare questi test? non è una domanda, è un'opinione che non si vuole esporre apertamente. L'alternativa è dichiarare la propria opinione e poi chiedere davvero: io penso che dovremmo rifare questi test, per questo motivo; tu cosa ne pensi?
+
+Il secondo è il rimedio prima della diagnosi: proporre soluzioni prima di aver capito il problema e il punto di vista degli altri. Il terzo è l'accordo apparente: tutti annuiscono, nessuno dice ciò che pensa, e il disaccordo riemerge più tardi, nei corridoi o nei fatti. Il quarto è parlare delle persone invece che con le persone: lamentarsi di un collega con un altro, invece di affrontare direttamente la questione.
+
+Per iniziare, gli autori suggeriscono di partire in piccolo. Non serve trasformare subito tutte le conversazioni del team. Basta scegliere una conversazione a settimana, analizzarla con le due colonne, e provare una piccola modifica nella successiva. Suggeriscono anche di praticare in coppia, con un collega fidato, scambiandosi le analisi: è molto più facile vedere il controllo unilaterale nelle conversazioni degli altri che nelle proprie.
+
+Infine, ricordano che il leader ha un ruolo speciale. Se è il responsabile a mostrare per primo vulnerabilità, curiosità e disponibilità a cambiare idea, il team si sentirà autorizzato a fare lo stesso. Se il responsabile chiede trasparenza ma reagisce male alle cattive notizie, il team imparerà a nasconderle.
+
 ## Una storia per capire: la stima ottimista
 
 Immagina una sprint planning. Il Product Owner chiede al team se riuscirà a completare una nuova funzionalità entro la fine dello sprint. Lo sviluppatore più esperto pensa che sia impossibile, ma non vuole sembrare negativo davanti al management presente. Dice: ci proviamo. Il Product Owner capisce: sì, ce la facciamo. A metà sprint emergono i problemi, e alla fine la funzionalità non è pronta. Il Product Owner si sente tradito, lo sviluppatore si sente accusato ingiustamente.
