@@ -57,6 +57,7 @@ const state = {
   settings: Object.assign({ rate: 1, readerFs: 19 }, store.get('settings', {})),
   listened: store.get('listened', 0),
   filter: 'Tutti',
+  query: '',
 };
 
 const saveProgress = () => store.set('progress', state.progress);
@@ -714,9 +715,7 @@ function pathStats(path) {
 
 function pathCard(path, i) {
   const { done, total } = pathStats(path);
-  const first = state.books[path.books[0]];
-  const second = state.books[path.books[1]] || first;
-  const colors = i % 2 ? [second.colors[0], first.colors[1]] : ['#ff7a59', '#6a5af9'];
+  const colors = path.colors || (i % 2 ? ['#11998e', '#2a5298'] : ['#ff7a59', '#6a5af9']);
   return `<a class="path-card" href="#/percorso/${path.id}" style="--c1:${colors[0]};--c2:${colors[1]}">
     <div class="k">Percorso · ${total} libri</div>
     <h3>${esc(path.title)}</h3>
@@ -763,21 +762,35 @@ function installTip() {
   </div>`;
 }
 
+function filteredBooks() {
+  const q = state.query.trim().toLowerCase();
+  return state.order.filter((id) => {
+    const b = state.books[id];
+    if (state.filter !== 'Tutti' && b.category !== state.filter) return false;
+    return !q || `${b.title} ${b.originalTitle} ${b.author} ${b.category}`.toLowerCase().includes(q);
+  });
+}
+
+function gridHTML() {
+  const list = filteredBooks();
+  return list.length ? list.map(bookCard).join('') : '<p class="empty" style="grid-column:1/-1">Nessun libro trovato.</p>';
+}
+
 function renderHome() {
   const categories = ['Tutti', ...new Set(state.order.map((id) => state.books[id].category))];
-  const list = state.order.filter((id) => state.filter === 'Tutti' || state.books[id].category === state.filter);
   return `
     <header class="page-head"><div><p>${greeting()}</p><h1>Manager in 15</h1></div></header>
     ${installTip()}
     ${continueCard()}
     <section class="section">
       <h2 class="section-title">Percorsi <a href="#/percorsi"><small>Vedi tutti</small></a></h2>
-      <div class="paths-list">${state.paths.map(pathCard).join('')}</div>
+      <div class="paths-row">${state.paths.map(pathCard).join('')}</div>
     </section>
     <section class="section">
       <h2 class="section-title">Tutti i riassunti <small>${state.order.length} libri</small></h2>
+      <input type="search" class="search" placeholder="Cerca per titolo, autore o tema" value="${esc(state.query)}" aria-label="Cerca un libro" enterkeyhint="search">
       <div class="chips">${categories.map((c) => `<button class="chip ${c === state.filter ? 'active' : ''}" data-action="filter" data-value="${esc(c)}">${esc(c)}</button>`).join('')}</div>
-      <div class="grid">${list.map(bookCard).join('')}</div>
+      <div class="grid" id="book-grid">${gridHTML()}</div>
     </section>`;
 }
 
@@ -1048,6 +1061,13 @@ document.addEventListener('click', async (ev) => {
       }
       break;
   }
+});
+
+// La ricerca aggiorna solo la griglia, così la tastiera resta aperta.
+document.addEventListener('input', (e) => {
+  if (!e.target.matches('.search')) return;
+  state.query = e.target.value;
+  $('#book-grid').innerHTML = gridHTML();
 });
 
 document.addEventListener('keydown', (e) => {
