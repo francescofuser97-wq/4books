@@ -90,7 +90,19 @@ C'è poi una frase del libro che vale la pena ricordare: ognuno è un potenziale
 
 Alla fine della storia, il giovane diventa a sua volta un manager minuto. E fa una cosa che il suo maestro gli aveva chiesto: condividere il metodo con altri. Perché un'organizzazione cambia davvero quando non è un solo manager ad applicare questi principi, ma tutti.
 
-## In sintesi
+## Come ti aiuta come Scrum Master e team leader
+
+In un team agile i tre segreti del manager minuto trovano un terreno naturale, perché Scrum è già costruito su cicli brevi di obiettivi e riscontri.
+
+Gli obiettivi da un minuto assomigliano molto allo Sprint Goal. Uno Sprint Goal ben scritto è breve, chiaro e rileggibile in pochi secondi. Se a metà sprint chiedi a uno sviluppatore qual è l'obiettivo e lui ti elenca dieci ticket, significa che l'obiettivo non è abbastanza chiaro. Un buon esercizio è far leggere lo Sprint Goal ad alta voce all'inizio di ogni Daily Scrum, e chiedere: quello che faremo oggi ci avvicina a questo obiettivo?
+
+Gli elogi da un minuto si sposano bene con la cultura lean del rispetto per le persone. Nelle retrospettive spesso ci si concentra solo su cosa non ha funzionato. Prova a dedicare i primi minuti a cose specifiche fatte bene: la revisione del codice che ha evitato un bug in produzione, il collega che ha aiutato un nuovo arrivato, la storia che è stata spezzata in parti più piccole. Più sei specifico, più quel comportamento si ripeterà.
+
+Le correzioni da un minuto sono preziose quando qualcuno non rispetta un accordo del team, come la definizione di fatto o l'orario della Daily. Invece di aspettare la retrospettiva e trasformare la questione in un processo pubblico, parla subito con la persona, in privato, sul comportamento e non sul carattere. Poi ricordale quanto il team conta su di lei.
+
+C'è infine un punto delicato per uno Scrum Master: il tuo ruolo non è dare ordini, ma servire il team e aiutarlo ad auto organizzarsi. Il manager minuto, in fondo, fa proprio questo: non risolve i problemi al posto delle persone, ma crea le condizioni perché le persone li risolvano da sole. Ogni volta che sei tentato di dare tu la soluzione, chiediti se puoi invece fare una domanda che aiuti il team a trovarla.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave del Manager minuto.
 

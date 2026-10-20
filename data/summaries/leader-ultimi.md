@@ -78,7 +78,27 @@ Quarto: nelle situazioni difficili, chiediti cosa sei disposto a sacrificare tu 
 
 Quinto: osserva i simboli. Chi parla per primo nelle riunioni? Chi riceve il merito dei successi? Chi si prende la colpa degli errori? Prova a essere tu a parlare per ultimo, a dare il merito agli altri e a prenderti la colpa.
 
-## In sintesi
+## Una storia per capire: l'errore in produzione
+
+Immagina due team che vivono lo stesso episodio. Un aggiornamento rilasciato di venerdì pomeriggio blocca per due ore il servizio usato da migliaia di clienti.
+
+Nel primo team, lunedì mattina il responsabile convoca una riunione per capire chi ha sbagliato. Lo sviluppatore che ha fatto il rilascio viene criticato davanti a tutti. Nei mesi successivi succede qualcosa di prevedibile: nessuno vuole più fare rilasci, le persone aggiungono controlli inutili per proteggersi, i piccoli problemi vengono nascosti finché non diventano grandi. Il pericolo, per il team, è diventato interno.
+
+Nel secondo team, il responsabile si presenta per primo davanti alla direzione e dice: è una responsabilità del mio team, e quindi mia. Poi, con il team, organizza un'analisi senza colpe: cosa nel nostro sistema ha reso possibile l'errore? Scoprono che mancava un test automatico e che il processo permetteva rilasci senza una seconda verifica. Correggono entrambe le cose. Lo sviluppatore coinvolto, invece di sentirsi umiliato, è il primo a proporre miglioramenti.
+
+Il secondo responsabile ha creato un cerchio di sicurezza: ha preso su di sé la pressione esterna e ha protetto il team all'interno. È esattamente ciò che Sinek intende quando dice che i leader mangiano per ultimi.
+
+## Come ti aiuta come Scrum Master e team leader
+
+La filosofia di Sinek è molto vicina all'idea di leadership al servizio, che è alla base del ruolo dello Scrum Master. Il tuo successo non si misura su quanto controlli il team, ma su quanto lo rendi forte, sicuro e autonomo.
+
+Il cerchio di sicurezza, in termini agili, si chiama spesso sicurezza psicologica: la convinzione che nel team si possa sbagliare, fare domande e dire di non essere d'accordo senza conseguenze negative. Senza di essa, le retrospettive diventano formali, le stime diventano difensive e i problemi emergono troppo tardi.
+
+Uno dei tuoi compiti più importanti è fare da scudo: proteggere il team dalle pressioni che arrivano dall'esterno durante lo sprint, dalle richieste di cambiare le priorità a metà, dalle accuse quando qualcosa va storto. Non significa isolare il team dalla realtà, ma filtrare la pressione e trasformarla in informazioni utili.
+
+Il pericolo dell'astrazione è concreto in una multinazionale: le decisioni vengono prese lontano, sui numeri, e le persone diventano risorse in un foglio di pianificazione. Come team leader, sei il punto di contatto tra quelle decisioni e le persone reali. Riportare i volti e le storie del team nelle conversazioni con il management è una forma di leadership.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave di Leaders Eat Last.
 

@@ -80,7 +80,25 @@ Quarto: per ciascun collaboratore, valuta la sua maturità rispetto ai compiti p
 
 Quinto: alla prossima decisione importante, chiarisci in anticipo chi decide, chi va consultato e chi va informato. Comunicalo al team prima della riunione.
 
-## In sintesi
+## Una storia per capire: dove si ferma il lavoro
+
+Torniamo alla fabbrica della colazione e trasferiamola in un team di sviluppo software. Il team consegna ogni sprint meno di quanto pianificato. Il responsabile pensa che il problema sia la velocità degli sviluppatori e propone di stimare meglio, o di lavorare di più.
+
+Ma se guarda la board con gli occhi di Grove, nota qualcos'altro. Le storie si sviluppano in fretta, poi restano ferme per giorni nella colonna della revisione del codice, e ancora di più in quella dei test. Il passaggio limitante non è lo sviluppo: è la revisione, fatta da due sole persone esperte, e il test, che dipende da un ambiente condiviso spesso occupato. Aggiungere sviluppatori, o farli correre di più, peggiorerebbe solo la coda.
+
+La soluzione, in perfetto stile Grove, è organizzare il lavoro attorno al collo di bottiglia: distribuire le revisioni a più persone, affiancando i meno esperti ai più esperti, limitare il numero di storie aperte contemporaneamente e investire nell'automazione dei test. E poi misurare con indicatori in coppia: il tempo di attraversamento delle storie, insieme al numero di difetti trovati dopo il rilascio, per essere sicuri che la velocità non vada a scapito della qualità.
+
+## Come ti aiuta come Scrum Master e team leader
+
+High Output Management è forse il libro più vicino al pensiero lean di tutta questa raccolta. Grove ragiona in termini di flusso, colli di bottiglia, indicatori anticipatori e controllo della qualità nel punto giusto, esattamente come farebbe un esperto di lean.
+
+Il concetto di leva manageriale ti aiuta a scegliere dove investire il tuo tempo. Facilitare una retrospettiva che produce un miglioramento duraturo ha una leva altissima. Risolvere personalmente un bug ha una leva bassa. Bloccare una decisione che il team aspetta ha una leva negativa.
+
+La maturità rispetto al compito è preziosa per un team leader in un contesto agile. L'auto organizzazione non è uguale per tutti: un team appena formato, o uno sviluppatore nuovo, ha bisogno di più struttura e guida; un team maturo ha bisogno soprattutto di spazio. Adattare il tuo stile evita due errori opposti: imporre troppo controllo a chi è autonomo, e abbandonare a se stesso chi ha ancora bisogno di supporto.
+
+Infine, il modello decisionale di Grove, discussione libera, decisione chiara e pieno sostegno, è una guida perfetta per le discussioni tecniche del team: tutti possono contestare un'architettura, ma una volta deciso, si va avanti insieme.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave di High Output Management.
 

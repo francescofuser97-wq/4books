@@ -82,7 +82,27 @@ Quarto: nelle prossime riunioni, osserva non solo cosa dicono le persone, ma com
 
 Quinto: quando devi dare una critica, preparala in modo specifico, accompagnala con una proposta di soluzione e falla di persona.
 
-## In sintesi
+## Una storia per capire: la Daily che diventa tesa
+
+Immagina una Daily Scrum come tante. A metà giro, Paolo dice che la storia su cui lavora da tre giorni è ancora bloccata. Sara, la collega che dovrebbe fornirgli un servizio, risponde secca che non è colpa sua e che le specifiche erano sbagliate. Paolo alza la voce. Gli altri guardano il pavimento. In pochi secondi la riunione è diventata un campo di battaglia.
+
+Questo è un piccolo sequestro emotivo, anzi due. Sia Paolo sia Sara si sono sentiti attaccati, e la loro amigdala ha reagito prima del ragionamento. Cosa può fare il team leader con intelligenza emotiva?
+
+Prima di tutto, gestire la propria reazione: non schierarsi, non alzare a sua volta la voce. Poi riconoscere apertamente l'emozione, senza giudicarla: vedo che questa storia sta creando molta frustrazione a entrambi. Infine spostare la discussione fuori dalla Daily: fermiamoci noi tre subito dopo e capiamo insieme come sbloccarla.
+
+Dopo la riunione, con gli animi più calmi, emerge la vera causa: le specifiche erano state cambiate senza avvisare nessuno. Il problema non era tra Paolo e Sara, ma nel modo in cui le informazioni circolavano. Senza intelligenza emotiva, sarebbe rimasto un conflitto personale; con l'intelligenza emotiva, è diventato un miglioramento del processo.
+
+## Come ti aiuta come Scrum Master e team leader
+
+Il lavoro di uno Scrum Master è in gran parte lavoro emotivo, anche se raramente lo si dice. Facilitare una retrospettiva tesa, gestire un conflitto tra sviluppatori, sostenere il team dopo uno sprint andato male, negoziare con stakeholder impazienti: sono tutte situazioni in cui le competenze di Goleman fanno la differenza.
+
+La consapevolezza di sé ti aiuta a riconoscere quando il tuo coinvolgimento emotivo rischia di farti perdere neutralità, che è una delle qualità più importanti di un buon facilitatore.
+
+L'empatia ti permette di leggere ciò che non viene detto. In una Daily, chi è silenzioso da giorni? Chi risponde sempre che va tutto bene, ma ha lo sguardo stanco? Spesso i problemi di un team si vedono prima nelle emozioni che nelle metriche.
+
+La storia del pilota e dell'equipaggio è un potente argomento per la sicurezza psicologica, che molti studi indicano come uno dei fattori più importanti per l'efficacia dei team. Un team in cui le persone hanno paura di segnalare un problema è un team che scoprirà i problemi solo in produzione. In un'azienda lean, dove fermare la linea quando si vede un difetto è un principio fondamentale, il clima emotivo è parte del sistema di qualità.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave di Intelligenza emotiva.
 

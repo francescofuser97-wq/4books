@@ -76,7 +76,27 @@ Quarto: ogni domenica dedica venti minuti a pianificare la settimana. Inserisci 
 
 Quinto: nella prossima conversazione difficile, prima di rispondere, riformula ciò che l'altro ha detto e chiedigli se hai capito bene. Solo dopo esponi il tuo punto di vista.
 
-## In sintesi
+## Una storia per capire: la rinuncia del secondo quadrante
+
+Covey racconta che molti dirigenti, quando analizzano la propria agenda, scoprono di vivere quasi interamente nel primo e nel terzo quadrante: emergenze vere e false urgenze. Proviamo a vederlo in un caso concreto.
+
+Giulia è team leader di un gruppo di sviluppo. Ogni settimana promette a se stessa di dedicare due ore a migliorare i test automatici del team, perché sa che la maggior parte dei problemi in produzione nasce da lì. Ma ogni settimana succede qualcosa: un incidente da gestire, una riunione convocata all'ultimo momento, una richiesta urgente di un altro reparto. Le due ore spariscono, e la settimana successiva c'è un nuovo incidente in produzione, che richiede ancora più tempo.
+
+Giulia è intrappolata in un circolo vizioso: non ha tempo per il secondo quadrante perché è sommersa dal primo, e il primo cresce proprio perché trascura il secondo. Covey direbbe che l'unico modo per uscirne è trattare le attività importanti come impegni non negoziabili. Giulia blocca nel calendario due mattine al mese per il miglioramento dei test, e le difende come difenderebbe una riunione con il direttore. Dopo qualche mese gli incidenti calano, e il tempo liberato le permette di investire ancora di più.
+
+È la stessa logica dell'oca dalle uova d'oro: investire nella capacità produttiva è l'unico modo per avere risultati duraturi.
+
+## Come ti aiuta come Scrum Master e team leader
+
+Molte idee di Covey si ritrovano, con altre parole, nel mondo agile e lean.
+
+Essere proattivi e concentrarsi sul cerchio di influenza è la base di una buona retrospettiva. Quante volte una retrospettiva si trasforma in un elenco di lamentele su cose che il team non controlla? Un buon Scrum Master riporta la discussione su ciò che il team può cambiare nel prossimo sprint. Gli impedimenti esterni vanno affrontati, ma da te, fuori dalla retrospettiva.
+
+Il secondo quadrante è il cuore del miglioramento continuo, quello che nel pensiero lean si chiama kaizen. Il debito tecnico, l'automazione, la formazione, il miglioramento del processo: sono tutte attività importanti e mai urgenti. Proteggere nel backlog uno spazio per questo lavoro è una delle cose più preziose che puoi fare.
+
+Cercare prima di capire è la competenza chiave di uno Scrum Master: nelle conversazioni con il Product Owner, nei conflitti tra sviluppatori, nelle discussioni con altri team. E la sinergia è proprio ciò che un team agile cerca: un gruppo interfunzionale in cui competenze diverse producono qualcosa che nessuno saprebbe fare da solo.
+
+## I punti cardine
 
 Ricapitoliamo le sette abitudini.
 

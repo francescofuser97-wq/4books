@@ -92,7 +92,25 @@ Quarto: la prossima volta che devi chiedere qualcosa a un collaboratore, prepara
 
 Quinto: quando devi correggere qualcuno, inizia raccontando un errore simile che hai commesso tu, poi fai una domanda invece di dare un ordine.
 
-## In sintesi
+## Una storia per capire: la lettera di Lincoln
+
+Torniamo per un momento alla lettera mai spedita di Abraham Lincoln, perché contiene una lezione che vale la pena approfondire. Dopo la battaglia di Gettysburg, l'esercito confederato era intrappolato contro un fiume in piena. Il generale Meade aveva l'occasione di chiudere la guerra. Lincoln gli ordinò di attaccare subito. Meade esitò, convocò un consiglio di guerra, e nel frattempo il fiume calò e il nemico fuggì.
+
+Lincoln era furioso e scrisse una lettera piena di amarezza. Ma, ipotizza Carnegie, prima di spedirla probabilmente si fermò a pensare: è facile per me, seduto in un ufficio, ordinare un attacco. Se fossi stato a Gettysburg, se avessi visto tutto quel sangue, forse anch'io avrei esitato. E comunque, la lettera non avrebbe cambiato nulla: avrebbe solo spinto Meade a difendersi e forse a dimettersi. Così la lettera rimase in un cassetto.
+
+Proviamo a riportare la stessa scena in un'azienda. Un rilascio in produzione fallisce. Il responsabile scrive di getto un messaggio durissimo sul canale del team. Funzionerà? Probabilmente no: le persone si metteranno sulla difensiva, cercheranno un colpevole e la prossima volta nasconderanno i problemi. Molto più utile è aspettare, capire cosa è successo e poi parlarne con calma, concentrandosi su come evitare che accada di nuovo.
+
+## Come ti aiuta come Scrum Master e team leader
+
+Lo Scrum Master ha un'autorità particolare: non può imporre decisioni, deve influenzare. Per questo i principi di Carnegie sono strumenti quotidiani.
+
+Non criticare è la base delle analisi senza colpe, quelle che molti team IT fanno dopo un incidente. Lo scopo non è trovare un colpevole, ma capire il sistema che ha reso possibile l'errore. È una pratica che nasce proprio dalla stessa intuizione di Carnegie: la critica genera difesa, non miglioramento.
+
+Pensare dal punto di vista dell'altro ti aiuta a convincere chi non dipende da te: il Product Owner, gli stakeholder, i responsabili di altri team, a volte il management. Se vuoi che il management protegga lo sprint dalle richieste urgenti, non parlare di Scrum: parla di prevedibilità delle consegne e di qualità, cioè di ciò che interessa a loro.
+
+Lasciare che l'idea sia dell'altro è la sostanza della facilitazione. Invece di proporre tu le azioni di miglioramento in retrospettiva, fai domande che portino il team a trovarle. Le persone si impegnano molto di più su ciò che sentono come proprio.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave di Come trattare gli altri e farseli amici.
 

@@ -88,7 +88,27 @@ Quarto: tieni un breve diario settimanale. Annota una cosa che hai imparato, un 
 
 Quinto: trova almeno una persona con più esperienza di te come manager e chiedile di vedervi una volta al mese. Un mentore ti fa risparmiare anni di errori.
 
-## In sintesi
+## Una storia per capire: il manager che faceva tutto da solo
+
+Zhuo racconta con molta onestà i suoi primi errori, e uno dei più comuni tra i nuovi manager è questo: continuare a fare il lavoro di prima, solo di più. Immagina una situazione tipica in un team IT. Marco è stato il miglior sviluppatore del team per anni. Viene promosso a team leader. Il primo mese, ogni volta che una storia si blocca, la prende lui e la risolve in una notte. Il team consegna, il suo capo è contento, e Marco si sente utile.
+
+Dopo tre mesi però le cose cambiano. Marco lavora fino a tardi, le riunioni individuali saltano perché è impegnato a programmare, e i colleghi più giovani hanno smesso di provare a risolvere i problemi difficili: tanto ci pensa Marco. Il team non è cresciuto, è diventato dipendente da lui. E quando Marco va in ferie, tutto rallenta.
+
+È esattamente ciò che Zhuo descrive: il tuo valore come manager non è quello che produci tu, ma quello che produce il team. Marco ha confuso la propria produttività con quella del gruppo. La soluzione non è smettere di aiutare, ma cambiare il modo di farlo: affiancare un collega mentre risolve il problema, invece di risolverlo al posto suo. All'inizio è più lento, ma dopo qualche mese il team è più capace e Marco può dedicarsi a ciò che solo lui può fare.
+
+## Come ti aiuta come Scrum Master e team leader
+
+Il libro è particolarmente utile per chi, come te, ha un doppio ruolo. Come Scrum Master servi il team e il processo. Come team leader hai anche responsabilità sulle persone: crescita, feedback, a volte valutazioni. Le tre leve di Zhuo ti aiutano a tenere separate queste dimensioni.
+
+Lo scopo è la leva che condividi con il Product Owner: la visione del prodotto e lo Sprint Goal. Se il team non sa perché sta lavorando su qualcosa, il tuo compito è facilitare quella conversazione, non sostituirti al Product Owner.
+
+Le persone sono la leva più tua come team leader: riunioni individuali, feedback, percorsi di crescita. Proteggi quel tempo anche quando lo sprint è sotto pressione, perché è il primo a sparire.
+
+Il processo è la leva più tua come Scrum Master: eventi Scrum che funzionano, retrospettive che producono cambiamenti reali, flusso di lavoro senza blocchi. In un'azienda lean, ogni riunione che non aggiunge valore è uno spreco.
+
+Infine, la riflessione di Zhuo sulla sindrome dell'impostore è preziosa: in un contesto agile non ci si aspetta che tu abbia tutte le risposte. Ci si aspetta che tu faccia le domande giuste e che il team impari a ogni sprint.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave di The Making of a Manager.
 
