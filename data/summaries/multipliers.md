@@ -60,6 +60,16 @@ Ecco alcuni esempi. Il leader sempre attivo, pieno di energia e di idee, che non
 
 Wiseman suggerisce di riconoscere le proprie tendenze e di contrastarle con piccoli gesti: parlare per ultimo, darsi un numero limitato di gettoni da spendere per intervenire nelle riunioni, così da parlare solo quando conta davvero, lasciare che le persone facciano errori recuperabili, ammettere i propri errori, rispondere con una domanda invece che con una risposta.
 
+## Come diventare un moltiplicatore
+
+Wiseman ricorda che nessuno è un moltiplicatore o un diminutore puro. La maggior parte dei leader si colloca su uno spettro, e si sposta a seconda della situazione, della pressione e delle persone. La buona notizia è che si può imparare a muoversi verso il lato dei moltiplicatori.
+
+Il suggerimento principale è partire dalle convinzioni. Prima di cambiare i comportamenti, bisogna chiedersi cosa pensiamo davvero dell'intelligenza delle persone che guidiamo. Se crediamo che solo pochi siano capaci, ci comporteremo di conseguenza. Se iniziamo a cercare attivamente le capacità degli altri, inizieremo a vederle.
+
+Poi Wiseman suggerisce di scegliere una o due discipline su cui lavorare, invece di cambiare tutto insieme, e di fare piccoli esperimenti. Alcuni esempi. Individuare il genio naturale di ciascun collaboratore e dirglielo esplicitamente. Porre una domanda estrema, cioè una sfida così ambiziosa da costringere tutti a ripensare il problema. Preparare un dibattito strutturato invece di decidere da soli. Dare il cinquantuno per cento del voto: affidare a un collaboratore la maggioranza della responsabilità su una decisione, in modo che sia chiaro che è sua. Restituire la penna: quando un collaboratore porta un problema, aiutarlo a pensare ma lasciargli scrivere la soluzione.
+
+Wiseman sottolinea anche che i moltiplicatori non sono leader morbidi. Al contrario, sono spesso più esigenti dei diminutori, perché si aspettano molto dalle persone e le spingono oltre i loro limiti. La differenza è che lo fanno credendo nelle capacità degli altri, non per dimostrare la propria superiorità. Le persone che lavorano con loro raccontano di aver lavorato più duramente che mai, ma di essersi sentite più intelligenti e più capaci.
+
 ## Una storia per capire: la riunione del responsabile brillante
 
 Immagina un responsabile tecnico molto brillante. In ogni riunione di architettura, ascolta il problema per pochi minuti, poi propone la soluzione. Ha quasi sempre ragione, e il team la adotta. Ma col tempo succede qualcosa: le persone smettono di prepararsi alle riunioni, perché tanto la soluzione la troverà lui. Gli sviluppatori più ambiziosi lasciano il team, perché non hanno spazio per crescere. E quando il responsabile è assente, nessuno sa decidere.

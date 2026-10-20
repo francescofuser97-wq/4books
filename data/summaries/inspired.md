@@ -70,6 +70,24 @@ Per verificare la fattibilità, gli ingegneri costruiscono prototipi tecnici, pi
 
 Cagan sottolinea che i test con gli utenti vanno fatti spesso, ogni settimana, e che il team deve parteciparvi. Vedere con i propri occhi un utente in difficoltà convince molto più di qualsiasi rapporto.
 
+## Team di prodotto buoni e cattivi
+
+Una delle parti più citate del libro è un confronto tra team di prodotto buoni e cattivi. Cagan lo usa per rendere concreti i suoi principi. Eccone alcuni esempi.
+
+I buoni team hanno una visione chiara e convincente, e la perseguono con la passione di un missionario. I cattivi team sono mercenari che eseguono una roadmap.
+
+I buoni team prendono le idee da molte fonti: dati, utenti, tecnologia, colleghi. I cattivi team raccolgono richieste dai commerciali e dai clienti più rumorosi.
+
+I buoni team incontrano gli utenti ogni settimana, per testare idee e prototipi. I cattivi team pensano che il prodotto siano loro stessi, e non vedono mai un utente reale.
+
+I buoni team sanno che molte delle loro idee preferite non funzioneranno, e che anche quelle buone richiederanno diverse iterazioni. I cattivi team costruiscono ciò che c'è nella roadmap, e sono soddisfatti quando rispettano la data e la qualità.
+
+I buoni team coinvolgono gli ingegneri fin dall'inizio, perché sanno che sono una fonte preziosa di innovazione. I cattivi team mostrano agli ingegneri il lavoro già deciso durante la pianificazione dello sprint.
+
+I buoni team misurano il successo in base ai risultati. I cattivi team in base alle funzionalità consegnate.
+
+Cagan parla anche della cultura. Distingue la cultura dell'innovazione, cioè la capacità di sperimentare e creare valore nuovo, dalla cultura dell'esecuzione, cioè la capacità di consegnare con affidabilità. Le migliori aziende hanno entrambe, ma è difficile, perché le due culture spingono in direzioni diverse. L'innovazione richiede tolleranza al rischio e all'errore; l'esecuzione richiede disciplina e responsabilità. Un leader di prodotto deve saper coltivare entrambe.
+
 ## Una storia per capire: la funzionalità richiesta dal cliente
 
 Immagina che il cliente più importante della tua azienda chieda una nuova funzionalità: un sistema di report personalizzabili. Il management la inserisce nella roadmap con una data. Il team la costruisce in tre mesi. Al rilascio, il cliente la usa per qualche giorno, poi smette. Si scopre che il vero problema del cliente non erano i report, ma il fatto che i dati arrivavano con un giorno di ritardo, e i report servivano solo a controllare a mano i numeri.

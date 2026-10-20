@@ -66,6 +66,16 @@ Il terzo è il nuovo comportamento: cosa si vuole fare invece. Ad esempio: chied
 
 La formula diventa: quando succede questo, invece di fare quello, farò quest'altro. L'autore consiglia di partire in piccolo, con una sola domanda, e di esercitarsi finché diventa naturale.
 
+## Perché le domande funzionano
+
+Bungay Stanier spiega anche perché un approccio basato sulle domande funziona meglio di uno basato sui consigli, e lo fa con un modello semplice. Il nostro cervello valuta continuamente se una situazione è sicura o pericolosa, e lo fa considerando quattro fattori. Il primo è l'appartenenza: questa persona è con me o contro di me? Il secondo è l'aspettativa: so cosa succederà in questa conversazione? Il terzo è il rango: sono in una posizione inferiore o di pari livello? Il quarto è l'autonomia: ho voce in capitolo o mi stanno imponendo qualcosa?
+
+Quando un manager dà consigli e istruzioni, abbassa senza volerlo questi fattori: sottolinea la differenza di rango e riduce l'autonomia dell'altro. La persona si mette sulla difensiva, anche se il consiglio è buono. Quando invece il manager fa domande, aumenta il senso di autonomia e di parità, e la persona è più disposta a pensare e a impegnarsi.
+
+L'autore cita anche il triangolo drammatico, un modello dello psicologo Stephen Karpman. Nelle relazioni difficili, le persone tendono ad assumere uno di tre ruoli: la vittima, che si sente impotente; il persecutore, che critica e accusa; il salvatore, che interviene a risolvere i problemi degli altri. Molti manager, con le migliori intenzioni, assumono il ruolo del salvatore: si prendono carico dei problemi dei collaboratori, li sollevano dalla responsabilità e alla fine si sentono sovraccarichi e poco apprezzati. La domanda pigra, come posso aiutarti, è un modo per uscire da questo ruolo: invece di salvare, chiedi.
+
+Infine, Bungay Stanier ricorda che il coaching funziona anche per iscritto. Molte delle sette domande possono essere usate nelle email e nei messaggi, ad esempio rispondendo a una richiesta con: qual è la vera sfida qui per te? Questo evita lunghe catene di messaggi basate su un problema mal definito.
+
 ## Una storia per capire: la richiesta urgente
 
 Immagina che una sviluppatrice si avvicini al suo team leader e dica: il Product Owner mi ha chiesto di aggiungere una funzionalità urgente, ma sono già piena, non so come fare. Il mostro dei consigli suggerisce subito una risposta: passala a un collega, oppure dico io al Product Owner che non si può.

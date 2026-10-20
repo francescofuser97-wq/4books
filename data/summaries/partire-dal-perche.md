@@ -66,6 +66,16 @@ L'ultima parte del libro riguarda ciò che succede quando le organizzazioni cres
 
 Sinek osserva che questo accade spesso quando il fondatore se ne va e viene sostituito da un leader che non condivide il perché originale. Per evitarlo, il perché deve essere reso esplicito e trasmesso, e ogni leader deve essere responsabile di mantenerlo vivo. Sinek descrive anche il ruolo complementare di due tipi di persone: chi incarna il perché, spesso un visionario, e chi sa come realizzarlo, spesso una persona molto concreta. Le grandi organizzazioni nascono spesso dall'incontro di queste due figure.
 
+## La fiducia e la frattura del perché
+
+Sinek dedica un capitolo alla fiducia. Sostiene che la fiducia nasce quando percepiamo di condividere valori e convinzioni con qualcuno. Per questo ci fidiamo delle persone e delle organizzazioni il cui perché è chiaro e coerente con ciò che fanno. Quando un'azienda dice di avere a cuore i clienti, ma poi li tratta come numeri, la fiducia si spezza.
+
+Sinek osserva anche che le persone lavorano meglio quando si sentono parte di qualcosa in cui credono. Un'organizzazione che assume persone che condividono il suo perché non ha bisogno di motivarle continuamente con incentivi: sono già motivate. Cita l'esempio di una compagnia aerea americana a basso costo, guidata per anni da un fondatore che metteva i dipendenti al primo posto, convinto che dipendenti felici avrebbero trattato bene i clienti. L'azienda costruì una cultura riconoscibile, e restò redditizia per decenni.
+
+Un altro concetto importante è quello che Sinek chiama la frattura. Racconta la storia di una grande catena di supermercati americana, nata dalla visione del fondatore di servire le persone comuni e le comunità. Finché il fondatore guidò l'azienda, quel perché era evidente. Dopo la sua morte, l'azienda continuò a crescere, ma l'attenzione si spostò sempre di più sui prezzi bassi e sui risultati finanziari, e l'azienda iniziò a essere criticata proprio per come trattava dipendenti e comunità. Il perché si era perso.
+
+Per verificare se un'organizzazione ha un perché solido, Sinek propone il test dello scuolabus: se il fondatore o il leader venisse investito da uno scuolabus, l'organizzazione continuerebbe a vivere secondo lo stesso perché? Se la risposta è no, il perché è legato a una persona, non all'organizzazione.
+
 ## Una storia per capire: lo Sprint Goal senza perché
 
 Immagina un team che riceve all'inizio dello sprint un elenco di storie da completare. Il team le esegue, ma senza entusiasmo. Nessuno sa bene a cosa servano. Quando emergono dubbi o alternative, nessuno sa come decidere, e si chiede al Product Owner.

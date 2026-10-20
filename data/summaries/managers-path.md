@@ -70,6 +70,22 @@ Fournier descrive anche le responsabilità dei livelli più alti: definire la st
 
 L'ultimo capitolo riguarda la cultura. Fournier sostiene che i manager tecnici hanno un ruolo fondamentale nel costruire la cultura dell'ingegneria: cosa si considera buon lavoro, come si prendono le decisioni, come si gestiscono gli errori. Suggerisce di rendere esplicite le regole e i valori quando l'organizzazione cresce, ad esempio con processi di revisione del codice, criteri per le decisioni architetturali, percorsi di carriera chiari. Ma avverte anche di non creare processi per il gusto di farlo: ogni processo deve rispondere a un problema reale.
 
+## Le trappole del nuovo manager
+
+Fournier dedica molte pagine agli errori tipici di chi diventa manager per la prima volta. Conoscerli aiuta a riconoscerli in se stessi.
+
+La prima trappola è la micro gestione. Il nuovo manager, abituato a essere giudicato per il proprio lavoro, si sente insicuro e controlla ogni dettaglio: rilegge tutto il codice, interviene in ogni discussione tecnica, chiede aggiornamenti continui. Il team si sente sfiduciato e smette di prendere iniziative. Fournier suggerisce di delegare gradualmente, in base all'esperienza delle persone, e di concentrarsi sui risultati invece che sui metodi.
+
+La trappola opposta è il disinteresse: il manager delega tutto e sparisce, magari perché preferisce tornare a programmare. Il team resta senza guida, senza feedback e senza protezione.
+
+La terza trappola è l'amicizia. Chi viene promosso nel proprio team spesso ha rapporti di amicizia con gli ex colleghi. Fournier non suggerisce di interromperli, ma di riconoscere che la relazione è cambiata: ora il manager deve valutare, a volte prendere decisioni scomode, e trattare tutti in modo equo.
+
+La quarta trappola è tenere per sé il lavoro tecnico più interessante. È una tentazione forte, ma toglie opportunità di crescita agli altri e rende il manager un collo di bottiglia.
+
+La quinta è trascurare la comunicazione verso l'alto. Il nuovo manager si concentra sul team e dimentica di tenere informato il proprio responsabile, di segnalare i rischi in anticipo, di far conoscere i successi del team. Fournier ricorda che una parte importante del lavoro è rappresentare il team verso il resto dell'organizzazione.
+
+Infine, Fournier parla della cura di sé. Gestire persone è emotivamente impegnativo, e molti nuovi manager non se ne rendono conto finché non arrivano all'esaurimento. Avere un mentore, un gruppo di pari con cui confrontarsi e confini chiari tra lavoro e vita personale aiuta a reggere il ruolo nel tempo.
+
 ## Una storia per capire: il primo anno da team leader
 
 Immagina Luca, sviluppatore esperto, appena promosso team leader del suo stesso team. I primi mesi sono difficili. Continua a prendersi le storie più complesse, perché è il più veloce. Le riunioni individuali saltano spesso. Evita di dare un feedback negativo a un collega che conosce da anni e che sta rallentando il team. Alla fine del trimestre, il team ha consegnato poco, e Luca è esausto.

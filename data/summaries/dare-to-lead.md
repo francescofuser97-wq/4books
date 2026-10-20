@@ -62,6 +62,18 @@ Il quarto pilastro riguarda la capacità di rialzarsi dopo una caduta. Chi entra
 
 Brown sottolinea che i leader che sanno rialzarsi, e lo fanno apertamente, insegnano ai loro team che il fallimento non è la fine, ma parte del percorso.
 
+## Vergogna, empatia e la squadra del quadratino
+
+Brown dedica una parte importante del libro alla vergogna, un'emozione che raramente viene nominata sul lavoro, ma che secondo le sue ricerche è molto presente. La vergogna è la sensazione di non essere abbastanza: abbastanza bravi, abbastanza intelligenti, abbastanza meritevoli. A differenza della colpa, che riguarda un comportamento, ho fatto una cosa sbagliata, la vergogna riguarda la persona: sono sbagliato.
+
+Sul lavoro, la vergogna si manifesta in molti modi: perfezionismo, favoritismi, pettegolezzi, critiche umilianti, la ricerca continua di un colpevole, le battute che feriscono. Le organizzazioni in cui la vergogna è usata come strumento di gestione sono organizzazioni in cui le persone smettono di rischiare, di innovare, di dire la verità.
+
+L'antidoto alla vergogna, secondo Brown, è l'empatia. Non significa dire che va tutto bene, né cercare di aggiustare subito la situazione. Significa comunicare all'altro: non sei solo, capisco cosa provi. Brown descrive alcune competenze dell'empatia: vedere il mondo come lo vede l'altro, non giudicare, comprendere i suoi sentimenti e comunicarglielo.
+
+Brown propone anche un esercizio pratico che chiama la squadra del quadratino. Prendi un pezzo di carta di pochi centimetri e scrivi sopra i nomi delle persone la cui opinione su di te conta davvero: persone che ti vogliono bene non nonostante i tuoi difetti, ma anche per essi, e che ti diranno la verità. Se l'elenco non entra nel quadratino, è troppo lungo. Quando ricevi critiche, soprattutto da chi non è nell'arena con te, puoi chiederti se vengono da qualcuno della tua squadra. Questo aiuta a non lasciarsi travolgere da ogni giudizio.
+
+Infine, Brown parla della curiosità come strumento di leadership. Restare curiosi, invece di difendersi o di avere sempre la risposta pronta, permette di affrontare le conversazioni difficili con apertura.
+
 ## Una storia per capire: il progetto che nessuno voleva dire in ritardo
 
 Immagina un team leader che percepisce, da settimane, che il progetto non rispetterà la data concordata con il management. Ma non lo dice. Si racconta che forse si recupererà, che non vuole sembrare pessimista, che non vuole deludere il suo capo. Anche il team lo sa, ma segue l'esempio. Due settimane prima della scadenza, il ritardo diventa evidente a tutti, e il management è furioso: perché non lo avete detto prima?

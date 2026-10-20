@@ -58,6 +58,18 @@ Clear sottolinea anche la differenza tra essere in movimento e agire. Pianificar
 
 La quarta legge riguarda la ricompensa. Ciò che viene ricompensato immediatamente si ripete; ciò che viene punito immediatamente si evita. Il problema delle buone abitudini è che i benefici arrivano tardi, mentre i costi sono immediati. Per questo serve una soddisfazione immediata. Uno strumento è il monitoraggio delle abitudini: segnare su un calendario ogni giorno in cui hai fatto la tua abitudine. Vedere la catena crescere è gratificante. E Clear aggiunge una regola importante: non saltare mai due volte. Saltare un giorno capita a tutti; il problema è quando un giorno diventa una nuova abitudine.
 
+## Talento, motivazione e i limiti delle abitudini
+
+Nella parte finale del libro, Clear affronta alcune domande più avanzate.
+
+La prima riguarda il talento. I geni contano, ammette Clear: alcune persone sono naturalmente più adatte a certe attività. Ma i geni non determinano il destino, determinano le aree di opportunità. Il consiglio è scegliere le abitudini e gli ambiti in cui le proprie caratteristiche naturali sono un vantaggio. Clear suggerisce alcune domande: cosa mi sembra divertente, mentre per gli altri è faticoso? In quali attività perdo la cognizione del tempo? Dove ottengo risultati migliori della media senza sforzo eccessivo? E, quando non si può vincere in un campo affollato, creare una combinazione di competenze che renda unici.
+
+La seconda riguarda la motivazione. Clear cita la regola di Riccioli d'oro: siamo più motivati quando lavoriamo su compiti al limite delle nostre capacità attuali, né troppo facili, che annoiano, né troppo difficili, che scoraggiano. Ma ricorda anche che il segreto di chi ha successo non è la motivazione costante: è la capacità di sopportare la noia, di continuare a fare il lavoro anche quando non è più nuovo ed eccitante. I professionisti si attengono al programma, gli amatori lasciano che la vita si metta in mezzo.
+
+La terza riguarda il rovescio della medaglia delle abitudini. Quando un comportamento diventa automatico, smettiamo di prestare attenzione ai dettagli, e il miglioramento si ferma. Per questo Clear suggerisce di combinare le abitudini con la pratica deliberata e con momenti regolari di riflessione e revisione. Lui stesso fa ogni anno una revisione delle proprie abitudini, chiedendosi cosa è andato bene e cosa no, e una verifica della propria integrità, chiedendosi se sta vivendo secondo i propri valori.
+
+Infine, Clear avverte di non legare troppo la propria identità a un unico ruolo. Se tutta la tua identità è sono un ottimo sviluppatore, un cambiamento di ruolo può sembrare una minaccia. Meglio un'identità più ampia: sono una persona che costruisce cose e aiuta gli altri a crescere.
+
 ## Una storia per capire: la retrospettiva che nessuno preparava
 
 Immagina un team leader che vuole migliorare la qualità delle riunioni individuali con i suoi collaboratori. Ogni settimana si ripromette di prepararle, ma tra una riunione e l'altra non trova mai il tempo, e finisce per improvvisare.

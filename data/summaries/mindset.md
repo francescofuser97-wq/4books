@@ -58,6 +58,16 @@ L'ultimo capitolo del libro riguarda il cambiamento. Dweck sostiene che anche so
 
 Per cambiare, Dweck suggerisce di riconoscere i propri inneschi della mentalità fissa: quali situazioni ci spingono a sentirci giudicati, a evitare, a difenderci? Di dare un nome a quella voce interiore, per poterla riconoscere quando parla. E di rispondere con un pensiero di crescita: cosa posso imparare da questa situazione? Qual è il prossimo passo?
 
+## Mentalità e gruppi
+
+Dweck osserva che la mentalità non riguarda solo gli individui, ma anche i gruppi e le organizzazioni. Un leader con mentalità fissa tende a circondarsi di persone che confermano le sue idee, e questo può portare a quello che lo psicologo Irving Janis ha chiamato pensiero di gruppo: un gruppo coeso che smette di valutare criticamente le proprie decisioni, perché nessuno vuole contraddire il leader o rompere l'armonia. Dweck richiama esempi storici di decisioni disastrose prese da gruppi di persone brillanti, proprio perché nessuno osava esprimere dubbi.
+
+Un leader con mentalità di crescita, invece, cerca attivamente il dissenso e le informazioni scomode, perché il suo obiettivo è imparare, non avere ragione. Dweck cita leader che chiedevano esplicitamente ai collaboratori di sfidarli, e che premiavano chi portava cattive notizie.
+
+Dweck dedica anche un capitolo a genitori, insegnanti e allenatori, che hanno molto in comune con i manager: tutti hanno il compito di far crescere altre persone. I migliori insegnanti, osserva, credono nella crescita dell'intelligenza e del talento. Fissano standard alti per tutti gli studenti, non solo per quelli considerati dotati, e allo stesso tempo creano un clima di fiducia e di sostegno. Insegnano agli studenti ad amare l'apprendimento, a cercare le sfide, a dare valore all'impegno e a usare gli errori per migliorare.
+
+Dweck mette in guardia anche dai messaggi nascosti. Un genitore o un manager può dire di apprezzare l'impegno, ma poi reagire con delusione o fastidio a ogni errore. Le persone colgono questi segnali, e imparano che sbagliare è pericoloso. La mentalità di crescita si trasmette più con le reazioni che con le parole.
+
 ## Una storia per capire: la stima sbagliata
 
 Immagina uno sviluppatore molto stimato, considerato il talento del team. Durante una pianificazione, stima una storia in due giorni. Ne impiega dieci, e alla fine il risultato ha diversi difetti. Nella retrospettiva, invece di analizzare cosa è successo, si giustifica, attribuisce il problema ai requisiti poco chiari e diventa sempre più silenzioso nelle settimane successive. Teme che il suo status di talento sia in discussione.

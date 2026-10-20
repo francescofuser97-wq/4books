@@ -66,6 +66,14 @@ L'ultima parte del libro affronta le situazioni difficili. Cosa fare se l'altra 
 
 Gli autori affrontano anche le tattiche scorrette, come false informazioni, pressioni psicologiche o richieste crescenti. Il consiglio è riconoscerle, nominarle apertamente e negoziare sulle regole del gioco, sempre con i quattro principi.
 
+## Prepararsi e il testo unico
+
+Gli autori insistono molto sulla preparazione. Molte negoziazioni falliscono non per mancanza di abilità al tavolo, ma perché le persone arrivano senza aver riflettuto. Prima di una negoziazione importante, suggeriscono di prepararsi su ciascuno dei quattro principi: quali sono i miei interessi e quali penso siano quelli dell'altra parte? Quali opzioni potrebbero soddisfarli entrambi? Quali criteri oggettivi potremmo usare? E qual è la mia migliore alternativa?
+
+Un altro strumento descritto nel libro è la procedura del testo unico, usata nei negoziati di Camp David del 1978 tra Egitto e Israele, con la mediazione degli Stati Uniti. Invece di chiedere alle parti di presentare proposte contrapposte, i mediatori prepararono un unico testo, ascoltarono le critiche di entrambe le parti, e lo migliorarono più e più volte. Le parti non dovevano fare concessioni, ma solo suggerire miglioramenti al testo comune. Dopo molte versioni, il testo divenne la base dell'accordo. Questa procedura è utile ogni volta che più parti devono arrivare a una decisione comune, ad esempio nella definizione di un accordo di lavoro tra team.
+
+Gli autori rispondono anche ad alcune domande frequenti. È giusto negoziare sul merito se l'altra parte gioca duro? Sì, perché il metodo protegge anche da chi gioca duro, grazie ai criteri oggettivi e alla migliore alternativa. Cosa fare se l'altra parte è più potente? Il potere in una negoziazione dipende molto dalla preparazione, dalla capacità di capire gli interessi e dalla qualità delle alternative, non solo dalle risorse o dal ruolo. E come si gestiscono le differenze culturali? Adattando lo stile, ma mantenendo i principi.
+
 ## Una storia per capire: la dipendenza tra due team
 
 Immagina due team in una multinazionale. Il tuo team ha bisogno che un altro team modifichi un servizio entro la fine del mese. L'altro team risponde che non è possibile prima di tre mesi. Le posizioni sono chiare e opposte: un mese contro tre mesi. Il rischio è un'escalation al management.

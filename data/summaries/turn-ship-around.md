@@ -54,6 +54,18 @@ Infine, Marquet sottolinea il ruolo dell'esempio e della pazienza. All'inizio mo
 
 Il Santa Fe passò da uno dei peggiori a uno dei migliori sottomarini della flotta nelle valutazioni operative. Il morale crebbe, e moltissimi marinai scelsero di restare in servizio. Ma il risultato di cui Marquet è più orgoglioso è un altro: negli anni successivi, un numero insolitamente alto di ufficiali del Santa Fe divenne comandante di altre unità. Il modello leader leader non solo aveva funzionato mentre Marquet era al comando, ma aveva prodotto nuovi leader che continuavano a funzionare anche senza di lui.
 
+## Meccanismi, non programmi
+
+Marquet insiste su un punto che distingue il suo approccio da molte iniziative di cambiamento: non si cambia una cultura con discorsi e slogan, ma con meccanismi concreti. Molte organizzazioni lanciano programmi che dichiarano di voler responsabilizzare le persone, ma poi lasciano intatte le procedure che concentrano le decisioni in alto. Le persone ascoltano i discorsi, ma osservano le procedure, e credono alle procedure.
+
+Per questo Marquet cercava di agire per arrivare a un nuovo modo di pensare, invece di aspettare che le persone pensassero in modo nuovo per poi agire. Ad esempio, invece di spiegare agli ufficiali che dovevano sentirsi responsabili, cambiò le regole su chi firmava i documenti e chi approvava le licenze. Il comportamento cambiò, e con il tempo cambiò anche il modo di pensare.
+
+Un altro meccanismo era quello delle conversazioni brevi e anticipate. Invece di lasciare che un ufficiale preparasse un piano completo per poi correggerlo alla fine, con frustrazione di entrambi, Marquet chiedeva un breve confronto all'inizio, per allineare l'intento. Bastavano pochi minuti per evitare ore di lavoro sprecato.
+
+Marquet cambiò anche l'atteggiamento verso le ispezioni. In marina, le ispezioni erano vissute come esami da superare, da preparare nascondendo i problemi. Sul Santa Fe, invece, gli ispettori venivano accolti come un'occasione per imparare: l'equipaggio raccontava apertamente le proprie difficoltà e chiedeva consigli. Questo trasformò le ispezioni da momenti di paura a momenti di apprendimento.
+
+Infine, Marquet eliminò molti sistemi di controllo dall'alto, come i rapporti che servivano solo a dimostrare ai superiori che tutto era sotto controllo. Al loro posto, chiese a ciascun reparto di monitorare da sé le proprie attività. Il controllo non sparì, ma passò a chi faceva il lavoro.
+
 ## Una storia per capire: le approvazioni del team leader
 
 Immagina un team leader che approva personalmente ogni decisione del team: quale libreria usare, quando rilasciare, come rispondere a un cliente, se accettare una richiesta urgente. Il team aspetta continuamente il suo via libera. Quando il team leader è in ferie o in riunione, tutto si ferma. E gli sviluppatori hanno smesso di proporre idee, perché tanto decide lui.

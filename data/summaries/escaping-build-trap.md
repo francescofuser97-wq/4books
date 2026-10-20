@@ -64,6 +64,20 @@ Servono politiche e incentivi coerenti. Se i team vengono premiati per aver cons
 
 Perri sottolinea anche il ruolo dei dirigenti. Devono smettere di chiedere funzionalità specifiche e iniziare a chiedere risultati. Devono accettare che i team esplorino prima di impegnarsi. E devono comunicare chiaramente la strategia, perché senza una strategia chiara i team non possono essere autonomi.
 
+## Esplorare il problema prima della soluzione
+
+Perri descrive in dettaglio le fasi del lavoro di un team di prodotto, che corrispondono a diversi gradi di incertezza.
+
+La prima fase è l'esplorazione del problema. Il team cerca di capire a fondo i clienti e i loro problemi, con interviste, osservazioni, analisi dei dati e delle richieste di assistenza. L'obiettivo è capire quale problema vale la pena risolvere, e per chi. Perri osserva che molti team saltano questa fase, perché è più comodo lavorare su soluzioni già decise.
+
+La seconda fase è l'esplorazione della soluzione. Una volta chiaro il problema, il team prova diverse soluzioni con esperimenti economici. Perri descrive alcune tecniche. Il servizio fatto a mano, in cui il team offre manualmente ciò che il prodotto dovrebbe automatizzare, per verificare se i clienti ne hanno davvero bisogno. Il mago di Oz, in cui il cliente vede un'interfaccia che sembra automatica, ma dietro ci sono persone che fanno il lavoro. I prototipi e i test di concetto, per verificare se la soluzione è comprensibile e desiderata.
+
+La terza fase è la costruzione e l'ottimizzazione. Solo quando il team è abbastanza sicuro che la soluzione risolve il problema, la costruisce in modo robusto e scalabile, e poi la migliora misurando i risultati.
+
+Perri insiste sul fatto che sperimentare non significa costruire prodotti di bassa qualità. Gli esperimenti servono a imparare, non a essere rilasciati a tutti i clienti. Quando si costruisce davvero, si costruisce bene.
+
+Perri parla anche delle operazioni di prodotto: in un'organizzazione con molti team, serve qualcuno che renda facile accedere ai dati, raccogliere il feedback dei clienti e condividere ciò che si è imparato. Senza questo supporto, ogni team deve reinventare tutto, e le decisioni restano basate sulle opinioni invece che sui fatti.
+
 ## Una storia per capire: la revisione piena di funzionalità
 
 Immagina una Sprint Review in un'azienda nella trappola del costruire. Il team mostra con orgoglio dieci nuove funzionalità. Gli stakeholder applaudono. Qualcuno chiede: e i clienti le stanno usando? Nessuno lo sa. Tre mesi dopo, i dati mostrano che solo due funzionalità vengono usate con regolarità.

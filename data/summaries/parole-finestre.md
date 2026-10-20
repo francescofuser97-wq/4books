@@ -74,6 +74,18 @@ L'ascolto empatico invece cerca di indovinare cosa l'altro prova e di cosa ha bi
 
 Rosenberg suggerisce anche l'empatia verso se stessi. Quando sbagliamo, invece di giudicarci duramente, possiamo chiederci quale bisogno stavamo cercando di soddisfare e quale bisogno è rimasto insoddisfatto. Questo ci permette di imparare senza vergogna.
 
+## Esprimere la rabbia e la gratitudine
+
+Rosenberg dedica un capitolo alla rabbia, un'emozione che molti, soprattutto sul lavoro, cercano di reprimere o, al contrario, esprimono in modo distruttivo. Secondo Rosenberg, la rabbia non è causata dal comportamento degli altri, ma dai pensieri di giudizio che facciamo su di loro: dovrebbe saperlo, è un irresponsabile, lo fa apposta. Dietro questi pensieri c'è sempre un bisogno insoddisfatto.
+
+Rosenberg propone quattro passi per esprimere pienamente la rabbia senza fare danni. Primo: fermarsi e respirare, senza agire subito. Secondo: identificare i pensieri di giudizio che stiamo facendo. Terzo: collegarsi ai bisogni che stanno dietro quei pensieri. Quarto: esprimere i sentimenti e i bisogni, che a quel punto sono spesso diversi dalla rabbia iniziale, come preoccupazione, tristezza o frustrazione.
+
+Rosenberg affronta anche la gratitudine. Osserva che anche i complimenti possono essere giudizi: sei bravissimo, ottimo lavoro, sei un genio. Sono giudizi positivi, ma restano etichette, e non dicono all'altro cosa ha fatto di utile né perché. Inoltre, a volte vengono usati per manipolare, per ottenere più impegno.
+
+L'alternativa è esprimere gratitudine con le stesse tre componenti: l'azione specifica che ha contribuito al nostro benessere, il bisogno che è stato soddisfatto, e il sentimento che proviamo. Ad esempio: quando ieri hai rivisto il mio codice e mi hai segnalato quel caso limite, ho sentito un grande sollievo, perché avevo bisogno di sicurezza prima del rilascio. Una gratitudine così è molto più significativa di un semplice bravo.
+
+Rosenberg suggerisce anche di saper ricevere la gratitudine senza falsa modestia né superiorità, riconoscendo con gioia di aver contribuito ai bisogni di un'altra persona.
+
 ## Una storia per capire: la Daily tesa
 
 Immagina che, durante una Daily, uno sviluppatore dica con tono irritato: è inutile pianificare, tanto il Product Owner cambia tutto ogni due giorni. Il Product Owner si irrigidisce. La conversazione rischia di diventare uno scontro.

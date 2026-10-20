@@ -64,6 +64,20 @@ Il secondo è destigmatizzare il fallimento. Edmondson distingue tre tipi di fal
 
 Il terzo strumento è sanzionare le violazioni evidenti. La sicurezza psicologica non significa che tutto sia permesso. Comportamenti scorretti, intenzionali o pericolosi vanno affrontati con chiarezza. Paradossalmente, questo aumenta la sicurezza, perché le persone sanno dove sono i confini.
 
+## Organizzazioni che lo fanno bene
+
+Accanto ai casi negativi, Edmondson racconta organizzazioni che hanno costruito con successo la sicurezza psicologica.
+
+Una è lo studio di animazione Pixar, che ha creato un gruppo chiamato Braintrust. Periodicamente, il regista di un film in lavorazione mostra il proprio lavoro a un gruppo di colleghi esperti, che danno un feedback franco su cosa non funziona. Il gruppo non ha potere di decisione: il regista resta libero di scegliere. Proprio per questo le persone possono parlare con totale sincerità, e il regista può ascoltare senza sentirsi minacciato. La regola di base è che i primi film sono sempre pessimi, e che il lavoro di tutti è aiutarli a diventare buoni.
+
+Un'altra è un laboratorio di innovazione di una grande azienda tecnologica, dove i team vengono premiati quando decidono di abbandonare un progetto che non funziona. Chiudere presto un'idea sbagliata è considerato un successo, perché libera risorse per idee migliori. In questo modo le persone non hanno paura di ammettere che un progetto non sta funzionando.
+
+Edmondson racconta anche di ospedali che hanno introdotto pratiche semplici per incoraggiare chiunque, dall'infermiere al medico più giovane, a segnalare un rischio, ad esempio con frasi convenzionali che chiunque può usare per fermare una procedura in caso di dubbio.
+
+Il libro offre anche consigli per chi non è il capo. La sicurezza psicologica non è solo responsabilità del leader: ogni membro del team può contribuire, ad esempio facendo domande, ringraziando chi parla, ammettendo i propri errori. Edmondson osserva che basta una persona che dà l'esempio per cambiare il clima di una riunione.
+
+Infine, Edmondson ricorda che la sicurezza psicologica è fragile. Si costruisce lentamente, con molti piccoli gesti, e si può distruggere in un attimo, con una sola reazione sbagliata a una cattiva notizia.
+
 ## Una storia per capire: il bug che nessuno segnalava
 
 Immagina un team in cui il responsabile reagisce con irritazione ogni volta che qualcuno segnala un problema a ridosso di un rilascio. Le persone imparano a tacere. Un giorno uno sviluppatore nota un comportamento strano in un modulo appena modificato, ma pensa: è probabilmente niente, e se lo dico ora rovino il rilascio. Il rilascio va in produzione, e il problema causa un blocco del servizio per molte ore.

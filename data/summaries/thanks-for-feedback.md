@@ -72,6 +72,18 @@ Gli autori offrono anche consigli per chiedere feedback in modo efficace. Invece
 
 Infine, il libro riconosce che non tutto il feedback va accettato. A volte il feedback è davvero sbagliato, o chi lo dà sta superando un confine. Gli autori distinguono tre livelli: posso rifiutare un consiglio specifico, pur ascoltandolo; posso chiedere all'altro di non commentare più un certo aspetto della mia vita; e posso, nei casi estremi, cambiare la natura della relazione. Stabilire confini in modo chiaro e rispettoso è parte del saper ricevere feedback.
 
+## Costruire una cultura del feedback
+
+Nell'ultima parte del libro, Stone e Heen allargano lo sguardo dalle persone alle organizzazioni. Molte aziende investono molto nella formazione di chi dà feedback, e nei sistemi di valutazione delle prestazioni. Ma i sistemi funzionano solo se le persone sanno ricevere.
+
+Gli autori suggeriscono di spostare l'attenzione dal feedback spinto a quello tirato. Il feedback spinto è quello che qualcuno decide di darci, quando e come vuole. Il feedback tirato è quello che chiediamo noi, quando ne abbiamo bisogno. Le organizzazioni in cui le persone chiedono feedback in modo regolare imparano molto più velocemente di quelle in cui il feedback arriva solo nelle valutazioni annuali.
+
+Il ruolo dei leader è decisivo. Se un leader chiede pubblicamente feedback sul proprio lavoro, lo ascolta senza difendersi e mostra di averlo usato, manda un messaggio potente a tutta l'organizzazione. Se invece chiede feedback ma reagisce male, o non cambia nulla, il messaggio è che il feedback è pericoloso o inutile.
+
+Gli autori suggeriscono anche di separare le conversazioni di valutazione da quelle di coaching. Quando nella stessa conversazione si parla di voto e di consigli per migliorare, le persone ascoltano solo il voto. Meglio avere momenti distinti: uno per dire dove ti trovi, uno per lavorare su come crescere.
+
+Infine, Stone e Heen ricordano che ricevere bene il feedback non significa accettarlo tutto. Significa ascoltarlo, capirlo, valutarlo con onestà, e poi decidere cosa farne. A volte la decisione migliore è non cambiare nulla, e dirlo con chiarezza. Ma anche in quel caso, la conversazione è stata utile, perché ora sappiamo come ci vedono gli altri.
+
 ## Una storia per capire: la valutazione inaspettata
 
 Immagina che, nella valutazione semestrale, il tuo responsabile ti dica che il tuo team ti percepisce come poco disponibile. Ti sembra assurdo: passi metà della giornata a rispondere alle domande dei colleghi. La reazione istintiva è difenderti: non è vero, ho sempre aiutato tutti.

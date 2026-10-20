@@ -66,6 +66,18 @@ Sulle assunzioni, Larson suggerisce di trattarle come un processo da progettare 
 
 Larson sottolinea anche l'importanza della pianificazione della successione: ogni persona chiave, manager compresi, dovrebbe avere qualcuno pronto a sostituirla. Questo riduce il rischio per l'organizzazione e crea opportunità di crescita.
 
+## Comunicare verso l'alto e scrivere per scalare
+
+Larson dedica diversi capitoli alla comunicazione, una competenza che diventa sempre più importante man mano che si sale nella gerarchia.
+
+Il primo tema è come presentare ai dirigenti. Larson osserva che molti ingegneri, quando presentano un problema al management, partono dal contesto e dai dettagli tecnici, e arrivano alla conclusione solo alla fine. I dirigenti, che hanno poco tempo e molte decisioni da prendere, si perdono. Il consiglio è partire dalla conclusione: cosa chiedo, cosa propongo, cosa deve decidere chi ascolta. Poi fornire il contesto essenziale e i dati a supporto, pronti ad approfondire se richiesto. E collegare sempre la proposta agli obiettivi che stanno a cuore ai dirigenti.
+
+Il secondo tema è la scrittura. Larson sostiene che i documenti scritti sono uno degli strumenti più potenti per far crescere un'organizzazione. Un buon documento di progetto, una strategia scritta, una politica chiara permettono a molte persone di allinearsi senza bisogno di riunioni infinite. E scrivere costringe a chiarire il proprio pensiero. Larson suggerisce di scrivere documenti brevi, con le decisioni e le motivazioni ben visibili, e di condividerli presto per raccogliere commenti.
+
+Il terzo tema riguarda il dire di no. Un manager riceve continuamente richieste, e non può accettarle tutte. Larson suggerisce di dire di no in modo costruttivo: spiegando le priorità attuali, mostrando l'impatto di un eventuale sì su altri impegni, e indicando quando o a quali condizioni la richiesta potrebbe essere accolta.
+
+Infine, Larson parla di energia. Il lavoro di un manager è fatto di molte interruzioni e decisioni, e consuma energia. Suggerisce di conoscere le attività che ci ricaricano e quelle che ci svuotano, di proteggere del tempo per il lavoro che richiede concentrazione, e di riconoscere i segnali di esaurimento prima che diventino un problema.
+
 ## Una storia per capire: il team che stava a galla
 
 Immagina un team di sette sviluppatori che gestisce un servizio importante. Ogni sprint completa tutte le richieste urgenti, ma non riesce mai a lavorare sui miglioramenti che renderebbero il servizio più stabile. Il management, vedendo che il team è sempre occupato, propone di aggiungere due persone.
