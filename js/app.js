@@ -8,7 +8,7 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 
 const AUDIO_CACHE = 'm15-audio';
-const CHARS_PER_SECOND = 14; // stima per la durata della voce del dispositivo
+const CHARS_PER_SECOND = 15.5; // stima per la durata della voce del dispositivo
 
 function fmtTime(sec) {
   sec = Math.max(0, Math.floor(sec || 0));
@@ -50,6 +50,7 @@ const state = {
   order: [],
   paths: [],
   audio: {},        // id -> {duration, chapters, hash} se esiste l'MP3 generato
+  covers: {},       // id -> hash se esiste la copertina scaricata
   summaries: {},    // id -> {chapters: [{title, paragraphs}]}
   progress: store.get('progress', {}), // id -> {pos, dur, done, t}
   saved: store.get('saved', []),
@@ -69,7 +70,13 @@ async function loadData() {
     const r = await fetch('audio/index.json', { cache: 'no-cache' });
     if (r.ok) state.audio = await r.json();
   } catch { /* nessun audio generato: si userà la voce del dispositivo */ }
+  try {
+    const r = await fetch('covers/index.json', { cache: 'no-cache' });
+    if (r.ok) state.covers = await r.json();
+  } catch { /* senza copertine si usano quelle grafiche */ }
 }
+
+const coverUrl = (id) => (state.covers[id] ? `covers/${id}.jpg?v=${state.covers[id]}` : null);
 
 async function getSummary(id) {
   if (state.summaries[id]) return state.summaries[id];
@@ -450,10 +457,12 @@ const player = {
       title: b.title,
       artist: b.author,
       album: 'Manager in 15',
-      artwork: [
-        { src: base + 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-        { src: base + 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
-      ],
+      artwork: coverUrl(b.id)
+        ? [{ src: base + coverUrl(b.id), type: 'image/jpeg' }]
+        : [
+          { src: base + 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: base + 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
+        ],
     });
     const handlers = {
       play: () => this.engine.play(),
@@ -475,10 +484,13 @@ const player = {
 const playerEl = $('#player');
 const miniEl = $('#mini-player');
 
+// La copertina grafica resta sotto l'immagine: se l'immagine non carica, si vede quella.
 function coverHTML(b, extra = '') {
-  return `<div class="cover" style="--c1:${b.colors[0]};--c2:${b.colors[1]}">
+  const url = coverUrl(b.id);
+  const img = url ? `<img src="${url}" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : '';
+  return `<div class="cover" style="--c1:${b.colors[0]};--c2:${b.colors[1]}" role="img" aria-label="Copertina di ${esc(b.title)}">
     <div class="cover-title">${esc(b.title)}</div>
-    <div class="cover-author">${esc(b.author)}</div>${extra}
+    <div class="cover-author">${esc(b.author)}</div>${img}${extra}
   </div>`;
 }
 
@@ -490,7 +502,9 @@ function renderPlayerStatic() {
   $('.player-title', playerEl).textContent = b.title;
   $('.player-author', playerEl).textContent = b.author;
   $('.mini-title', miniEl).textContent = b.title;
-  $('.mini-cover', miniEl).style.cssText = `--c1:${b.colors[0]};--c2:${b.colors[1]}`;
+  const url = coverUrl(b.id);
+  $('.mini-cover', miniEl).style.cssText = `--c1:${b.colors[0]};--c2:${b.colors[1]}`
+    + (url ? `;background:center/cover url("${url}"), linear-gradient(150deg, ${b.colors[0]}, ${b.colors[1]})` : '');
   const speech = player.engine?.kind === 'speech';
   const note = $('.engine-note', playerEl);
   note.hidden = !speech;

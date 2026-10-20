@@ -82,7 +82,25 @@ Quinto: alla prossima riunione di team, prima di parlare di obiettivi e scadenze
 
 Pink suggerisce anche di fare con il team una semplice riflessione: in quali momenti vi siete sentiti più motivati negli ultimi mesi? Quasi sempre le risposte non parlano di bonus, ma di progetti in cui le persone avevano libertà, imparavano qualcosa e sentivano di fare la differenza. Sono indizi preziosi per capire su cosa puntare.
 
-## In sintesi
+## Una storia per capire: il premio che rallentò il team
+
+Proviamo a immaginare una situazione che si vede spesso nelle aziende. Per aumentare la produttività, la direzione introduce un premio legato al numero di storie completate da ciascun team. Nei primi mesi il numero di storie cresce, e tutti sono soddisfatti.
+
+Poi iniziano i segnali strani. Le storie diventano sempre più piccole, anche quando non avrebbe senso dividerle. I team evitano il lavoro sul debito tecnico, che non produce storie visibili. Le collaborazioni tra team calano, perché aiutare un altro gruppo non fa crescere il proprio numero. Dopo un anno, il numero di storie è altissimo, ma il valore consegnato ai clienti non è aumentato e la qualità del software è peggiorata.
+
+È esattamente il meccanismo che Pink descrive: un premio condizionato restringe l'attenzione sull'indicatore, incoraggia scorciatoie e spegne la motivazione intrinseca a fare un buon lavoro. Le persone non sono diventate pigre o disoneste: hanno semplicemente risposto all'incentivo che era stato dato loro.
+
+L'alternativa è puntare su autonomia, padronanza e scopo: obiettivi legati al valore per il cliente, libertà su come raggiungerli, tempo per migliorare le proprie competenze e una chiara comprensione del perché il lavoro è importante.
+
+## Come ti aiuta come Scrum Master e team leader
+
+Drive offre le basi scientifiche di molte pratiche agili. L'auto organizzazione del team è autonomia sulla tecnica e sul team. La possibilità di scegliere come realizzare una storia, di stimare il proprio lavoro e di prendersi impegni è autonomia sul compito. Il miglioramento continuo, le revisioni del codice fatte bene, la programmazione in coppia sono strade verso la padronanza. Lo Sprint Goal e la visione del prodotto, quando sono chiari, danno scopo.
+
+Come Scrum Master, puoi usare il libro per difendere il team da pratiche che danneggiano la motivazione. Per esempio, usare la velocità del team come metro di confronto tra team, o come obiettivo da aumentare a ogni costo, è un tipico premio condizionato: porta a stime gonfiate e a meno collaborazione. La velocità è uno strumento di pianificazione del team, non una misura di produttività.
+
+Come team leader, puoi chiederti per ogni persona: ha abbastanza autonomia? Sta imparando qualcosa? Sa perché il suo lavoro è importante? Se una delle tre risposte è no, hai trovato la leva su cui lavorare.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave di Drive.
 

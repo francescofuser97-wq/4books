@@ -88,7 +88,27 @@ Quarto: dopo ogni critica che dai, osserva la reazione. Il messaggio è arrivato
 
 Quinto: per ogni membro del team, chiediti se oggi è più su una traiettoria da superstar o da rockstar, e se le opportunità che gli stai offrendo corrispondono a quella traiettoria.
 
-## In sintesi
+## Una storia per capire: il feedback in due minuti
+
+Kim Scott insiste molto sul feedback immediato e informale, quello che si dà in due o tre minuti tra una riunione e l'altra. Vediamo come può funzionare in un caso concreto.
+
+Durante la Sprint Review, Andrea presenta una nuova funzionalità agli stakeholder. Il lavoro è buono, ma la presentazione è confusa: parte dai dettagli tecnici, non spiega il problema del cliente, e alla fine gli stakeholder non hanno capito cosa sia cambiato. Il team leader ha tre possibilità.
+
+Può non dire nulla, per non mettere a disagio Andrea: è l'empatia rovinosa. Andrea farà lo stesso errore alla prossima review. Può dirgli davanti a tutti che la presentazione non era chiara: è l'aggressività odiosa. Andrea si sentirà umiliato e non ascolterà il contenuto. Oppure, appena finita la riunione, può prenderlo da parte per due minuti e dirgli: la funzionalità è ottima e si vede che ci hai lavorato molto. La presentazione però partiva dai dettagli tecnici, e gli stakeholder si sono persi. La prossima volta prova a iniziare dal problema del cliente e a mostrare subito la demo. Se vuoi, la prepariamo insieme.
+
+Questa è la franchezza radicale: specifica, immediata, privata, orientata ad aiutare. Due minuti che possono cambiare la carriera di una persona.
+
+## Come ti aiuta come Scrum Master e team leader
+
+La franchezza radicale è il carburante delle retrospettive. Una retrospettiva in cui nessuno dice la verità è un rito vuoto. Se il team è bloccato nell'empatia rovinosa, tutti dicono che va tutto bene e nulla migliora. Il tuo compito è creare un ambiente in cui le persone possano dire le cose come stanno, sul lavoro e non sulle persone.
+
+Il consiglio di chiedere feedback prima di darlo vale doppio per uno Scrum Master. Chiedi al team, magari in forma anonima, come puoi servirlo meglio: cosa dovresti fare di più, cosa di meno. Il fatto che tu sia il primo a esporti rende più facile per gli altri fare lo stesso.
+
+La distinzione tra rockstar e superstar è utile per pianificare la crescita del team. In un team IT ci sono persone che vogliono diventare architetti, team leader o Product Owner, e altre che vogliono semplicemente diventare sviluppatori sempre più bravi. Entrambe le strade sono preziose, e un team sano ha bisogno di entrambe.
+
+Infine, il ciclo per far succedere le cose, ascoltare, chiarire, discutere, decidere, convincere, eseguire e imparare, è molto vicino al ciclo agile di ispezione e adattamento.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave di Radical Candor.
 

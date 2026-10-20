@@ -47,6 +47,16 @@ jobs:
             [ -s "voices/$f" ] || curl -fsSL --retry 4 -o "voices/$f" "$VOICE_URL/$f"
           done
 
+      - name: Cache copertine
+        uses: actions/cache@v4
+        with:
+          path: covers
+          key: covers-${{ hashFiles('data/books.json', 'scripts/fetch_covers.py') }}
+          restore-keys: covers-
+
+      - name: Scarica le copertine
+        run: python scripts/fetch_covers.py
+
       - name: Cache audio generati
         uses: actions/cache@v4
         with:
@@ -60,7 +70,7 @@ jobs:
       - name: Prepara il sito
         run: |
           mkdir -p _site
-          cp -r index.html manifest.webmanifest sw.js css js icons data audio _site/
+          cp -r index.html manifest.webmanifest sw.js css js icons data audio covers _site/
           sed -i "s/const VERSION = 'dev'/const VERSION = '${GITHUB_SHA::12}'/" _site/sw.js
           touch _site/.nojekyll
           du -sh _site _site/audio

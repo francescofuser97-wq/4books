@@ -90,7 +90,25 @@ Quarto: rendi pubblici gli obiettivi del team e gli impegni di ciascuno, ad esem
 
 Quinto: chiedi ai membri del tuo team, in modo anonimo, di valutare da uno a cinque ognuna delle cinque disfunzioni. Discutete insieme i risultati e scegliete su quale lavorare per primo.
 
-## In sintesi
+## Una storia per capire: il dirigente brillante che se ne va
+
+Uno dei momenti più forti della storia di Lencioni riguarda Mikey, la responsabile del marketing di DecisionTech. È probabilmente la persona più talentuosa del gruppo, molto stimata fuori dall'azienda. Ma durante i ritiri si rifiuta di partecipare agli esercizi, sminuisce i colleghi, alza gli occhi al cielo quando qualcuno parla. Non si mostra mai vulnerabile, non accetta critiche e mette il proprio reparto davanti a tutto.
+
+Kathryn prova a coinvolgerla più volte. Alla fine prende una decisione dolorosa: Mikey deve lasciare il team. È una scelta che fa paura, perché significa rinunciare a un grande talento. Ma Kathryn è convinta che nessun talento individuale valga quanto la salute dell'intero gruppo. Dopo l'uscita di Mikey, il team è più unito, le riunioni diventano più sincere e i risultati migliorano.
+
+Il messaggio è scomodo ma importante: una sola persona che rifiuta la fiducia e il confronto può bloccare un intero team. A volte il gesto più coraggioso di un leader è proteggere il gruppo, anche a costo di rinunciare a una persona molto brava.
+
+## Come ti aiuta come Scrum Master e team leader
+
+La piramide di Lencioni è uno strumento diagnostico perfetto per uno Scrum Master. Quando un team non funziona, puoi chiederti a quale livello si trova il problema.
+
+Se nelle retrospettive nessuno parla davvero, il problema è probabilmente la fiducia. Se le discussioni tecniche finiscono sempre con il primo che alza la voce o con il più anziano che decide, c'è paura del conflitto. Se il team esce dallo Sprint Planning senza un vero impegno sullo Sprint Goal, manca l'impegno. Se la definizione di fatto non viene rispettata e nessuno lo fa notare, manca la responsabilità reciproca. Se ogni sviluppatore difende le proprie storie invece dell'obiettivo comune, manca l'attenzione ai risultati collettivi.
+
+Molte pratiche agili sono, in fondo, risposte alle cinque disfunzioni. Le retrospettive costruiscono fiducia e conflitto sano. Lo Sprint Goal crea impegno e attenzione al risultato comune. La trasparenza della board rende visibile chi sta facendo cosa, favorendo la responsabilità reciproca.
+
+C'è anche una lezione per te come team leader: il primo team di cui fai parte non è solo il tuo team di sviluppo, ma anche il gruppo dei tuoi pari, gli altri Scrum Master e team leader. In una multinazionale con molti team agili, la collaborazione tra team conta quanto quella all'interno del team.
+
+## I punti cardine
 
 Ricapitoliamo le cinque disfunzioni, dal basso verso l'alto.
 

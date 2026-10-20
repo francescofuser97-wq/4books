@@ -80,7 +80,25 @@ Quarto: per ogni membro del tuo team, scrivi in cosa è davvero eccellente. Poi 
 
 Quinto: fai un inventario dei progetti e delle attività del tuo team. Per ognuno chiediti: se non lo stessimo già facendo, cominceremmo oggi? Scegli almeno una cosa da abbandonare.
 
-## In sintesi
+## Una storia per capire: il registro del tempo
+
+Drucker racconta che, quando chiedeva ai dirigenti di stimare come impiegavano il tempo, le stime erano quasi sempre sbagliate. Un presidente d'azienda era convinto di dividere il suo tempo in tre parti: una per i dirigenti, una per i clienti importanti, una per la comunità. Dopo sei settimane di registrazione, scoprì di non aver dedicato quasi nessun tempo a nessuna delle tre. Passava la giornata a seguire ordini di clienti che conosceva personalmente, telefonando agli stabilimenti per sollecitare le consegne.
+
+Proviamo a fare lo stesso esercizio con un team leader IT. Pensa di dedicare la maggior parte del tempo alle persone e all'architettura. Registra due settimane e scopre che quasi metà del suo tempo va in riunioni di allineamento con altri team, un quarto in messaggi e notifiche, e solo una piccola parte in conversazioni individuali. Non c'è niente di male nelle riunioni di allineamento, ma molte potrebbero essere ridotte, accorpate o delegate. La consapevolezza è il primo passo per cambiare.
+
+## Come ti aiuta come Scrum Master e team leader
+
+Molte idee di Drucker, scritte negli anni sessanta, anticipano il pensiero agile.
+
+Il lavoratore della conoscenza che si autogestisce è esattamente lo sviluppatore di un team agile: nessuno può dirgli come scrivere ogni riga di codice, quindi deve essere lui a gestirsi in modo efficace. Il tuo compito è creare le condizioni perché questo sia possibile.
+
+Il consolidamento del tempo in blocchi lunghi è fondamentale per chi programma. Ogni interruzione costa molto più dei minuti che dura, perché serve tempo per ritrovare la concentrazione. Proteggere il team da interruzioni e riunioni inutili, magari concordando fasce orarie senza incontri, è una delle cose più concrete che uno Scrum Master può fare.
+
+La domanda sul contributo si collega al valore per il cliente, il primo principio del pensiero lean. Chiedere al team quale contributo può dare ai risultati dell'azienda sposta l'attenzione dalle attività ai risultati: non quante storie abbiamo chiuso, ma quale valore abbiamo consegnato.
+
+E l'abbandono sistematico è un principio lean puro: eliminare lo spreco. Funzionalità che nessuno usa, report che nessuno legge, riunioni che nessuno ricorda. Chiedere periodicamente al team cosa smetteremmo di fare se dovessimo ricominciare da zero è un ottimo esercizio da retrospettiva.
+
+## I punti cardine
 
 Ricapitoliamo le cinque pratiche del Manager efficace.
 

@@ -4,13 +4,14 @@ Web app installabile su iPhone (PWA), ispirata a 4books: riassunti in formato au
 
 ## Cosa contiene
 
-- **13 riassunti in italiano** (ognuno con capitoli, idee chiave, una sezione "Come metterlo in pratica da domani" e una sintesi finale):
+- **13 riassunti in italiano** (ognuno con capitoli, idee chiave, una storia o un caso concreto, una sezione su come applicarlo da Scrum Master e team leader in un contesto lean e agile, esercizi pratici e i punti cardine finali):
   Il manager minuto · The Making of a Manager · I primi 90 giorni · Le 7 regole per avere successo · Il manager efficace · High Output Management · Radical Candor · Come trattare gli altri e farseli amici · Intelligenza emotiva · Drive · Le cinque disfunzioni del team · Leaders Eat Last · Extreme Ownership
 - **2 percorsi guidati**: "Da collaboratore a manager" e "Guidare le persone".
 - **Player audio** con velocità (0,8×–2×), salti di 15/30 secondi, capitoli, timer di spegnimento, controlli dalla schermata di blocco e riproduzione in background.
 - **Modalità lettura** con dimensione del testo regolabile.
 - **Libreria**: progressi salvati, libri salvati, completati, minuti ascoltati.
 - **Offline**: l'app e i testi funzionano senza rete; gli audio si possono scaricare sul dispositivo.
+- **Copertine originali** scaricate durante il deploy da Open Library (con Google Books come riserva). Se una copertina non si trova, l'app mostra quella grafica; per forzare un'edizione aggiungi `"coverIsbn"` al libro in `data/books.json`.
 
 ## Come viene generato l'audio
 

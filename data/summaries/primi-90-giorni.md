@@ -94,7 +94,25 @@ Quinto: pianifica per tappe di trenta giorni. Alla fine di ogni tappa, fermati e
 
 Infine, ricorda che la transizione non riguarda solo te. Anche il tuo team sta vivendo un cambiamento: un nuovo capo genera incertezza. Comunicare in modo chiaro e frequente ciò che stai facendo, e perché, aiuta le persone a sentirsi coinvolte invece che spettatrici.
 
-## In sintesi
+## Una storia per capire: due nuovi responsabili
+
+Proviamo a immaginare due persone che prendono la guida di un team IT nello stesso giorno, in due reparti diversi della stessa azienda.
+
+La prima, Laura, arriva con molta energia. Nella prima settimana annuncia un nuovo modo di stimare le storie, cambia lo strumento di gestione del backlog e sposta la Daily a un orario diverso. Ha visto queste pratiche funzionare nel suo team precedente ed è sicura che funzioneranno anche qui. Dopo un mese, il team è confuso e un po' risentito. Nessuno le aveva spiegato che lo strumento precedente era integrato con i sistemi di un altro reparto, e che l'orario della Daily era stato scelto per includere un collega che lavora da un altro fuso orario.
+
+Il secondo, Davide, passa le prime due settimane ad ascoltare. Partecipa a tutti gli eventi senza cambiare nulla, incontra ogni persona del team, il Product Owner e i responsabili dei team con cui c'è più dipendenza. Fa a tutti le stesse domande. Alla terza settimana ha capito che il problema principale non è il processo, ma il continuo arrivo di richieste urgenti che interrompono lo sprint. Propone una sola modifica, concordata con il Product Owner: una piccola capacità riservata alle urgenze. Il risultato è visibile in due sprint, e il team inizia a fidarsi di lui.
+
+Davide ha applicato quasi alla lettera le strategie di Watkins: ha imparato prima di agire, ha capito che la sua era una situazione di riallineamento e ha scelto una vittoria rapida coerente con il lungo periodo.
+
+## Come ti aiuta come Scrum Master e team leader
+
+In una multinazionale che lavora con metodi agili, le transizioni sono frequenti: nuovi team, riorganizzazioni, cambi di prodotto. Il modello di Watkins ti aiuta in ogni passaggio.
+
+Il punto di pareggio, in termini agili, si misura in sprint: dopo quanti sprint il team lavora meglio di prima del tuo arrivo? Le cinque conversazioni con il capo valgono anche con il Product Owner e con chi gestisce il portafoglio di progetti: chiarisci aspettative, metriche di successo e modalità di comunicazione.
+
+E soprattutto, il pensiero lean ti offre uno strumento perfetto per accelerare l'apprendimento: andare a vedere. Invece di fidarti solo dei report, siediti accanto agli sviluppatori, guarda la board, osserva dove il lavoro si ferma. È lì che troverai le tue prime vittorie.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave dei Primi 90 giorni.
 

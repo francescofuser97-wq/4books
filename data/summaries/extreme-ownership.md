@@ -82,7 +82,27 @@ Quarto: quando ti senti sommerso da troppi problemi, fermati, fai un passo indie
 
 Quinto: per il prossimo progetto, spiega al team non solo cosa fare, ma perché, e definisci con chiarezza quali decisioni possono prendere da soli senza chiederti il permesso.
 
-## In sintesi
+## Una storia per capire: l'intento del comandante
+
+Uno dei principi più potenti del libro è il comando decentralizzato, basato sull'intento del comandante. Gli autori raccontano che a Ramadi le loro squadre si muovevano in piccoli gruppi, spesso senza poter comunicare con il comando. Non potevano chiedere il permesso per ogni decisione. Funzionavano perché ogni capo squadra sapeva esattamente qual era l'obiettivo della missione e perché era importante. Quando la situazione cambiava, e cambiava sempre, sapeva come adattarsi senza perdere di vista lo scopo.
+
+Trasferiamo la stessa idea in un team IT. Un team riceve dal Product Owner un elenco dettagliato di storie per lo sprint. A metà sprint scopre che una delle storie si basa su un presupposto sbagliato: i clienti in realtà usano il sistema in un altro modo. Se il team conosce solo l'elenco delle storie, continuerà a eseguirle o si fermerà ad aspettare istruzioni. Se invece conosce l'intento, cioè il problema del cliente che lo sprint vuole risolvere, può proporre subito un'alternativa migliore.
+
+Ecco perché uno Sprint Goal chiaro è molto più potente di un elenco di compiti: è l'intento del comandante del team.
+
+## Come ti aiuta come Scrum Master e team leader
+
+La responsabilità totale è un principio prezioso in un ambiente agile, ma va applicato con attenzione. Per un team leader significa non nascondersi dietro il processo, il Product Owner o le decisioni dall'alto: se il team fatica, chiediti prima cosa puoi fare tu. Per uno Scrum Master, significa anche aiutare il team ad assumersi la responsabilità collettiva dei risultati, senza cercare colpevoli.
+
+Il principio di semplicità è un'eco diretta del manifesto agile, che indica la semplicità, cioè l'arte di massimizzare la quantità di lavoro non fatto, come essenziale. Piani semplici, storie piccole, architetture comprensibili.
+
+Stabilire priorità ed eseguire si collega al pensiero lean del limitare il lavoro in corso: invece di aprire dieci attività insieme, il team ne porta a termine poche alla volta. Rilassati, guardati intorno, prendi una decisione: è un ottimo mantra anche durante un incidente in produzione.
+
+Guidare verso l'alto è essenziale in una multinazionale. Se il management non capisce perché il team ha bisogno di tempo per il debito tecnico, la responsabilità totale ti chiede di spiegarlo meglio, con dati e conseguenze concrete, invece di lamentarti.
+
+Infine, la disciplina è libertà: una definizione di fatto rigorosa, test automatici e rilasci frequenti sono discipline che danno al team la libertà di cambiare rapidamente senza paura.
+
+## I punti cardine
 
 Ricapitoliamo i punti chiave di Extreme Ownership.
 
