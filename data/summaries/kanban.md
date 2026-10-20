@@ -64,6 +64,22 @@ Anderson non presenta Kanban come un'alternativa a Scrum, ma come un metodo dive
 
 Molti team combinano i due approcci: mantengono gli eventi di Scrum, ma aggiungono la visualizzazione dettagliata del flusso, i limiti al lavoro in corso e le misure di flusso. Altri team, come quelli di manutenzione o di supporto, dove le richieste arrivano in modo imprevedibile, trovano Kanban più naturale degli sprint.
 
+## Le cadenze e la revisione operativa
+
+Anderson descrive anche un sistema di riunioni regolari, che chiama cadenze, per far funzionare Kanban in modo sostenibile.
+
+La riunione quotidiana davanti alla board è diversa dalla classica Daily in cui ognuno dice cosa ha fatto. Il team percorre la board da destra a sinistra, partendo dal lavoro più vicino al completamento. La domanda non è cosa ha fatto ciascuno, ma cosa serve per far avanzare il lavoro, cosa è bloccato e chi può aiutare. Questo sposta l'attenzione dalle persone al flusso.
+
+La riunione di rifornimento serve a decidere quali nuove richieste entrano nel sistema quando si libera capacità. Vi partecipano le persone che rappresentano i clienti, e la decisione si basa sulle priorità concordate e sulle classi di servizio.
+
+La riunione di pianificazione delle consegne serve a coordinare i rilasci con chi deve riceverli.
+
+Infine, la revisione operativa, un incontro periodico, ad esempio mensile, in cui i responsabili di più team esaminano insieme le misure di flusso, i problemi ricorrenti e le dipendenze. Anderson la considera uno degli strumenti più potenti per il miglioramento a livello di organizzazione, perché porta i dati reali davanti a chi può cambiare le regole del sistema.
+
+Anderson racconta anche come introdurre Kanban in un team. Si parte con una conversazione per capire le fonti di insoddisfazione, sia dei clienti sia del team. Poi si analizzano i tipi di lavoro e come arrivano. Si disegna il flusso reale e si concordano i primi limiti. Si stabiliscono le cadenze. E poi si lascia che il sistema faccia emergere i problemi, affrontandoli uno alla volta.
+
+Un concetto importante è quello di lenta tensione: i limiti al lavoro in corso creano una tensione costante e controllata, che spinge continuamente a migliorare. Se i limiti sono troppo larghi, non succede nulla; se sono troppo stretti, il sistema si blocca. Trovare il punto giusto è parte del lavoro del team.
+
 ## Una storia per capire: la colonna sempre piena
 
 Immagina un team che usa una board con le colonne da fare, in corso, in revisione, in test e fatto. Non ci sono limiti. La colonna in corso contiene quindici storie, per sei sviluppatori. La colonna in revisione ne contiene otto. Ogni storia impiega in media tre settimane per arrivare in fondo.

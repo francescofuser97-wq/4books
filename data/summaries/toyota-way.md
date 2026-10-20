@@ -62,6 +62,18 @@ Prendere le decisioni lentamente, per consenso, considerando con attenzione tutt
 
 Diventare un'organizzazione che impara attraverso la riflessione costante, chiamata hansei, e il miglioramento continuo, il kaizen. Dopo ogni progetto, anche di successo, i team si chiedono cosa non ha funzionato e come fare meglio. In Toyota, dire che non ci sono stati problemi è considerato un problema: significa che non si è guardato abbastanza a fondo.
 
+## Risolvere i problemi alla radice: cinque perché e rapporti A3
+
+Liker dedica attenzione al modo in cui Toyota risolve i problemi, perché è lì che la filosofia diventa pratica quotidiana. Il principio di base è che ogni problema è un'opportunità per migliorare, e che bisogna arrivare alla causa profonda invece di trattare solo i sintomi.
+
+Lo strumento più noto è quello dei cinque perché, reso famoso da Taiichi Ohno. Davanti a un problema, ci si chiede perché è successo, e poi perché è successa quella causa, e così via, finché non si arriva a qualcosa su cui si può agire in modo definitivo. Un esempio classico: una macchina si ferma. Perché? Si è bruciato un fusibile per un sovraccarico. Perché c'era un sovraccarico? Il cuscinetto non era abbastanza lubrificato. Perché? La pompa dell'olio non funzionava bene. Perché? L'albero della pompa era consumato. Perché? Non c'era un filtro e sono entrati detriti. La soluzione vera non è cambiare il fusibile, ma montare il filtro.
+
+L'altro strumento è il rapporto A3, chiamato così dal formato del foglio di carta su cui viene scritto. In una sola pagina si descrive il problema, la situazione attuale, l'obiettivo, l'analisi delle cause, le contromisure proposte, il piano di attuazione e il modo in cui si verificheranno i risultati. Il limite di una pagina obbliga a pensare con chiarezza e a comunicare l'essenziale. Ma il valore dell'A3 non sta nel documento: sta nelle conversazioni che genera. Chi scrive un A3 lo discute con il proprio responsabile e con tutte le persone coinvolte, e nel farlo impara.
+
+Liker osserva che in Toyota il responsabile non risolve il problema al posto del collaboratore. Lo guida con domande: hai visto con i tuoi occhi? Qual è la causa profonda? Come sai che questa contromisura funzionerà? In questo modo, ogni problema diventa un'occasione per sviluppare le capacità di chi lo affronta.
+
+Infine, Liker mette in guardia dalle imitazioni superficiali. Molte aziende che dicono di essere lean hanno adottato gli strumenti, ma non questo modo di pensare: le board ci sono, i cartellini ci sono, ma i problemi vengono nascosti, le soluzioni vengono imposte dall'alto e le persone non vengono coinvolte. È lean di facciata, e non porta risultati duraturi.
+
 ## Una storia per capire: la corda che nessuno tirava
 
 Liker racconta che, quando Toyota aprì stabilimenti negli Stati Uniti in collaborazione con aziende americane, uno dei cambiamenti più difficili fu proprio l'andon. Gli operai americani erano abituati a un sistema in cui fermare la linea era quasi un tabù, e chi lo faceva rischiava di essere rimproverato. All'inizio nessuno tirava la corda. I dirigenti giapponesi dovettero incoraggiarli ripetutamente, ringraziando chi segnalava un problema invece di criticarlo. Solo quando le persone si convinsero che fermare la linea era davvero desiderato, il sistema iniziò a funzionare.

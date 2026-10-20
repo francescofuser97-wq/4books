@@ -56,6 +56,20 @@ Il feedback veloce è fondamentale: più velocemente scopriamo un errore o un'op
 
 Infine, il controllo decentrato. Reinertsen prende ispirazione dai Marines americani, che operano in ambienti incerti e mutevoli. I Marines non controllano ogni decisione dal centro: comunicano chiaramente l'intento della missione e lasciano che chi è sul campo decida come raggiungerlo. Nello sviluppo di prodotto, allo stesso modo, il controllo centralizzato è troppo lento. Bisogna dare alle persone il contesto economico e i limiti entro cui decidere, e poi fidarsi del loro giudizio. Un esempio pratico è fornire semplici regole economiche, come quanto vale un giorno di anticipo, perché le persone possano prendere da sole decisioni coerenti.
 
+## Misurare ciò che conta: le code come indicatore anticipatore
+
+Reinertsen osserva che la maggior parte delle aziende misura le cose sbagliate. Misura l'utilizzo delle persone, i costi, il rispetto delle milestone. Ma queste misure arrivano tardi e dicono poco sulla salute del flusso.
+
+La sua proposta è misurare le code. La dimensione delle code è un indicatore anticipatore: se la coda di lavoro in attesa davanti a una fase cresce oggi, i tempi di attraversamento cresceranno domani. È molto più utile sapere che la coda di revisione è raddoppiata in una settimana che scoprire, a fine trimestre, che il progetto è in ritardo.
+
+Uno strumento suggerito è il diagramma di flusso cumulativo, che mostra nel tempo la quantità di lavoro entrato e uscito da ogni fase. La distanza verticale tra le linee indica la quantità di lavoro in coda; la distanza orizzontale indica il tempo di attraversamento. Basta un'occhiata per vedere dove il lavoro si accumula.
+
+Reinertsen suggerisce anche di agire sulle code prima che diventino un problema, stabilendo soglie: se una coda supera un certo livello, si interviene, ad esempio spostando persone, riducendo l'ambito o bloccando nuovo lavoro in ingresso. È un po' come il controllo del traffico su un'autostrada: si regolano gli accessi prima che si formi l'ingorgo.
+
+Un altro concetto interessante è il valore economico dell'informazione. Ogni attività di sviluppo produce informazioni: un test, un prototipo, un esperimento. L'informazione ha valore solo se riduce l'incertezza su una decisione importante. Un test che conferma ciò che già sappiamo con certezza produce poca informazione. Un test con un esito davvero incerto, che può cambiare una decisione, ne produce molta. Per questo Reinertsen suggerisce di fare presto gli esperimenti che riducono i rischi più grandi, invece di quelli più facili.
+
+Infine, l'autore mette in guardia da una convinzione diffusa: che sia meglio pianificare tutto in dettaglio all'inizio, per evitare sorprese. In un ambiente incerto, i piani dettagliati diventano rapidamente obsoleti. Meglio piani leggeri, cicli brevi e la capacità di cambiare rotta quando arrivano nuove informazioni.
+
 ## Una storia per capire: il rilascio trimestrale
 
 Immagina un team che rilascia il software una volta ogni tre mesi. Ogni rilascio richiede due settimane di test e una notte di lavoro per l'installazione, con il rischio sempre alto che qualcosa vada storto. Per questo il team preferisce rilasciare raramente, accumulando tante modifiche in ogni rilascio. Ma più modifiche contiene un rilascio, più è rischioso, e più test richiede.

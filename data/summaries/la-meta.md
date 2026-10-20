@@ -64,6 +64,20 @@ Un altro passaggio memorabile è un gioco che Alex fa con i ragazzi scout, con u
 
 Alla fine del romanzo lo stabilimento è salvo, anzi diventa il migliore del gruppo, e Alex viene promosso. Ma Jonah gli lascia un'ultima sfida: imparare a pensare, cioè a trovare da solo i vincoli in qualsiasi sistema. Perché presto il vincolo non sarà più in produzione, ma nel mercato, nelle vendite, nelle regole dell'azienda.
 
+## Le misure che ingannano
+
+Una parte importante del romanzo riguarda gli indicatori. Alex scopre che molte delle misure usate dalla sua azienda lo spingono a fare la cosa sbagliata.
+
+La prima è l'efficienza delle singole risorse. Il sistema di contabilità premia le macchine e gli operai sempre occupati. Così, per non risultare inefficienti, i reparti producono pezzi anche quando non servono, riempiendo lo stabilimento di scorte. Le scorte immobilizzano denaro, nascondono i problemi, rallentano il flusso, eppure secondo gli indicatori tutto sembra andare bene.
+
+La seconda è il costo per pezzo. Producendo grandi lotti, il costo di preparazione delle macchine si distribuisce su più pezzi, e il costo unitario sembra scendere. Ma i grandi lotti allungano i tempi e bloccano i colli di bottiglia su ordini che non sono urgenti, mentre quelli urgenti aspettano.
+
+La terza è l'idea di uno stabilimento bilanciato, in cui tutte le risorse hanno la stessa capacità. Jonah mostra ad Alex che uno stabilimento perfettamente bilanciato in capacità è destinato ad avere problemi, proprio per gli effetti degli eventi dipendenti e delle fluttuazioni statistiche. Ciò che va bilanciato non è la capacità, ma il flusso, regolato sul ritmo del collo di bottiglia.
+
+Alex deve convincere il suo controller e i suoi superiori che gli indicatori tradizionali sono sbagliati. Non è facile: per un periodo i suoi numeri di efficienza peggiorano, mentre i risultati reali migliorano. È una situazione che molti manager conoscono bene.
+
+Il romanzo mostra anche come Alex coinvolge il suo team. Non impone le soluzioni: riunisce i suoi collaboratori, il responsabile della produzione, il controller, la responsabile dei materiali, e insieme ragionano sulle domande di Jonah. Le idee migliori nascono proprio da queste discussioni. Perfino la crisi del suo matrimonio si risolve quando Alex inizia ad ascoltare davvero sua moglie, invece di cercare di imporre la propria visione. Il metodo socratico di Jonah, fatto di domande, diventa il modo in cui Alex guida gli altri.
+
 ## Una storia per capire: il collo di bottiglia del team
 
 Immagina un team software in cui tutti lavorano tantissimo. Gli sviluppatori producono molte funzionalità, ma i rilasci sono lenti e i clienti aspettano. Un'analisi del flusso rivela il collo di bottiglia: i test di regressione, eseguiti a mano da una sola persona esperta prima di ogni rilascio.

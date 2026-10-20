@@ -62,6 +62,22 @@ La perfezione, naturalmente, non si raggiunge mai. Ma averla come riferimento ca
 
 La seconda parte del libro racconta come diverse aziende, negli Stati Uniti, in Germania e in Giappone, hanno affrontato la trasformazione. Gli autori ne traggono alcune lezioni. Serve un agente del cambiamento, spesso una persona con grande energia e autorità. Serve la conoscenza lean, spesso portata da qualcuno che l'ha già praticata. Serve una crisi, o la percezione di una crisi, per vincere la resistenza iniziale. Conviene partire da un flusso del valore concreto e ottenere risultati rapidi e visibili. E bisogna affrontare il tema delle persone: se il miglioramento porta a licenziamenti, nessuno vorrà più migliorare. Per questo molte aziende lean si sono impegnate a non licenziare per effetto dei miglioramenti, ricollocando le persone su nuove attività.
 
+## Gli errori più comuni nelle trasformazioni
+
+Dalle storie raccontate nel libro emergono anche gli errori che fanno fallire molte iniziative lean. Vale la pena conoscerli, perché si ripetono identici anche nelle trasformazioni agili.
+
+Il primo errore è creare isole di eccellenza. Un reparto applica i principi lean e migliora moltissimo, ma il resto del flusso del valore resta com'era. Il risultato per il cliente cambia poco, perché il lavoro continua ad aspettare prima e dopo il reparto migliorato. Il pensiero lean chiede di guardare l'intero flusso.
+
+Il secondo errore è usare lean come programma di riduzione dei costi e del personale. Se i miglioramenti si traducono in licenziamenti, le persone smettono immediatamente di collaborare. Nessuno propone un miglioramento che potrebbe costargli il posto. Le aziende che hanno avuto successo hanno usato le persone liberate per crescere, sviluppare nuovi prodotti o portare all'interno attività prima esternalizzate.
+
+Il terzo errore è affidare tutto a consulenti esterni o a un ufficio dedicato. Il cambiamento deve essere guidato dai responsabili di linea e fatto dalle persone che svolgono il lavoro. Gli esperti possono insegnare, ma non possono cambiare la cultura al posto dell'organizzazione.
+
+Il quarto errore è fermarsi dopo i primi risultati. Le prime trasformazioni producono spesso miglioramenti spettacolari, e la tentazione è considerare il lavoro finito. Ma senza un sistema che sostenga il miglioramento continuo, con standard, misure e responsabili, le vecchie abitudini ritornano.
+
+Il quinto errore è ignorare il resto dell'organizzazione: contabilità, sistemi di incentivi, processi di acquisto. Se gli indicatori premiano l'efficienza locale e le grandi quantità, entrano in conflitto con il flusso. Gli autori raccontano di aziende che hanno dovuto cambiare anche il modo di misurare i costi, perché i sistemi tradizionali facevano sembrare più conveniente produrre grandi lotti.
+
+Infine, Womack e Jones sottolineano che il pensiero lean non riguarda solo le fabbriche. Gli stessi principi si applicano agli uffici, ai servizi, alla sanità e allo sviluppo di nuovi prodotti, dove le code sono spesso ancora più lunghe, perché invisibili.
+
 ## Una storia per capire: il ticket che viaggia per settimane
 
 Immagina una richiesta di un cliente interno: aggiungere un campo a un modulo. Mettendo in fila tutte le fasi, il team scopre che la richiesta ha impiegato sette settimane per arrivare in produzione. Ma il lavoro vero, analisi, sviluppo, test e rilascio, ha richiesto in tutto meno di due giorni. Il resto è stato attesa: in coda per l'approvazione, in coda nel backlog, in attesa dell'ambiente di test, in attesa della finestra di rilascio mensile.

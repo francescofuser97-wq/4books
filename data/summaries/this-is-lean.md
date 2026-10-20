@@ -66,6 +66,22 @@ L'ultima parte del libro chiarisce cosa lean non è. Non è un insieme di strume
 
 Gli autori propongono di vedere lean su più livelli di astrazione. In alto ci sono i valori, come il rispetto per le persone e il miglioramento continuo. Poi i principi, come il just in time e la qualità costruita nel processo. Poi i metodi, come il lavoro standardizzato. Poi gli strumenti, come il kanban e le board visuali. Infine le attività quotidiane. Le organizzazioni che copiano solo gli strumenti, senza i livelli superiori, ottengono pratiche vuote. Quelle che partono dai valori e dai principi possono scegliere gli strumenti più adatti alla propria realtà.
 
+## Come affrontare la variabilità
+
+Se la variabilità è ciò che impedisce di avere insieme alta efficienza del flusso e delle risorse, come si affronta? Gli autori distinguono tre fonti di variabilità.
+
+La prima riguarda le unità che scorrono nel processo: i pazienti, le richieste, i prodotti. Non sono tutte uguali e non arrivano in modo regolare. Un pronto soccorso non sa quanti pazienti arriveranno, né con quali problemi. Un team IT non sa quante richieste urgenti arriveranno questa settimana.
+
+La seconda riguarda le risorse: le persone hanno competenze diverse, a volte sono malate o in ferie, le macchine si guastano, i sistemi si bloccano.
+
+La terza è esterna: eventi imprevisti, cambiamenti del mercato, decisioni di altri reparti.
+
+Per ciascuna fonte, gli autori indicano tre strategie possibili. La prima è eliminare la variabilità, quando è possibile: ad esempio standardizzando il lavoro o evitando errori che creano rilavorazioni. La seconda è ridurla: ad esempio livellando l'arrivo delle richieste con appuntamenti programmati, o dividendo il lavoro in elementi di dimensioni simili. La terza è gestirla, quando non si può ridurre: ad esempio con capacità flessibile, persone formate su più competenze che possono spostarsi dove serve, o un margine di capacità riservato agli imprevisti.
+
+Gli autori osservano che molte organizzazioni gestiscono la variabilità nel modo più costoso: con code e scorte. Le code sono un modo di assorbire la variabilità, ma il prezzo è il tempo del cliente. Lean preferisce ridurre la variabilità alla fonte e, quando non si può, assorbirla con flessibilità invece che con attese.
+
+C'è anche un'osservazione importante sulle risorse molto costose. In alcuni casi, ad esempio un macchinario medico da milioni di euro, ha senso dare priorità alla sua efficienza. Ma gli autori invitano a fare questa scelta in modo consapevole, sapendo che si sta sacrificando il flusso, e non per abitudine. Nella maggior parte dei casi, il tempo del cliente vale più di qualche ora di inattività di una risorsa.
+
 ## Una storia per capire: il team sempre occupato
 
 Immagina un team di sei sviluppatori, tutti sempre occupati. Ognuno lavora su due o tre storie contemporaneamente, così non resta mai fermo mentre aspetta una revisione o un chiarimento. Il management è contento: nessuno è inattivo. Eppure i clienti si lamentano dei tempi, e il team è stanco.
