@@ -11,7 +11,7 @@ Web app installabile su iPhone (PWA), ispirata a 4books: riassunti in formato au
 - **Modalità lettura** con dimensione del testo regolabile.
 - **Libreria**: progressi salvati, libri salvati, completati, minuti ascoltati.
 - **Offline**: l'app e i testi funzionano senza rete; gli audio si possono scaricare sul dispositivo.
-- **Copertine originali** scaricate durante il deploy da Open Library (con Google Books come riserva). Se una copertina non si trova, l'app mostra quella grafica; per forzare un'edizione aggiungi `"coverIsbn"` al libro in `data/books.json`.
+- **Copertine delle edizioni italiane**, scaricate durante il deploy da Open Library e Google Books. Se un libro non ha un'edizione italiana con copertina si usa quella originale, e se manca anche quella l'app mostra una copertina grafica. Per forzare un'edizione precisa aggiungi `"coverIsbn"` al libro in `data/books.json`; `covers/sources.json` indica da dove arriva ogni copertina.
 
 ## Come viene generato l'audio
 
@@ -24,6 +24,14 @@ Se gli MP3 non sono disponibili, l'app legge il testo con la voce italiana del d
 1. Su GitHub apri **Settings → Pages** e in **Source** scegli **GitHub Actions**.
 2. Fai il merge su `main` (oppure avvia a mano il workflow **Genera audio e pubblica** da **Actions**).
 3. Al termine (la prima generazione degli audio richiede qualche decina di minuti) l'app è online su `https://<utente>.github.io/4books/`.
+
+### Copertine italiane più complete (facoltativo)
+
+Senza chiave, Google Books condivide un limite giornaliero di richieste che spesso è già esaurito, e molte copertine italiane non si trovano. Per usare una chiave gratuita:
+
+1. Su [Google Cloud Console](https://console.cloud.google.com/) crea un progetto, abilita **Books API** e crea una **chiave API**.
+2. Nel repository GitHub apri **Settings → Secrets and variables → Actions → New repository secret**, nome `GOOGLE_BOOKS_API_KEY`, valore la chiave.
+3. Rilancia il workflow da **Actions → Genera audio e pubblica → Run workflow**.
 
 ## Installazione su iPhone
 

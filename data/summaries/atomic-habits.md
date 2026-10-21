@@ -1,8 +1,8 @@
-# Atomic Habits
+# Piccole abitudini per grandi cambiamenti
 
 ## Introduzione
 
-Benvenuto. In questo riassunto parliamo di Atomic Habits, scritto da James Clear e pubblicato nel 2018. Il sottotitolo è: un metodo facile e collaudato per costruire buone abitudini ed eliminare quelle cattive. È diventato uno dei libri di crescita personale più venduti degli ultimi anni, tradotto in decine di lingue.
+Benvenuto. In questo riassunto parliamo di Piccole abitudini per grandi cambiamenti, titolo italiano di Atomic Habits, scritto da James Clear e pubblicato nel 2018. Il sottotitolo è: un metodo facile e collaudato per costruire buone abitudini ed eliminare quelle cattive. È diventato uno dei libri di crescita personale più venduti degli ultimi anni, tradotto in decine di lingue.
 
 James Clear racconta di aver vissuto un grave incidente durante gli anni del liceo: fu colpito in faccia da una mazza da baseball, e il recupero fu lungo e difficile. Negli anni successivi, all'università, iniziò a costruire piccole abitudini, come andare a letto presto, tenere la stanza ordinata, allenarsi con costanza. Nessuna di queste abitudini, da sola, era straordinaria. Ma insieme, nel tempo, lo portarono a risultati che non avrebbe immaginato, in campo sportivo e accademico.
 
@@ -96,7 +96,7 @@ Quinto: tieni traccia di ogni giorno in cui la fai, e ricorda: mai saltare due v
 
 ## I punti cardine
 
-Ricapitoliamo i punti cardine di Atomic Habits.
+Ricapitoliamo i punti cardine di Piccole abitudini per grandi cambiamenti.
 
 Primo: le piccole abitudini si accumulano come un interesse composto. Uno per cento al giorno fa la differenza.
 

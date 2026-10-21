@@ -366,7 +366,8 @@
         "Cerchio di sicurezza",
         "Biologia della fiducia",
         "Leadership è una scelta"
-      ]
+      ],
+      "titleIt": "I leader mangiano per ultimi"
     },
     {
       "id": "extreme-ownership",
@@ -402,7 +403,8 @@
         "Cicli brevi e ispezione",
         "Pianificare la realtà, non la fantasia",
         "Il costo del lavoro lasciato a metà"
-      ]
+      ],
+      "titleIt": "Fare il doppio in metà tempo"
     },
     {
       "id": "scrum-mastery",
@@ -604,7 +606,7 @@
     },
     {
       "id": "lean-startup",
-      "title": "The Lean Startup",
+      "title": "Partire leggeri",
       "originalTitle": "The Lean Startup",
       "author": "Eric Ries",
       "year": 2011,
@@ -708,7 +710,8 @@
         "La legge di Brooks",
         "Integrità concettuale",
         "Nessun proiettile d'argento"
-      ]
+      ],
+      "titleIt": "Il mitico mese-uomo"
     },
     {
       "id": "team-of-teams",
@@ -982,7 +985,7 @@
     },
     {
       "id": "atomic-habits",
-      "title": "Atomic Habits",
+      "title": "Piccole abitudini per grandi cambiamenti",
       "originalTitle": "Atomic Habits",
       "author": "James Clear",
       "year": 2018,
