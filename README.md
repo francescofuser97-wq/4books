@@ -8,6 +8,9 @@ Web app installabile su iPhone (PWA), ispirata a 4books: riassunti in formato au
 - **9 percorsi guidati**: Da collaboratore a manager · Scrum Master al massimo livello · Guidare team tecnici · Lean e flusso del valore · Software, DevOps e organizzazione · Guidare le persone · Conversazioni difficili · Pensare in termini di prodotto · La crescita personale del leader.
 - **Ricerca** per titolo, autore o tema e filtri per categoria.
 - **Player audio** con velocità (0,8×–2×), salti di 15/30 secondi, capitoli, timer di spegnimento, controlli dalla schermata di blocco e riproduzione in background.
+- **Ascolto continuo nei percorsi**: alla fine di un riassunto parte da solo il successivo del percorso (si può disattivare in Libreria).
+- **Pratica**: esercizi da spuntare per ogni libro, una sfida della settimana, note personali e ripasso con 250 schede domanda e risposta che tornano a intervalli crescenti (1, 3, 7, 14 e 30 giorni).
+- **Strumenti**: 17 schede operative per Scrum Master e team leader (retrospettive, Daily, riunioni individuali, feedback, conversazioni difficili, conflitti, decisioni, flusso, metriche), ognuna collegata ai libri da cui nasce.
 - **Modalità lettura** con dimensione del testo regolabile.
 - **Libreria**: progressi salvati, libri salvati, completati, minuti ascoltati.
 - **Offline**: l'app e i testi funzionano senza rete; gli audio si possono scaricare sul dispositivo.

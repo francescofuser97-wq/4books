@@ -11,6 +11,8 @@ const SHELL = [
   'js/app.js',
   'manifest.webmanifest',
   'data/books.json',
+  'data/toolbox.json',
+  'data/flashcards.json',
   'icons/icon-192.png',
   'icons/icon-512.png',
   'icons/apple-touch-icon.png',

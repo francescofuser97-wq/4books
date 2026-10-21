@@ -1,0 +1,418 @@
+{
+  "categories": ["Facilitazione", "Persone", "Team", "Decisioni", "Flusso", "Te stesso"],
+  "tools": [
+    {
+      "id": "retro-cinque-fasi",
+      "title": "Retrospettiva in cinque fasi",
+      "category": "Facilitazione",
+      "books": ["agile-retrospectives", "coaching-agile-teams"],
+      "summary": "La struttura che regge ogni retrospettiva, con i tempi per una sessione di 60 o 90 minuti.",
+      "blocks": [
+        {"h": "Prima di iniziare", "p": ["Scegli un obiettivo preciso per la sessione, ad esempio migliorare la qualità o la collaborazione, e le attività adatte. Leggi o ricorda la direttiva primaria: qualunque cosa scopriremo, crediamo che tutti abbiano fatto il miglior lavoro possibile, date le conoscenze, le capacità, le risorse e la situazione del momento."]},
+        {"h": "Le cinque fasi", "ol": [
+          "Preparare il terreno, 5–10 minuti: scopo, agenda, accordi di lavoro. Ognuno dice almeno una parola nei primi minuti.",
+          "Raccogliere i dati, 15–20 minuti: fatti ed emozioni dello sprint, prima di qualsiasi interpretazione.",
+          "Generare intuizioni, 15–25 minuti: perché è successo? Cerca schemi e cause, non soluzioni.",
+          "Decidere cosa fare, 10–15 minuti: una o due azioni concrete, con un responsabile e una scadenza.",
+          "Chiudere, 5 minuti: riepilogo, apprezzamenti, valutazione della retrospettiva."
+        ]},
+        {"h": "Errori da evitare", "ul": [
+          "Saltare alle soluzioni prima di aver capito le cause.",
+          "Uscire con dieci azioni: meglio una sola, realizzata.",
+          "Non verificare all'inizio della retrospettiva successiva cosa è successo alle azioni.",
+          "Ripetere sempre lo stesso formato."
+        ]}
+      ]
+    },
+    {
+      "id": "retro-attivita",
+      "title": "Attività per le retrospettive",
+      "category": "Facilitazione",
+      "books": ["agile-retrospectives"],
+      "summary": "Attività pronte per ciascuna fase, da alternare per tenere viva l'attenzione.",
+      "blocks": [
+        {"h": "Per preparare il terreno", "ul": [
+          "Una parola: ognuno descrive lo sprint con una parola.",
+          "Esploratori, acquirenti, vacanzieri, prigionieri: ognuno indica in forma anonima con che spirito partecipa."
+        ]},
+        {"h": "Per raccogliere i dati", "ul": [
+          "Linea del tempo: il team ricostruisce sul muro gli eventi dello sprint, con colori diversi per i momenti positivi e negativi.",
+          "Arrabbiato, triste, contento: eventi che hanno suscitato queste emozioni.",
+          "Metriche dello sprint: storie completate, difetti, tempo di attraversamento."
+        ]},
+        {"h": "Per generare intuizioni", "ul": [
+          "Cinque perché: chiedi perché fino ad arrivare a una causa su cui agire.",
+          "Lisca di pesce: organizza le possibili cause per categorie, come persone, processo, strumenti, ambiente.",
+          "Schemi e cambiamenti: cerca ciò che si ripete nei dati raccolti."
+        ]},
+        {"h": "Per decidere e chiudere", "ul": [
+          "Azione specifica, misurabile e con una scadenza, inserita nel backlog dello sprint.",
+          "Mantenere e cambiare: cosa teniamo, cosa modifichiamo.",
+          "Apprezzamenti: ognuno ringrazia un collega per qualcosa di specifico.",
+          "Ritorno sul tempo investito: voto da uno a cinque sulla retrospettiva."
+        ]}
+      ]
+    },
+    {
+      "id": "daily-efficace",
+      "title": "Una Daily Scrum che serve davvero",
+      "category": "Facilitazione",
+      "books": ["scrum-mastery", "kanban", "scrum-sutherland"],
+      "summary": "Quindici minuti per coordinarsi verso lo Sprint Goal, non un rapporto allo Scrum Master.",
+      "blocks": [
+        {"h": "Come condurla", "ol": [
+          "Apri leggendo lo Sprint Goal.",
+          "Percorri la board da destra a sinistra, partendo dal lavoro più vicino al completamento.",
+          "Per ogni elemento chiedi: cosa serve per farlo avanzare? Cosa è bloccato? Chi può aiutare?",
+          "Rimanda le discussioni lunghe a dopo, con le sole persone coinvolte."
+        ]},
+        {"h": "Segnali che qualcosa non va", "ul": [
+          "Le persone guardano te invece dei colleghi o della board.",
+          "Ognuno racconta cosa ha fatto, ma nessuno chiede aiuto.",
+          "Si superano regolarmente i quindici minuti.",
+          "Ci sono più storie in corso che persone."
+        ]},
+        {"h": "Cosa puoi fare", "ul": [
+          "Spostati fuori dal cerchio o guarda la board.",
+          "Per qualche giorno lascia che sia il team a condurla.",
+          "Chiedi: quello che faremo oggi ci avvicina allo Sprint Goal?"
+        ]}
+      ]
+    },
+    {
+      "id": "domande-one-to-one",
+      "title": "Domande per le riunioni individuali",
+      "category": "Persone",
+      "books": ["coaching-habit", "making-of-a-manager", "high-output-management", "radical-candor"],
+      "summary": "La riunione è del collaboratore. Fai domande, ascolta, e lascialo con la sensazione di essere stato aiutato.",
+      "blocks": [
+        {"h": "Le sette domande del coaching", "ol": [
+          "Cosa hai in mente?",
+          "E cos'altro?",
+          "Qual è la vera sfida qui per te?",
+          "Cosa vuoi?",
+          "Come posso aiutarti?",
+          "Se dici sì a questo, a cosa stai dicendo no?",
+          "Cosa ti è stato più utile?"
+        ]},
+        {"h": "Altre domande utili", "ul": [
+          "Cosa ti sta togliendo energia in questo periodo?",
+          "C'è qualcosa che ti preoccupa e che non hai ancora detto?",
+          "C'è qualcosa che potrei fare, o smettere di fare, per rendere più facile lavorare con me?",
+          "Cosa vorresti imparare nei prossimi sei mesi?"
+        ]},
+        {"h": "Regole", "ul": [
+          "Una domanda alla volta, poi silenzio.",
+          "Niente aggiornamenti di stato: per quelli ci sono altri canali.",
+          "Frequenza in base all'esperienza della persona nel compito: più spesso con chi è nuovo."
+        ]}
+      ]
+    },
+    {
+      "id": "dare-feedback",
+      "title": "Dare feedback: elogi e correzioni",
+      "category": "Persone",
+      "books": ["radical-candor", "manager-minuto", "dare-to-lead"],
+      "summary": "Tieni alla persona e sfidala direttamente. Chiaro è gentile.",
+      "blocks": [
+        {"h": "Elogio in un minuto", "ol": [
+          "Subito, appena noti il comportamento.",
+          "Specifico: cosa ha fatto esattamente.",
+          "Perché è utile per il team o per il cliente.",
+          "Un momento di silenzio, poi incoraggia a continuare."
+        ]},
+        {"h": "Correzione in un minuto", "ol": [
+          "Subito e in privato.",
+          "Descrivi il comportamento, non la persona.",
+          "Spiega l'impatto e come ti senti.",
+          "Un momento di silenzio.",
+          "Ricorda alla persona quanto la stimi. Poi chiudi lì."
+        ]},
+        {"h": "Controllo prima di parlare", "ul": [
+          "Sto evitando la conversazione per non ferire? È empatia rovinosa.",
+          "Sto per farlo davanti ad altri? Fermati.",
+          "Il messaggio è umile, utile, immediato, di persona e non riguarda la personalità?",
+          "Dopo, verifica cosa ha capito l'altro: la franchezza si misura all'orecchio di chi ascolta."
+        ]}
+      ]
+    },
+    {
+      "id": "feedback-nonviolento",
+      "title": "Feedback in quattro passi",
+      "category": "Persone",
+      "books": ["parole-finestre", "crucial-conversations", "dare-to-lead"],
+      "summary": "Osservazione, sentimento, bisogno, richiesta: per i messaggi delicati.",
+      "blocks": [
+        {"h": "La struttura", "ol": [
+          "Osservazione: cosa è successo, come lo descriverebbe una telecamera. Niente sempre e mai.",
+          "Sentimento: come ti senti, ad esempio preoccupato o frustrato. Non tradito o ignorato, che sono giudizi.",
+          "Bisogno: cosa conta per te, ad esempio prevedibilità, chiarezza, qualità.",
+          "Richiesta: un'azione concreta e positiva, che l'altro può anche rifiutare."
+        ]},
+        {"h": "Esempio", "p": ["Nelle ultime tre Daily sei arrivato dopo l'inizio. Mi sento preoccupato, perché ho bisogno che il team si coordini con tutti presenti. Ti andrebbe di dirmi cosa succede, e se l'orario funziona per te?"]},
+        {"h": "Frasi utili", "ul": [
+          "La storia che mi sto raccontando è che… È così?",
+          "Non intendo dire che…, intendo dire che…",
+          "Sto iniziando a pensare che… Mi aiuti a capire?"
+        ]}
+      ]
+    },
+    {
+      "id": "chiedere-feedback",
+      "title": "Chiedere e ricevere feedback",
+      "category": "Persone",
+      "books": ["thanks-for-feedback", "radical-candor", "agile-conversations"],
+      "summary": "Se vuoi un team franco, comincia chiedendo critiche per te.",
+      "blocks": [
+        {"h": "Come chiederlo", "ul": [
+          "C'è qualcosa che potrei fare, o smettere di fare, che renderebbe più facile lavorare con me?",
+          "Qual è una cosa che mi vedi fare che mi ostacola?",
+          "Dopo la domanda, conta mentalmente fino a sei in silenzio."
+        ]},
+        {"h": "Quando lo ricevi", "ol": [
+          "Ringrazia, anche se non sei d'accordo.",
+          "Chiedi da dove viene: cosa hai visto o sentito?",
+          "Chiedi dove porta: cosa faresti al mio posto?",
+          "Cerca cosa c'è di giusto prima di cosa c'è di sbagliato.",
+          "Mostra cosa hai cambiato."
+        ]},
+        {"h": "Riconosci gli inneschi", "ul": [
+          "Verità: mi sembra sbagliato. Cerca prima di capire.",
+          "Relazione: chi è lui per dirmelo? Separa il messaggio da chi lo porta.",
+          "Identità: allora non sono capace. È un'informazione, non un verdetto."
+        ]}
+      ]
+    },
+    {
+      "id": "conversazione-difficile",
+      "title": "Preparare una conversazione difficile",
+      "category": "Persone",
+      "books": ["crucial-conversations", "getting-to-yes", "agile-conversations"],
+      "summary": "Posta in gioco alta, opinioni diverse, emozioni forti: prepararsi cambia tutto.",
+      "blocks": [
+        {"h": "Prima", "ul": [
+          "Cosa voglio davvero per me, per l'altro e per la relazione?",
+          "Quali sono i fatti? Quale storia mi sto raccontando?",
+          "Perché una persona ragionevole si comporterebbe così?",
+          "Quali interessi ci sono dietro la sua posizione?",
+          "Scrivi la conversazione che temi in due colonne: cosa diresti e cosa penseresti senza dirlo."
+        ]},
+        {"h": "Durante", "ol": [
+          "Condividi i fatti.",
+          "Racconta la tua conclusione in modo provvisorio.",
+          "Chiedi il suo punto di vista, sinceramente.",
+          "Se la tensione sale, torna allo scopo comune e al rispetto reciproco.",
+          "Chiudi con chi fa cosa, entro quando, e come verifichiamo."
+        ]}
+      ]
+    },
+    {
+      "id": "cinque-disfunzioni",
+      "title": "Diagnosi delle cinque disfunzioni",
+      "category": "Team",
+      "books": ["cinque-disfunzioni", "fearless-organization"],
+      "summary": "Una domanda per livello, dal basso verso l'alto della piramide.",
+      "blocks": [
+        {"h": "Domande di diagnosi", "ol": [
+          "Fiducia: le persone ammettono errori e chiedono aiuto senza paura?",
+          "Conflitto: le discussioni tecniche sono vere, o finisce sempre con chi alza la voce?",
+          "Impegno: si esce dalla pianificazione con un vero impegno sullo Sprint Goal?",
+          "Responsabilità: se qualcuno non rispetta la definizione di fatto, un collega lo fa notare?",
+          "Risultati: ognuno difende le proprie storie o l'obiettivo comune?"
+        ]},
+        {"h": "Come usarla", "p": ["Chiedi al team di votare in forma anonima da uno a cinque ogni livello. Lavora sul livello più basso con un punteggio debole: i livelli superiori dipendono da quelli inferiori."]},
+        {"h": "Mosse del leader", "ul": [
+          "Fiducia: mostrati vulnerabile per primo.",
+          "Conflitto: non salvare le persone quando la discussione si accende sulle idee.",
+          "Impegno: decidi anche senza consenso unanime, dopo aver ascoltato tutti.",
+          "Responsabilità: rendi pubblici obiettivi e standard.",
+          "Risultati: metti gli obiettivi comuni davanti ai tuoi."
+        ]}
+      ]
+    },
+    {
+      "id": "livelli-conflitto",
+      "title": "I cinque livelli del conflitto",
+      "category": "Team",
+      "books": ["coaching-agile-teams"],
+      "summary": "Ascolta il linguaggio per capire quanto è grave un conflitto e come intervenire.",
+      "blocks": [
+        {"h": "I livelli", "ol": [
+          "Un problema da risolvere: linguaggio aperto, orientato ai fatti.",
+          "Disaccordo: le persone si proteggono, parlano con cautela.",
+          "Competizione: si vuole vincere; compaiono tu fai sempre, voi non ascoltate mai.",
+          "Crociata: si difende il proprio gruppo, il conflitto diventa una questione di principio.",
+          "Guerra: l'obiettivo è eliminare l'altra parte."
+        ]},
+        {"h": "Come intervenire", "ul": [
+          "Livelli uno e due: facilita e lascia che il team lo risolva.",
+          "Livello tre: riporta la discussione sui fatti e sugli interessi comuni.",
+          "Livelli quattro e cinque: servono interventi più forti, spesso con supporto esterno o del management."
+        ]}
+      ]
+    },
+    {
+      "id": "chi-decide",
+      "title": "Chi decide e come",
+      "category": "Decisioni",
+      "books": ["high-output-management", "crucial-conversations", "turn-ship-around", "pensieri-lenti-veloci"],
+      "summary": "Molti conflitti nascono perché non è chiaro chi decide. Chiariscilo prima.",
+      "blocks": [
+        {"h": "Sei domande prima di decidere", "ol": [
+          "Quale decisione va presa?",
+          "Entro quando?",
+          "Chi decide?",
+          "Chi va consultato?",
+          "Chi ha diritto di veto?",
+          "Chi va informato?"
+        ]},
+        {"h": "Quattro modi di decidere", "ul": [
+          "Comando: decide un'altra persona o un altro livello.",
+          "Consultazione: chi decide raccoglie i pareri, poi sceglie.",
+          "Voto: quando le opzioni sono equivalenti e serve rapidità.",
+          "Consenso: per decisioni importanti in cui serve l'impegno di tutti."
+        ]},
+        {"h": "Buone pratiche", "ul": [
+          "Discussione libera, decisione chiara, pieno sostegno.",
+          "Raccogli i pareri in modo indipendente prima di discuterne.",
+          "Invita il team a dire ho intenzione di, invece di chiedere il permesso."
+        ]}
+      ]
+    },
+    {
+      "id": "negoziare",
+      "title": "Negoziare priorità e dipendenze",
+      "category": "Decisioni",
+      "books": ["getting-to-yes", "coaching-habit", "product-development-flow"],
+      "summary": "Con il Product Owner, gli stakeholder o un altro team: sul merito, non sulle posizioni.",
+      "blocks": [
+        {"h": "I quattro principi", "ol": [
+          "Separa le persone dal problema.",
+          "Cerca gli interessi dietro le posizioni: perché è importante per te?",
+          "Inventa almeno tre opzioni prima di scegliere.",
+          "Decidi con criteri oggettivi: velocità reale, costo del ritardo, rischio."
+        ]},
+        {"h": "Domande utili", "ul": [
+          "Se aggiungiamo questa storia allo sprint, cosa togliamo?",
+          "Quanto costerebbe un mese di ritardo su questa iniziativa?",
+          "Qual è la nostra migliore alternativa se non troviamo un accordo?"
+        ]}
+      ]
+    },
+    {
+      "id": "analisi-preventiva",
+      "title": "Stime realistiche e analisi preventiva",
+      "category": "Decisioni",
+      "books": ["pensieri-lenti-veloci", "mythical-man-month", "scrum-sutherland"],
+      "summary": "Contro ancoraggio, ottimismo ed errore di pianificazione.",
+      "blocks": [
+        {"h": "Per le stime", "ul": [
+          "Ognuno stima in modo indipendente e le stime si rivelano insieme.",
+          "Nessuno dice un numero prima degli altri, soprattutto chi ha più autorità.",
+          "Parti dalla visione dall'esterno: quanto hanno impiegato lavori simili?",
+          "Pianifica sulla velocità media reale degli ultimi sprint.",
+          "Aggiungere persone a un progetto in ritardo lo rallenta ancora."
+        ]},
+        {"h": "Analisi preventiva in dieci minuti", "ol": [
+          "Immaginate che sia passato un anno e che il progetto sia stato un disastro.",
+          "Ognuno scrive in cinque minuti come è andata male.",
+          "Leggete le storie e raccogliete i rischi ricorrenti.",
+          "Decidete quali rischi affrontare subito."
+        ]}
+      ]
+    },
+    {
+      "id": "collo-di-bottiglia",
+      "title": "Trovare e gestire il collo di bottiglia",
+      "category": "Flusso",
+      "books": ["la-meta", "this-is-lean", "kanban", "phoenix-project"],
+      "summary": "Il ritmo del team è quello del suo punto più lento.",
+      "blocks": [
+        {"h": "Come trovarlo", "ul": [
+          "Guarda la board: in quale colonna il lavoro si accumula?",
+          "Quale persona viene cercata per tutto?",
+          "Dove le storie aspettano più a lungo?"
+        ]},
+        {"h": "I cinque passi", "ol": [
+          "Identifica il vincolo.",
+          "Sfruttalo al massimo: niente lavoro inutile e niente pause evitabili per il vincolo.",
+          "Subordina il resto: quando la coda davanti al vincolo è piena, il team aiuta lì invece di iniziare nuovo lavoro.",
+          "Eleva il vincolo: automazione, formazione, più persone.",
+          "Ricomincia: il vincolo si sarà spostato."
+        ]},
+        {"h": "Ricorda", "ul": [
+          "Più lavoro in corso significa tempi più lunghi.",
+          "Un'ora persa sul collo di bottiglia è persa per tutto il sistema.",
+          "Tenere tutti occupati al cento per cento crea code."
+        ]}
+      ]
+    },
+    {
+      "id": "lavoro-non-pianificato",
+      "title": "Urgenze e lavoro non pianificato",
+      "category": "Flusso",
+      "books": ["phoenix-project", "kanban", "scrum-sutherland"],
+      "summary": "Rendi visibile tutto il lavoro e dai regole chiare alle urgenze.",
+      "blocks": [
+        {"h": "I quattro tipi di lavoro", "ul": [
+          "Progetti di business.",
+          "Progetti interni dell'IT.",
+          "Cambiamenti ai sistemi.",
+          "Lavoro non pianificato: il più distruttivo."
+        ]},
+        {"h": "Regole per le urgenze", "ul": [
+          "Misura quanta capacità va in lavoro non pianificato negli ultimi sprint.",
+          "Riserva in pianificazione una parte di capacità alle urgenze.",
+          "Al massimo un'urgenza alla volta.",
+          "Una nuova richiesta entra nello sprint solo se ne esce un'altra non ancora iniziata.",
+          "Per ogni urgenza ricorrente, cerca la causa con i cinque perché."
+        ]}
+      ]
+    },
+    {
+      "id": "metriche-flusso",
+      "title": "Misurare il team senza ingannarsi",
+      "category": "Flusso",
+      "books": ["accelerate", "kanban", "escaping-build-trap"],
+      "summary": "Misura i risultati del sistema, non l'attività delle persone.",
+      "blocks": [
+        {"h": "Le quattro metriche chiave", "ol": [
+          "Tempo di consegna delle modifiche, dal codice salvato alla produzione.",
+          "Frequenza dei rilasci.",
+          "Tempo di ripristino dopo un guasto.",
+          "Percentuale di rilasci che causano problemi."
+        ]},
+        {"h": "Misure di flusso", "ul": [
+          "Tempo di attraversamento delle storie, per fare previsioni: l'85 per cento delle storie finisce entro tot giorni.",
+          "Throughput: quante storie si completano a settimana.",
+          "Lavoro in corso per colonna."
+        ]},
+        {"h": "Da evitare", "ul": [
+          "Usare la velocità per confrontare i team.",
+          "Contare le funzionalità consegnate invece dei risultati per gli utenti.",
+          "Misurare quanto sono occupate le persone."
+        ]}
+      ]
+    },
+    {
+      "id": "settimana-leader",
+      "title": "La settimana del team leader",
+      "category": "Te stesso",
+      "books": ["sette-regole", "manager-efficace", "deep-work", "atomic-habits"],
+      "summary": "Una routine per non vivere solo di urgenze.",
+      "blocks": [
+        {"h": "Ogni lunedì, venti minuti", "ul": [
+          "Metti in calendario per prime due o tre attività importanti ma non urgenti: riunioni individuali, formazione, miglioramento.",
+          "Blocca almeno due finestre di novanta minuti senza riunioni.",
+          "Scegli una cosa a cui dirai di no questa settimana."
+        ]},
+        {"h": "Ogni giorno", "ul": [
+          "Un elogio specifico a qualcuno del team.",
+          "Email e chat in momenti programmati, non continuamente.",
+          "Rituale di chiusura: rivedi le attività aperte e pianifica il giorno dopo."
+        ]},
+        {"h": "Costruire un'abitudine", "p": ["Usa la formula: quando succede questo, invece di fare quello, farò quest'altro. Agganciala a un'abitudine esistente, riducila a due minuti all'inizio, segna ogni giorno in cui la fai e non saltare mai due volte."]}
+      ]
+    }
+  ]
+}
