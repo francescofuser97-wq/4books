@@ -54,10 +54,15 @@ const state = {
   summaries: {},    // id -> {chapters: [{title, paragraphs}]}
   progress: store.get('progress', {}), // id -> {pos, dur, done, t}
   saved: store.get('saved', []),
-  settings: Object.assign({ rate: 1, readerFs: 19 }, store.get('settings', {})),
+  settings: Object.assign({ rate: 1, readerFs: 19, autoNext: true }, store.get('settings', {})),
   listened: store.get('listened', 0),
   filter: 'Tutti',
   query: '',
+  toolbox: { categories: [], tools: [] },
+  toolFilter: 'Tutti',
+  flashcards: {},   // id libro -> [[domanda, risposta], ...]
+  cards: store.get('cards', {}),  // 'libro:indice' -> {box, due}: le schede nel ripasso
+  practice: Object.assign({ exercises: {}, notes: {}, challenge: null, reviewed: 0, reviewDays: [] }, store.get('practice', {})),
 };
 
 const saveProgress = () => store.set('progress', state.progress);
@@ -75,6 +80,10 @@ async function loadData() {
     const r = await fetch('covers/index.json', { cache: 'no-cache' });
     if (r.ok) state.covers = await r.json();
   } catch { /* senza copertine si usano quelle grafiche */ }
+  const [toolbox, flashcards] = await Promise.all(['data/toolbox.json', 'data/flashcards.json']
+    .map((url) => fetch(url).then((r) => (r.ok ? r.json() : null)).catch(() => null)));
+  if (toolbox) state.toolbox = toolbox;
+  if (flashcards) state.flashcards = flashcards;
 }
 
 const coverUrl = (id) => (state.covers[id] ? `covers/${id}.jpg?v=${state.covers[id]}` : null);
@@ -298,6 +307,7 @@ const SLEEP_OPTIONS = [
 const player = {
   id: null,
   engine: null,
+  context: null,    // {pathId} quando l'ascolto è partito da un percorso
   sleep: null,      // {until} oppure {chapter}
   dragging: false,
   lastSave: 0,
@@ -399,6 +409,14 @@ const player = {
     if (type === 'ended') {
       this.markDone(this.id, true);
       this.sleep = null;
+      // Ascolto continuo: si passa subito al prossimo libro del percorso, senza attese,
+      // così l'audio prosegue anche a schermo bloccato.
+      const next = state.settings.autoNext ? this.nextInPath() : null;
+      if (next) {
+        toast(`Ora: ${state.books[next].title}`);
+        this.load(next, { autoplay: true });
+        return;
+      }
       toast('Riassunto completato 🎉');
     }
     if (type === 'time' && this.engine) {
@@ -448,6 +466,14 @@ const player = {
     p.t = Date.now();
     state.progress[id] = p;
     saveProgress();
+    if (done) addToDeck(id);
+  },
+
+  nextInPath() {
+    const path = state.paths.find((pth) => pth.id === this.context?.pathId);
+    const i = path ? path.books.indexOf(this.id) : -1;
+    if (i < 0) return null;
+    return path.books.slice(i + 1).find((bid) => !state.progress[bid]?.done) || null;
   },
 
   setupMediaSession() {
@@ -513,6 +539,10 @@ function renderPlayerStatic() {
     ? 'Lettura con la voce del dispositivo: tieni lo schermo acceso. Con l\'audio MP3 la riproduzione continua anche a schermo bloccato.'
     : '';
   $('[data-action="download"]', playerEl).hidden = speech || !('caches' in window);
+  const next = state.settings.autoNext ? player.nextInPath() : null;
+  const nextEl = $('.player-next', playerEl);
+  nextEl.hidden = !next;
+  nextEl.textContent = next ? `Poi nel percorso: ${state.books[next].title}` : '';
   refreshDownloadButton();
   miniEl.hidden = false;
   document.body.classList.add('has-mini');
@@ -692,6 +722,10 @@ function parseRoute() {
   if (a === 'percorsi') return { name: 'paths' };
   if (a === 'percorso' && state.paths.some((p) => p.id === b)) return { name: 'path', id: b };
   if (a === 'libreria') return { name: 'library' };
+  if (a === 'pratica') return { name: 'practice' };
+  if (a === 'ripasso') return { name: 'review', id: state.books[b] ? b : null };
+  if (a === 'strumenti') return { name: 'tools' };
+  if (a === 'strumento' && state.toolbox.tools.some((t) => t.id === b)) return { name: 'tool', id: b };
   return { name: 'home' };
 }
 
@@ -812,7 +846,10 @@ function renderPath(id) {
   return `
     ${backLink('#/percorsi')}
     ${pathCard(path, i)}
-    ${next ? `<button class="btn primary" style="width:100%;margin-top:14px" data-action="play" data-id="${next}">${ICON.play}${started ? 'Continua il percorso' : 'Inizia il percorso'}</button>` : '<p class="empty" style="margin-top:14px">Hai completato tutto il percorso. Ottimo lavoro!</p>'}
+    <p class="hint">${state.settings.autoNext
+      ? 'Ascolto continuo attivo: alla fine di un riassunto parte il successivo del percorso.'
+      : 'Ascolto continuo disattivato: puoi attivarlo in Libreria.'}</p>
+    ${next ? `<button class="btn primary" style="width:100%;margin-top:14px" data-action="play" data-id="${next}" data-path="${path.id}">${ICON.play}${started ? 'Continua il percorso' : 'Inizia il percorso'}</button>` : '<p class="empty" style="margin-top:14px">Hai completato tutto il percorso. Ottimo lavoro!</p>'}
     <section class="section">
       <ol class="steps">
         ${path.books.map((bid, n) => {
@@ -821,7 +858,7 @@ function renderPath(id) {
           return `<li class="step ${done ? 'done' : ''}">
             <span class="num">${done ? ICON.check.replace('<svg', '<svg width="16" height="16"') : n + 1}</span>
             <a href="#/libro/${bid}" style="display:contents">${coverHTML(b)}<div class="info"><div class="t">${esc(b.title)}</div><div class="s">${esc(b.author)} · ${fmtMinutes(bookDuration(bid))}</div></div></a>
-            <button class="icon-btn" data-action="play" data-id="${bid}" aria-label="Ascolta ${esc(b.title)}">${ICON.play}</button>
+            <button class="icon-btn" data-action="play" data-id="${bid}" data-path="${path.id}" aria-label="Ascolta ${esc(b.title)}">${ICON.play}</button>
           </li>`;
         }).join('')}
       </ol>
@@ -868,7 +905,8 @@ async function renderBook(id) {
       <ol class="toc">${chapters.map((c, i) => `<li><button data-action="play-chapter" data-id="${id}" data-chapter="${i}">
         <span class="n">${i + 1}</span><span class="tt">${esc(c.title)}</span><span class="tm">${fmtTime(c.start)}</span></button></li>`).join('')}</ol>
       <button class="btn mark-done" data-action="toggle-done" data-id="${id}">${p?.done ? 'Segna come da ascoltare' : `${ICON.check}Segna come completato`}</button>
-    </section>`;
+    </section>
+    ${practiceSectionsHTML(id, summary)}`;
 }
 
 async function renderRead(id) {
@@ -880,6 +918,7 @@ async function renderRead(id) {
       <div class="reader-tools">
         <button class="pill" data-action="font" data-delta="-1" aria-label="Testo più piccolo">A−</button>
         <button class="pill" data-action="font" data-delta="1" aria-label="Testo più grande">A+</button>
+        <button class="pill" data-action="open-note" data-id="${id}" aria-label="Le mie note">Note</button>
         <button class="pill on" data-action="play" data-id="${id}" aria-label="Ascolta">▶︎ Ascolta</button>
       </div>
     </div>
@@ -913,6 +952,7 @@ function renderLibrary() {
     <section class="section">
       <h2 class="section-title">Impostazioni</h2>
       ${'caches' in window && Object.keys(state.audio).length ? '<button class="option" data-action="download-all">Scarica tutti gli audio per l\'ascolto offline</button><button class="option" data-action="clear-downloads">Rimuovi gli audio scaricati</button>' : ''}
+      <button class="option" data-action="toggle-autonext">Ascolto continuo nei percorsi <span class="val">${state.settings.autoNext ? 'Attivo' : 'Disattivo'}</span></button>
       <button class="option" data-action="reset">Azzera progressi e statistiche</button>
       <p style="color:var(--text-3);font-size:13px;margin-top:14px">${Object.keys(state.audio).length
         ? 'Audio generati con sintesi vocale neurale (Piper, voce italiana).'
@@ -923,7 +963,10 @@ function renderLibrary() {
 async function render() {
   route = parseRoute();
   $$('.tabbar a').forEach((a) => {
-    const tab = { home: 'home', book: 'home', read: 'home', paths: 'paths', path: 'paths', library: 'library' }[route.name];
+    const tab = {
+      home: 'home', book: 'home', read: 'home', paths: 'paths', path: 'paths', library: 'library',
+      practice: 'practice', review: 'practice', tools: 'tools', tool: 'tools',
+    }[route.name];
     a.classList.toggle('active', a.dataset.tab === tab);
   });
   let html;
@@ -933,6 +976,10 @@ async function render() {
     else if (route.name === 'paths') html = renderPaths();
     else if (route.name === 'path') html = renderPath(route.id);
     else if (route.name === 'library') html = renderLibrary();
+    else if (route.name === 'practice') html = await renderPractice();
+    else if (route.name === 'review') { startReview(route.id); html = renderReview(); }
+    else if (route.name === 'tools') html = renderTools();
+    else if (route.name === 'tool') html = renderTool(route.id);
     else html = renderHome();
   } catch {
     html = `${backLink()}<p class="empty">Contenuto non disponibile offline. Riprova quando sei connesso.</p>`;
@@ -942,6 +989,271 @@ async function render() {
   if (route.name === 'read' && player.id === route.id && player.engine) {
     $(`#ch-${player.chapterIndex()}`)?.scrollIntoView();
   }
+}
+
+/* ---------- Pratica: esercizi, sfida della settimana, note e ripasso ---------- */
+
+const DAY = 86400000;
+const BOX_DAYS = [0, 1, 3, 7, 14, 30]; // giorni di attesa prima del ripasso, per ogni scatola
+const savePractice = () => store.set('practice', state.practice);
+const saveCards = () => store.set('cards', state.cards);
+
+// Le date sono mezzanotti locali, calcolate con il calendario per non sbagliare con l'ora legale.
+function today(offsetDays = 0) {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  d.setDate(d.getDate() + offsetDays);
+  return d.getTime();
+}
+const dayKey = (t) => { const d = new Date(t); return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`; };
+
+const ORDINAL = /^(Primo|Secondo|Terzo|Quarto|Quinto|Sesto|Settimo|Ottavo):\s*/;
+function exercisesOf(summary) {
+  const chapter = summary.chapters.find((c) => c.title.startsWith('Come metterlo in pratica'));
+  if (!chapter) return [];
+  return chapter.paragraphs.filter((t) => ORDINAL.test(t))
+    .map((t) => t.replace(ORDINAL, '').replace(/^./, (c) => c.toUpperCase()));
+}
+
+function toggleExercise(bookId, index, forceDone = false) {
+  const done = new Set(state.practice.exercises[bookId] || []);
+  const nowDone = forceDone || !done.has(index);
+  if (nowDone) done.add(index); else done.delete(index);
+  state.practice.exercises[bookId] = [...done].sort();
+  const ch = state.practice.challenge;
+  if (nowDone && ch && ch.bookId === bookId && ch.index === index) {
+    state.practice.challenge = null;
+    toast('Sfida completata 💪');
+  }
+  savePractice();
+  render();
+}
+
+const cardIds = (bookId) => (state.flashcards[bookId] || []).map((_, i) => `${bookId}:${i}`);
+function cardContent(cardId) {
+  const [bookId, i] = cardId.split(':');
+  const card = state.flashcards[bookId]?.[Number(i)];
+  return card ? { bookId, q: card[0], a: card[1] } : null;
+}
+
+// Un libro completato entra nel ripasso: le sue schede tornano a partire da domani.
+function addToDeck(bookId) {
+  let added = 0;
+  for (const cid of cardIds(bookId)) {
+    if (!state.cards[cid]) { state.cards[cid] = { box: 1, due: today(1) }; added++; }
+  }
+  if (added) saveCards();
+}
+
+const dueCards = () => Object.entries(state.cards)
+  .filter(([cid, c]) => c.due <= today() && cardContent(cid))
+  .sort((a, b) => a[1].due - b[1].due)
+  .map(([cid]) => cid);
+
+// Ripasso a scatole: chi sa la risposta sale di scatola e torna più tardi, chi sbaglia riparte.
+function gradeCard(cid, grade) {
+  const c = state.cards[cid] || { box: 1 };
+  if (grade === 'again') c.box = 1;
+  if (grade === 'good') c.box = Math.min(5, c.box + 1);
+  c.due = today(BOX_DAYS[c.box]);
+  state.cards[cid] = c;
+  saveCards();
+  state.practice.reviewed += 1;
+  state.practice.reviewDays = [...new Set([...state.practice.reviewDays, dayKey(today())])].slice(-60);
+  savePractice();
+}
+
+function reviewStreak() {
+  const days = new Set(state.practice.reviewDays);
+  let offset = days.has(dayKey(today())) ? 0 : -1; // la serie resta valida finché non salti un giorno intero
+  let n = 0;
+  while (days.has(dayKey(today(offset)))) { n++; offset--; }
+  return n;
+}
+
+let review = null;
+function startReview(bookId) {
+  review = {
+    bookId,
+    queue: bookId ? cardIds(bookId) : dueCards().slice(0, 20),
+    i: 0,
+    count: 0,
+    revealed: false,
+    requeued: new Set(),
+  };
+}
+const refreshReview = () => { view.innerHTML = renderReview(); };
+
+function renderReview() {
+  const r = review;
+  const head = backLink(r.bookId ? `#/libro/${r.bookId}` : '#/pratica');
+  if (!r.queue.length) {
+    return `${head}<div class="review-end"><h1>Niente da ripassare</h1>
+      <p>Per oggi hai finito. Le schede tornano a intervalli crescenti: 1, 3, 7, 14 e 30 giorni.</p>
+      <a class="btn primary" href="#/pratica">Torna a Pratica</a></div>`;
+  }
+  if (r.i >= r.queue.length) {
+    const tomorrow = Object.values(state.cards).filter((c) => c.due === today(1)).length;
+    return `${head}<div class="review-end"><div class="big">🎉</div><h1>Ripasso completato</h1>
+      <p>Hai ripassato ${r.count} ${r.count === 1 ? 'scheda' : 'schede'}.${tomorrow ? ` Domani ti aspettano ${tomorrow} schede.` : ''}</p>
+      <a class="btn primary" href="#/pratica">Torna a Pratica</a></div>`;
+  }
+  const c = cardContent(r.queue[r.i]);
+  const b = state.books[c.bookId];
+  return `${head}
+    <div class="review" style="--c1:${b.colors[0]}">
+      <div class="review-progress"><span style="width:${(r.i / r.queue.length) * 100}%"></span></div>
+      <div class="review-meta">${r.i + 1} di ${r.queue.length} · ${esc(b.title)}</div>
+      <div class="flashcard">
+        <div class="q">${esc(c.q)}</div>
+        ${r.revealed ? `<div class="a">${esc(c.a)}</div>` : ''}
+      </div>
+      ${r.revealed
+        ? `<div class="grades">
+            <button class="btn" data-action="grade" data-grade="again">Da rivedere</button>
+            <button class="btn" data-action="grade" data-grade="hard">Più o meno</button>
+            <button class="btn primary" data-action="grade" data-grade="good">La sapevo</button>
+          </div>`
+        : `<button class="btn primary wide" data-action="reveal">Mostra la risposta</button>
+          <p class="hint">Prova a rispondere ad alta voce prima di girare la scheda: ricordare costa fatica, ed è proprio questo che fissa le idee.</p>`}
+    </div>`;
+}
+
+function practiceSectionsHTML(id, summary) {
+  const exercises = exercisesOf(summary);
+  const done = new Set(state.practice.exercises[id] || []);
+  const ch = state.practice.challenge;
+  const cards = cardIds(id);
+  const inDeck = cards.filter((cid) => state.cards[cid]).length;
+  return `
+    ${exercises.length ? `<section class="section">
+      <h2 class="section-title">Mettilo in pratica <small>${done.size}/${exercises.length}</small></h2>
+      <ul class="exercises">${exercises.map((text, i) => `<li class="exercise ${done.has(i) ? 'done' : ''}">
+        <button class="check" data-action="toggle-ex" data-id="${id}" data-index="${i}" aria-pressed="${done.has(i)}" aria-label="Segna come fatto">${ICON.check}</button>
+        <div class="ex-body"><span class="ex-text">${esc(text)}</span>
+          ${ch && ch.bookId === id && ch.index === i ? '<span class="tag">Sfida della settimana</span>'
+            : done.has(i) ? '' : `<button class="link" data-action="set-challenge" data-id="${id}" data-index="${i}">Fanne la sfida della settimana</button>`}
+        </div></li>`).join('')}</ul>
+    </section>` : ''}
+    ${cards.length ? `<section class="section">
+      <h2 class="section-title">Ripasso</h2>
+      <div class="review-cta"><p>${cards.length} schede per fissare le idee chiave.${inDeck ? ` ${inDeck} sono nel tuo ripasso periodico.` : ' Entrano nel ripasso periodico quando completi il riassunto.'}</p>
+        <a class="btn" href="#/ripasso/${id}">Ripassa questo libro</a></div>
+    </section>` : ''}
+    <section class="section">
+      <h2 class="section-title">Le mie note</h2>
+      <textarea class="note" data-note="${id}" rows="5" placeholder="Come applichi questo libro nel tuo team?">${esc(state.practice.notes[id] || '')}</textarea>
+      <p class="hint">Salvate automaticamente su questo dispositivo.</p>
+    </section>`;
+}
+
+async function challengeHTML() {
+  const ch = state.practice.challenge;
+  if (ch && state.books[ch.bookId]) {
+    const text = exercisesOf(await getSummary(ch.bookId))[ch.index] || '';
+    const day = Math.round((today() - ch.start) / DAY) + 1;
+    const over = day > 7;
+    return `<div class="challenge">
+      <div class="k">${over ? 'Settimana conclusa: com\'è andata?' : `Giorno ${day} di 7`} · <a href="#/libro/${ch.bookId}">${esc(state.books[ch.bookId].title)}</a></div>
+      <p>${esc(text)}</p>
+      <div class="row-btns">
+        <button class="btn primary" data-action="challenge-done">${ICON.check}Fatto</button>
+        <button class="btn" data-action="challenge-drop">${over ? 'Non ci sono riuscito' : 'Cambia sfida'}</button>
+      </div></div>`;
+  }
+  // Nessuna sfida attiva: proponiamo il primo esercizio non fatto dei libri ascoltati di recente.
+  const recent = state.order.filter((id) => state.progress[id])
+    .sort((a, b) => (state.progress[b].t || 0) - (state.progress[a].t || 0)).slice(0, 5);
+  for (const id of recent) {
+    const exercises = exercisesOf(await getSummary(id));
+    const done = new Set(state.practice.exercises[id] || []);
+    const i = exercises.findIndex((_, k) => !done.has(k));
+    if (i >= 0) {
+      return `<div class="challenge suggest">
+        <div class="k">Proposta da <a href="#/libro/${id}">${esc(state.books[id].title)}</a></div>
+        <p>${esc(exercises[i])}</p>
+        <div class="row-btns"><button class="btn primary" data-action="set-challenge" data-id="${id}" data-index="${i}">Accetta la sfida</button></div>
+      </div>`;
+    }
+  }
+  return '<p class="empty">Ascolta un riassunto: ti proporrò un esercizio da mettere in pratica per una settimana. Puoi anche sceglierlo dalla pagina di ogni libro.</p>';
+}
+
+function miniRow(id, sub) {
+  return `<a class="mini-row" href="#/libro/${id}">${coverHTML(state.books[id])}
+    <div class="info"><div class="t">${esc(state.books[id].title)}</div><div class="s">${esc(sub)}</div></div></a>`;
+}
+
+async function renderPractice() {
+  const due = dueCards().length;
+  const deck = Object.keys(state.cards).filter(cardContent).length;
+  let challenge;
+  try { challenge = await challengeHTML(); } catch { challenge = '<p class="empty">Sfida non disponibile offline.</p>'; }
+  const withExercises = state.order.filter((id) => state.practice.exercises[id]?.length);
+  const withNotes = state.order.filter((id) => state.practice.notes[id]);
+  return `
+    <header class="page-head"><div><h1>Pratica</h1><p>Ripassa, metti in pratica, rifletti.</p></div></header>
+    <section class="review-hero">
+      <div class="k">Ripasso di oggi</div>
+      <div class="big">${due}</div>
+      <div class="s">${due === 1 ? 'scheda da ripassare' : 'schede da ripassare'}</div>
+      ${due ? '<a class="btn primary" href="#/ripasso">Inizia il ripasso</a>'
+        : `<p class="s">${deck ? 'Per oggi hai finito: torna domani.' : 'Completa un riassunto per aggiungere le sue schede al ripasso, oppure ripassa un libro dalla sua pagina.'}</p>`}
+    </section>
+    <div class="stats" style="margin-top:12px">
+      <div class="stat"><b>${deck}</b><span>schede nel ripasso</span></div>
+      <div class="stat"><b>${state.practice.reviewed}</b><span>ripassate in tutto</span></div>
+      <div class="stat"><b>${reviewStreak()}</b><span>giorni di fila</span></div>
+    </div>
+    <section class="section">
+      <h2 class="section-title">Sfida della settimana</h2>
+      ${challenge}
+    </section>
+    <section class="section">
+      <h2 class="section-title">I tuoi esercizi</h2>
+      ${withExercises.length ? withExercises.map((id) => miniRow(id, state.practice.exercises[id].length === 1 ? '1 esercizio fatto' : `${state.practice.exercises[id].length} esercizi fatti`)).join('')
+        : '<p class="empty">Spunta gli esercizi nella sezione «Mettilo in pratica» di ogni libro.</p>'}
+    </section>
+    <section class="section">
+      <h2 class="section-title">Le tue note <small>${withNotes.length}</small></h2>
+      ${withNotes.length ? withNotes.map((id) => miniRow(id, state.practice.notes[id].replace(/\s+/g, ' '))).join('')
+        : '<p class="empty">Le note che scrivi nella pagina di un libro o durante la lettura compaiono qui.</p>'}
+    </section>`;
+}
+
+/* ---------- Strumenti ---------- */
+
+function blockHTML(block) {
+  const list = (tag, items) => `<${tag}>${items.map((t) => `<li>${esc(t)}</li>`).join('')}</${tag}>`;
+  return `<h2>${esc(block.h)}</h2>${(block.p || []).map((t) => `<p>${esc(t)}</p>`).join('')}`
+    + (block.ul ? list('ul', block.ul) : '') + (block.ol ? list('ol', block.ol) : '');
+}
+
+function renderTools() {
+  const categories = ['Tutti', ...state.toolbox.categories];
+  const list = state.toolbox.tools.filter((t) => state.toolFilter === 'Tutti' || t.category === state.toolFilter);
+  return `
+    <header class="page-head"><div><h1>Strumenti</h1><p>Schede pronte per il tuo lavoro di Scrum Master e team leader.</p></div></header>
+    <div class="chips">${categories.map((c) => `<button class="chip ${c === state.toolFilter ? 'active' : ''}" data-action="tool-filter" data-value="${esc(c)}">${esc(c)}</button>`).join('')}</div>
+    <div class="tools-list">${list.map((t) => `<a class="tool-card" href="#/strumento/${t.id}">
+      <div class="k">${esc(t.category)}</div><div class="t">${esc(t.title)}</div><div class="s">${esc(t.summary)}</div></a>`).join('')}</div>`;
+}
+
+function renderTool(id) {
+  const t = state.toolbox.tools.find((x) => x.id === id);
+  const books = t.books.filter((bid) => state.books[bid]);
+  return `
+    ${backLink('#/strumenti')}
+    <article class="tool">
+      <div class="k">${esc(t.category)}</div>
+      <h1>${esc(t.title)}</h1>
+      <p class="lead">${esc(t.summary)}</p>
+      ${t.blocks.map(blockHTML).join('')}
+    </article>
+    <section class="section">
+      <h2 class="section-title">Dai libri</h2>
+      <div class="row">${books.map(bookCard).join('')}</div>
+    </section>`;
 }
 
 /* ---------- Azioni ---------- */
@@ -958,7 +1270,8 @@ document.addEventListener('click', async (ev) => {
   const { action, id } = el.dataset;
   switch (action) {
     case 'play':
-      player.load(id).then(openPlayer);
+      player.context = el.dataset.path ? { pathId: el.dataset.path } : null;
+      player.load(id).then(() => { renderPlayerStatic(); openPlayer(); });
       break;
     case 'play-chapter':
       player.load(id, { chapter: Number(el.dataset.chapter) }).then(openPlayer);
@@ -1025,6 +1338,58 @@ document.addEventListener('click', async (ev) => {
       player.markDone(id, !state.progress[id]?.done);
       render();
       break;
+    case 'toggle-ex': toggleExercise(id, Number(el.dataset.index)); break;
+    case 'set-challenge':
+      state.practice.challenge = { bookId: id, index: Number(el.dataset.index), start: today() };
+      savePractice();
+      toast('Sfida della settimana impostata');
+      render();
+      break;
+    case 'challenge-done': {
+      const ch = state.practice.challenge;
+      if (ch) toggleExercise(ch.bookId, ch.index, true);
+      break;
+    }
+    case 'challenge-drop':
+      state.practice.challenge = null;
+      savePractice();
+      render();
+      break;
+    case 'open-note':
+      openSheet(`<h3>Le mie note · ${esc(state.books[id].title)}</h3>
+        <textarea class="note" data-note="${id}" rows="8" placeholder="Come applichi questo libro nel tuo team?">${esc(state.practice.notes[id] || '')}</textarea>
+        <p class="hint">Salvate automaticamente su questo dispositivo.</p>`);
+      $('.note', sheetEl).focus();
+      break;
+    case 'reveal':
+      review.revealed = true;
+      refreshReview();
+      break;
+    case 'grade': {
+      const cid = review.queue[review.i];
+      const grade = el.dataset.grade;
+      gradeCard(cid, grade);
+      if (grade === 'again' && !review.requeued.has(cid)) {
+        review.requeued.add(cid);
+        review.queue.push(cid);
+      }
+      review.i++;
+      review.count++;
+      review.revealed = false;
+      refreshReview();
+      window.scrollTo(0, 0);
+      break;
+    }
+    case 'tool-filter':
+      state.toolFilter = el.dataset.value;
+      render();
+      break;
+    case 'toggle-autonext':
+      state.settings.autoNext = !state.settings.autoNext;
+      store.set('settings', state.settings);
+      renderPlayerStatic();
+      render();
+      break;
     case 'font': {
       state.settings.readerFs = clamp(state.settings.readerFs + Number(el.dataset.delta), 15, 26);
       store.set('settings', state.settings);
@@ -1064,10 +1429,22 @@ document.addEventListener('click', async (ev) => {
 });
 
 // La ricerca aggiorna solo la griglia, così la tastiera resta aperta.
+let noteTimer;
 document.addEventListener('input', (e) => {
-  if (!e.target.matches('.search')) return;
-  state.query = e.target.value;
-  $('#book-grid').innerHTML = gridHTML();
+  if (e.target.matches('.search')) {
+    state.query = e.target.value;
+    $('#book-grid').innerHTML = gridHTML();
+  }
+  if (e.target.matches('.note')) {
+    const { note } = e.target.dataset;
+    const value = e.target.value;
+    clearTimeout(noteTimer);
+    noteTimer = setTimeout(() => {
+      if (value.trim()) state.practice.notes[note] = value;
+      else delete state.practice.notes[note];
+      savePractice();
+    }, 400);
+  }
 });
 
 document.addEventListener('keydown', (e) => {

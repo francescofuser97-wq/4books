@@ -55,6 +55,8 @@ jobs:
           restore-keys: covers-
 
       - name: Scarica le copertine
+        env:
+          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
         run: python scripts/fetch_covers.py
 
       - name: Cache audio generati

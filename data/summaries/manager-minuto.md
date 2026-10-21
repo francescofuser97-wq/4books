@@ -62,17 +62,19 @@ Le correzioni funzionano perché arrivano quando l'errore è ancora fresco, sono
 
 C'è anche un'altra ragione, forse la più profonda. Il manager minuto tratta i suoi collaboratori come adulti capaci. Non li controlla in ogni dettaglio, non li sostituisce, non li umilia. Si aspetta molto da loro e glielo dice. E le persone, nella maggior parte dei casi, tendono a comportarsi all'altezza delle aspettative che hanno su di loro.
 
-## Come applicarlo da nuovo manager
+## Come metterlo in pratica da domani
 
 Vediamo ora come trasformare queste idee in azioni concrete, soprattutto se sei appena diventato responsabile di un team.
 
-Nella prima settimana, siediti con ognuno dei tuoi collaboratori e definite insieme da tre a cinque obiettivi. Scriveteli in modo semplice. Per ognuno chiediti: come capiremo, tra un mese, se è stato raggiunto? Lascia una copia al collaboratore e tienine una per te.
+Primo: questa settimana siediti con ognuno dei tuoi collaboratori e definite insieme da tre a cinque obiettivi, scritti in modo semplice. Per ognuno chiediti: come capiremo, tra un mese, se è stato raggiunto? Lascia una copia al collaboratore e tienine una per te.
 
-Nelle settimane successive, prendi l'abitudine di cercare attivamente comportamenti positivi. Un buon esercizio è questo: ogni giorno, prima di chiudere il computer, chiediti chi hai sorpreso a fare qualcosa di giusto oggi. Se la risposta è nessuno, domani guarda con più attenzione.
+Secondo: ogni giorno, prima di chiudere il computer, chiediti chi hai sorpreso a fare qualcosa di giusto oggi. Se la risposta è nessuno, domani guarda con più attenzione.
 
-Quando qualcosa non va, non aspettare. Non accumulare frustrazione per poi esplodere. Chiedi cinque minuti, descrivi il comportamento specifico, spiega l'impatto, fermati un momento, poi ricorda alla persona quanto la stimi e che sai che può fare di meglio. E poi chiudi lì.
+Terzo: la prossima volta che qualcosa non va, non aspettare. Chiedi cinque minuti, descrivi il comportamento specifico, spiega l'impatto, fermati un momento, poi ricorda alla persona quanto la stimi. E poi chiudi lì.
 
-Infine, ricordati che lo scopo ultimo del manager minuto è rendere le persone autonome. Più i tuoi collaboratori imparano a fissare i propri obiettivi, a riconoscere i propri successi e a correggere i propri errori, meno avranno bisogno di te per le cose quotidiane. E tu potrai dedicarti a quello che un manager deve fare davvero: pensare al futuro del team.
+Quarto: dai almeno un elogio da un minuto al giorno, specifico e immediato, anche per un progresso parziale.
+
+Quinto: alla fine del mese, chiedi a ogni collaboratore di rileggere i propri obiettivi e di dirti come valuta da solo i propri progressi. Lo scopo ultimo del manager minuto è rendere le persone autonome, così che tu possa dedicarti a pensare al futuro del team.
 
 ## Gli errori più comuni
 

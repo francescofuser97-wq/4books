@@ -1,0 +1,352 @@
+{
+  "manager-minuto": [
+    ["Quali sono i tre segreti del manager minuto?", "Gli obiettivi da un minuto, gli elogi da un minuto e le correzioni da un minuto."],
+    ["Come devono essere gli obiettivi da un minuto?", "Pochi, tre o cinque, concordati insieme, scritti in modo breve da poterli rileggere in un minuto, con la descrizione di come appare una buona prestazione."],
+    ["Cosa significa sorprendere le persone mentre fanno qualcosa di giusto?", "Osservare attivamente il lavoro, soprattutto all'inizio, per cogliere i progressi ed elogiarli subito, in modo specifico, anche quando sono solo approssimativamente giusti."],
+    ["Qual è la seconda parte, spesso dimenticata, della correzione da un minuto?", "Dopo aver descritto il comportamento sbagliato e il suo impatto, ricordare alla persona quanto vale e quanto la stimi. Duri sul comportamento, gentili con la persona."],
+    ["Perché, secondo il libro, persone e risultati non sono in conflitto?", "Perché le persone che si sentono bene con se stesse, cioè sanno cosa ci si aspetta e come stanno andando, producono buoni risultati."]
+  ],
+  "making-of-a-manager": [
+    ["Come definisce Julie Zhuo il compito di un manager?", "Ottenere risultati migliori da un gruppo di persone che lavorano insieme. Il successo del manager è il successo del team."],
+    ["Quali sono le tre leve di un manager?", "Lo scopo, cioè il perché; le persone, cioè il chi; il processo, cioè il come."],
+    ["A chi appartiene la riunione individuale, e quando è riuscita?", "Al collaboratore. È riuscita se la persona esce con la sensazione di essere stata aiutata."],
+    ["Perché evitare il feedback negativo è una mancanza di rispetto?", "Perché le persone hanno il diritto di sapere come stanno andando. Il feedback va dato spesso, in piccole dosi, e nessuna valutazione dovrebbe essere una sorpresa."],
+    ["Cosa consiglia Zhuo contro la sindrome dell'impostore?", "Conoscere punti di forza e debolezze, ricordare che tutti sbagliano, chiedere aiuto e trovare mentori."]
+  ],
+  "primi-90-giorni": [
+    ["Cos'è il punto di pareggio di Watkins?", "Il momento in cui il nuovo leader ha restituito all'organizzazione tanto valore quanto ne ha consumato."],
+    ["Cosa significa promuovere se stessi?", "Fare il salto mentale verso il nuovo ruolo, lasciando andare ciò che ti rendeva bravo nel ruolo precedente."],
+    ["Quali sono le cinque situazioni del modello STARS?", "Avvio, risanamento, crescita accelerata, riallineamento e mantenimento del successo."],
+    ["Quali sono le cinque conversazioni da avere con il capo?", "Diagnosi della situazione, aspettative, risorse, stile e sviluppo personale."],
+    ["Come devono essere le vittorie rapide?", "Visibili ma coerenti con gli obiettivi di lungo periodo e con la cultura che vuoi costruire."]
+  ],
+  "sette-regole": [
+    ["Cosa sono il cerchio delle preoccupazioni e il cerchio di influenza?", "Il primo contiene tutto ciò che ci preoccupa, il secondo ciò su cui possiamo agire. Le persone proattive si concentrano sul secondo, che così si allarga."],
+    ["Cosa contiene il secondo quadrante della matrice del tempo?", "Le attività importanti ma non urgenti: pianificazione, prevenzione, relazioni, formazione. Investire lì riduce le crisi."],
+    ["Cosa significa cerca prima di capire, poi di farti capire?", "Praticare l'ascolto empatico: ascoltare per comprendere, riformulare per verificare, e solo dopo esporre il proprio punto di vista."],
+    ["Cosa insegna la favola dell'oca dalle uova d'oro?", "L'equilibrio tra produzione e capacità produttiva: se spremi il team per i risultati senza curarne la capacità, prima o poi perdi entrambi."],
+    ["Quali sono le quattro dimensioni di affila la sega?", "Fisica, mentale, sociale ed emotiva, spirituale."]
+  ],
+  "manager-efficace": [
+    ["Quali sono i tre passi per gestire il tempo secondo Drucker?", "Registrare il tempo, gestirlo eliminando o delegando ciò che non serve, e consolidarlo in blocchi lunghi e ininterrotti."],
+    ["Quale domanda sposta l'attenzione dagli sforzi ai risultati?", "Quale contributo posso dare che avrà un impatto significativo sui risultati dell'organizzazione?"],
+    ["Cosa insegna la storia di Lincoln e del generale Grant?", "Costruisci sui punti di forza: chi cerca persone senza difetti assume persone mediocri. Le persone forti hanno spesso debolezze forti."],
+    ["Quale domanda guida l'abbandono sistematico?", "Se non lo stessimo già facendo, cominceremmo a farlo oggi? Se no, va abbandonato."],
+    ["Perché Drucker cerca il disaccordo nelle decisioni?", "Perché senza confronto tra opinioni diverse non si capiscono le alternative e si vede solo una parte del problema."]
+  ],
+  "high-output-management": [
+    ["Come definisce Grove il risultato di un manager?", "Il risultato della sua organizzazione più quello delle organizzazioni vicine su cui ha influenza."],
+    ["Cos'è la leva manageriale?", "L'impatto di un'attività del manager sul risultato del team. Bisogna dedicare tempo alle attività ad alta leva ed evitare quelle a leva negativa, come micro gestione e ritardi nelle decisioni."],
+    ["Perché Grove usa indicatori in coppia?", "Perché misurare una sola cosa ne peggiora un'altra: quantità e qualità, velocità e soddisfazione."],
+    ["Quali sono le tre fasi del modello decisionale di Grove?", "Discussione libera, decisione chiara, pieno sostegno anche da parte di chi non era d'accordo."],
+    ["Cos'è la maturità rispetto al compito?", "L'esperienza di una persona in un compito specifico. Bassa: stile strutturato. Media: stile orientato alla persona. Alta: intervento minimo e monitoraggio."]
+  ],
+  "radical-candor": [
+    ["Quali sono le due dimensioni della franchezza radicale?", "Tenere alle persone personalmente e sfidarle direttamente."],
+    ["Cos'è l'empatia rovinosa?", "Tenere alla persona ma non sfidarla: non dire la verità per non ferire. È l'errore più comune dei manager."],
+    ["Quale domanda suggerisce Kim Scott per chiedere feedback?", "C'è qualcosa che potrei fare, o smettere di fare, che renderebbe più facile lavorare con me? Poi contare fino a sei in silenzio."],
+    ["Come dovrebbe essere una critica secondo Kim Scott?", "Umile, utile, immediata, di persona e in privato, e mai sulla personalità."],
+    ["Che differenza c'è tra rockstar e superstar?", "Le superstar crescono rapidamente e cercano nuove sfide; le rockstar sono eccellenti e stabili e crescono in modo graduale. Entrambe sono preziose."]
+  ],
+  "carnegie": [
+    ["Qual è il primo principio di Carnegie?", "Non criticare, non condannare, non lamentarti: la critica mette l'altro sulla difensiva e genera risentimento."],
+    ["Che differenza c'è tra apprezzamento e adulazione?", "L'apprezzamento è onesto e sincero; l'adulazione è falsa e interessata, e le persone la riconoscono."],
+    ["Cosa insegna l'esempio delle fragole e dei vermi?", "Per influenzare qualcuno bisogna parlare di ciò che vuole lui, non di ciò che vogliamo noi."],
+    ["Perché è meglio lasciare che l'altro senta l'idea come sua?", "Perché le persone sostengono con molto più impegno le idee che sentono proprie."],
+    ["Come si corregge qualcuno secondo Carnegie?", "Iniziando con un elogio, segnalando gli errori in modo indiretto, parlando prima dei propri errori, facendo domande invece di dare ordini e lasciando all'altro la possibilità di salvare la faccia."]
+  ],
+  "intelligenza-emotiva": [
+    ["Cos'è il sequestro emotivo?", "Una reazione emotiva intensa attivata dall'amigdala prima che la parte razionale del cervello abbia capito cosa sta succedendo."],
+    ["Quali sono le cinque componenti dell'intelligenza emotiva?", "Consapevolezza di sé, dominio di sé, motivazione, empatia e abilità sociali."],
+    ["Cosa mostra l'esperimento dei dolcetti di Mischel?", "L'importanza di saper rinviare la gratificazione per un obiettivo più grande."],
+    ["Perché il dominio di sé del leader ha un effetto moltiplicatore?", "Perché le emozioni sono contagiose, e quelle del capo ancora di più: la calma trasmette sicurezza, la perdita di controllo diffonde ansia."],
+    ["Cosa insegna la storia del pilota e dell'equipaggio?", "Che se le persone hanno paura del leader non segnalano i problemi, e le informazioni importanti non arrivano a chi decide."]
+  ],
+  "drive": [
+    ["Quali sono i tre elementi della motivazione tre punto zero?", "Autonomia, padronanza e scopo."],
+    ["Per quali compiti funzionano i premi condizionati, e per quali no?", "Funzionano per i compiti algoritmici, con una procedura chiara. Peggiorano le prestazioni nei compiti euristici, che richiedono creatività."],
+    ["Cosa significa togliere il denaro dal tavolo?", "Pagare le persone in modo adeguato ed equo, così che il denaro non sia più il tema e contino gli altri fattori."],
+    ["Su quali quattro aree le persone desiderano autonomia?", "Il compito, il tempo, la tecnica e il team."],
+    ["Quali sono le tre leggi della padronanza?", "È una mentalità, è fatica, ed è un asintoto: ci si avvicina sempre ma non si raggiunge mai del tutto."]
+  ],
+  "cinque-disfunzioni": [
+    ["Quali sono le cinque disfunzioni, dal basso verso l'alto?", "Assenza di fiducia, paura del conflitto, mancanza di impegno, elusione della responsabilità, disattenzione ai risultati."],
+    ["Che tipo di fiducia intende Lencioni?", "La fiducia basata sulla vulnerabilità: poter ammettere errori, debolezze e dubbi senza paura."],
+    ["Che differenza c'è tra conflitto costruttivo e distruttivo?", "Il primo riguarda le idee, il secondo le persone, con attacchi personali e manovre politiche."],
+    ["Quali sono i due nemici dell'impegno?", "La ricerca del consenso unanime e il bisogno di certezza."],
+    ["Qual è il primo team di ogni dirigente secondo Kathryn?", "Il gruppo dirigente stesso, non il reparto che ognuno guida."]
+  ],
+  "leader-ultimi": [
+    ["Da dove viene il titolo I leader mangiano per ultimi?", "Dall'usanza dei Marines americani: alla mensa i più giovani mangiano per primi e gli ufficiali per ultimi."],
+    ["Cos'è il cerchio di sicurezza?", "L'ambiente creato dal leader in cui le persone non temono pericoli interni e uniscono le forze contro quelli esterni."],
+    ["Quali sostanze legate alla dimensione sociale cita Sinek?", "La serotonina, legata a orgoglio e riconoscimento, e l'ossitocina, legata a fiducia e affetto. Il cortisolo, l'ormone dello stress, le ostacola."],
+    ["Cosa decise Bob Chapman durante la crisi del 2008?", "Invece di licenziare, ferie non retribuite per tutti, dirigenti compresi: meglio che tutti soffrano un po' che qualcuno soffra molto."],
+    ["Qual è il pericolo dell'astrazione?", "Quando le persone diventano numeri lontani, è più facile prendere decisioni che le danneggiano."]
+  ],
+  "extreme-ownership": [
+    ["Cos'è la responsabilità totale?", "Il leader è responsabile di tutto ciò che accade nel suo mondo, senza scuse e senza dare la colpa ad altri."],
+    ["Cosa insegna lo scambio dei capi squadra durante l'addestramento?", "Non esistono cattivi team, solo cattivi leader: con un nuovo capo la squadra ultima iniziò a vincere."],
+    ["Cosa significa copri e muovi?", "Collaborare con gli altri team e reparti come in battaglia: il nemico è fuori, non nel reparto accanto."],
+    ["Qual è la regola dei SEAL per stabilire le priorità?", "Rilassati, guardati intorno, prendi una decisione: individua il problema più importante, risolvilo, passa al successivo."],
+    ["Su cosa si basa il comando decentralizzato?", "Su piccoli team che conoscono l'intento del comandante, cioè l'obiettivo e il perché, e i limiti entro cui decidere da soli."]
+  ],
+  "scrum-sutherland": [
+    ["Quale progetto racconta Sutherland all'inizio del libro?", "Il sistema di gestione dei casi dell'FBI, fallito con il metodo a cascata e completato con Scrum con una frazione del budget."],
+    ["Quali sono le tre caratteristiche dei grandi team secondo Sutherland?", "Trascendenza, cioè uno scopo forte; autonomia; interfunzionalità."],
+    ["Perché il lavoro a metà vale zero?", "Perché non dà valore a nessuno e nasconde rischi. Meglio finire una cosa prima di iniziarne un'altra."],
+    ["Perché Scrum usa stime relative?", "Perché le persone stimano male in termini assoluti, ma bene confrontando: questo è più grande o più piccolo di quello?"],
+    ["Cosa significa il tempo di ieri?", "La previsione migliore per il prossimo sprint è quanto il team ha davvero completato negli sprint precedenti."]
+  ],
+  "scrum-mastery": [
+    ["Cosa significa leadership al servizio secondo Watts?", "Mettere al primo posto i bisogni del team, facendo ciò che gli serve davvero, anche quando significa sfidarlo. Servire non significa essere servile."],
+    ["Quale domanda si pone un grande Scrum Master davanti a un ostacolo?", "Questo è un ostacolo che il team può rimuovere da solo? Se sì, lo aiuta a farlo invece di farlo al suo posto."],
+    ["Quando è giusto lasciar sbagliare il team?", "Quando l'errore è sicuro e istruttivo, con conseguenze limitate, per poi imparare insieme in retrospettiva."],
+    ["Quali sono alcune trappole del ruolo?", "Diventare il segretario del team, il capo nascosto, il poliziotto di Scrum, proteggere troppo il team o trascurare il Product Owner."],
+    ["Come si misura il successo di un grande Scrum Master?", "Da quanto il team diventa capace senza di lui: l'obiettivo è rendersi sempre meno necessario."]
+  ],
+  "coaching-agile-teams": [
+    ["Qual è il primo principio di Lyssa Adkins?", "Aspettarsi prestazioni elevate: i team tendono a raggiungere il livello che ci si aspetta da loro."],
+    ["Quali ruoli può assumere il coach agile?", "Insegnante, mentore, facilitatore, risolutore di problemi, navigatore dei conflitti e direttore della collaborazione."],
+    ["Cosa sono shu, ha, ri?", "Tre stadi di apprendimento: seguire le regole, adattarle, andare oltre. Il coach passa da insegnare a facilitare a farsi da parte."],
+    ["Quali sono i cinque livelli del conflitto?", "Problema da risolvere, disaccordo, competizione, crociata, guerra."],
+    ["Cos'è una domanda potente?", "Una domanda aperta, breve e curiosa che spinge a riflettere in modo nuovo, senza contenere la risposta preferita dal coach."]
+  ],
+  "agile-retrospectives": [
+    ["Quali sono le cinque fasi di una retrospettiva?", "Preparare il terreno, raccogliere i dati, generare intuizioni, decidere cosa fare, chiudere."],
+    ["Cosa dice la direttiva primaria?", "Che tutti hanno fatto il miglior lavoro possibile date le conoscenze, le capacità, le risorse e la situazione del momento."],
+    ["Perché è utile che tutti parlino nei primi minuti?", "Perché chi parla all'inizio è più probabile che partecipi anche dopo."],
+    ["Quante azioni dovrebbe produrre una retrospettiva?", "Poche, spesso una o due, concrete, con un responsabile e una scadenza."],
+    ["Cosa sono gli esploratori, acquirenti, vacanzieri e prigionieri?", "Un'attività di apertura in cui ognuno indica in forma anonima con che spirito partecipa alla retrospettiva."]
+  ],
+  "user-story-mapping": [
+    ["Cosa significa che le storie si raccontano?", "Che la scheda è solo un promemoria: la parte più importante è la conversazione tra chi costruisce e chi conosce il bisogno."],
+    ["Cosa insegna l'immagine delle foto delle vacanze?", "I documenti sono pieni di significato per chi ha partecipato alle discussioni e quasi vuoti per gli altri: la comprensione condivisa nasce parlando."],
+    ["Come è organizzata una mappa delle storie?", "In orizzontale il flusso delle attività dell'utente, la spina dorsale; in verticale dettagli, alternative e priorità."],
+    ["Cosa significa minimizzare l'output e massimizzare risultati e impatto?", "Costruire meno cose, quelle che cambiano davvero il comportamento degli utenti e i risultati dell'organizzazione."],
+    ["Quando vanno spezzate le storie?", "Progressivamente, al momento giusto, come rocce che si dividono man mano che ci si avvicina alla costruzione."]
+  ],
+  "agile-conversations": [
+    ["Perché molte trasformazioni agili deludono secondo gli autori?", "Perché si adottano le pratiche senza cambiare le conversazioni e la cultura di fiducia che le pratiche presuppongono."],
+    ["Quali sono le quattro R?", "Registrare, riflettere, rivedere e rappresentare una conversazione."],
+    ["Come funziona il metodo delle due colonne?", "A destra ciò che è stato detto, a sinistra ciò che si pensava ma non si è detto. La distanza tra le due colonne rivela il non detto."],
+    ["Quali sono le cinque conversazioni?", "Fiducia, paura, perché, impegno e responsabilità."],
+    ["Cos'è la scala delle inferenze?", "Il percorso automatico dai dati osservati alle conclusioni e alle azioni. Per scenderla si condividono dati e ragionamenti e si verifica con l'altro."]
+  ],
+  "toyota-way": [
+    ["Quali sono i due pilastri del sistema di produzione Toyota?", "Il just in time e il jidoka, cioè fermarsi appena si rileva un problema."],
+    ["Quali sono gli otto sprechi secondo Liker?", "Sovrapproduzione, attese, trasporti, lavorazioni eccessive, scorte, movimenti inutili, difetti e creatività non utilizzata delle persone."],
+    ["Cos'è l'andon?", "La corda con cui ogni operaio segnala un problema e, se serve, ferma la linea: la qualità si costruisce nel processo."],
+    ["Cosa significa genchi genbutsu?", "Andare a vedere di persona dove si svolge il lavoro per capire a fondo la situazione."],
+    ["Cos'è un rapporto A3?", "Una pagina sola con problema, situazione attuale, obiettivo, cause, contromisure, piano e verifica, usata per guidare conversazioni e apprendimento."]
+  ],
+  "lean-thinking": [
+    ["Quali sono i cinque principi del pensiero lean?", "Valore, flusso del valore, flusso, trazione e perfezione."],
+    ["Chi definisce il valore?", "Solo il cliente finale."],
+    ["Cosa mostra l'esempio della lattina di bibita?", "Che il percorso complessivo dura mesi mentre il lavoro effettivo si misura in ore: lo spreco è soprattutto attesa."],
+    ["Che differenza c'è tra kaizen e kaikaku?", "Il kaizen è il miglioramento continuo e incrementale, il kaikaku il miglioramento radicale."],
+    ["Perché i licenziamenti uccidono le trasformazioni lean?", "Perché nessuno propone miglioramenti che potrebbero costargli il posto."]
+  ],
+  "this-is-lean": [
+    ["Che differenza c'è tra efficienza delle risorse e del flusso?", "La prima misura quanto sono occupate le risorse, la seconda quanta parte del tempo di attraversamento aggiunge valore all'unità che scorre."],
+    ["Cosa dice la legge di Little?", "Il tempo di attraversamento è uguale al lavoro in corso moltiplicato per il tempo di ciclo: più lavoro in corso, tempi più lunghi."],
+    ["Cosa sono i bisogni secondari?", "Attività create dai tempi lunghi, come solleciti, riunioni di stato e rilavorazioni, che consumano risorse senza creare valore."],
+    ["Qual è il paradosso dell'efficienza?", "Per tenere occupate le risorse si creano code, le code generano bisogni secondari, e le risorse sono sempre più occupate con lavoro che non crea valore."],
+    ["Come definiscono lean gli autori?", "Una strategia operativa che dà priorità all'efficienza del flusso rispetto all'efficienza delle risorse."]
+  ],
+  "la-meta": [
+    ["Qual è la meta di un'azienda secondo Jonah?", "Fare soldi, oggi e in futuro. Tutto il resto è un mezzo."],
+    ["Quali sono le tre misure proposte da Jonah?", "Throughput, scorte e spese operative."],
+    ["Cosa insegna la camminata con Herbie?", "Il ritmo del sistema è quello del punto più lento. Aiutando lui, si aiuta tutto il gruppo."],
+    ["Cosa vale un'ora persa sul collo di bottiglia?", "Un'ora persa per l'intero sistema. Un'ora risparmiata altrove è un miraggio."],
+    ["Quali sono i cinque passi di focalizzazione?", "Identificare il vincolo, sfruttarlo, subordinare tutto il resto, elevarlo e ricominciare."]
+  ],
+  "kanban": [
+    ["Quali sono i principi del cambiamento secondo Anderson?", "Partire da ciò che si fa ora, perseguire un cambiamento incrementale ed evolutivo, rispettare ruoli e processi attuali, incoraggiare la leadership a ogni livello."],
+    ["Perché limitare il lavoro in corso?", "Riduce i tempi di consegna e il multitasking, passa dalla spinta alla trazione e fa emergere i problemi."],
+    ["Cosa fare quando una colonna è piena?", "Aiutare a valle a finire il lavoro, invece di iniziare nuovo lavoro a monte."],
+    ["Quali sono le classi di servizio?", "Urgente, a data fissa, standard e intangibile, ciascuna con regole diverse."],
+    ["Come si conduce la riunione quotidiana davanti alla board?", "Percorrendo la board da destra a sinistra e chiedendo cosa serve per far avanzare il lavoro, invece di chiedere cosa ha fatto ciascuno."]
+  ],
+  "product-development-flow": [
+    ["Se si quantifica una sola cosa, quale deve essere secondo Reinertsen?", "Il costo del ritardo."],
+    ["Perché le code nello sviluppo di prodotto sono pericolose?", "Perché sono invisibili, fatte di informazioni, e causano la maggior parte dei ritardi."],
+    ["Cosa succede alle code quando l'utilizzo si avvicina al cento per cento?", "Crescono in modo esplosivo."],
+    ["Come si rendono convenienti i lotti piccoli?", "Riducendo i costi di transazione, ad esempio con l'automazione di test e rilasci."],
+    ["Quale regola di priorità deriva dal costo del ritardo?", "Dare precedenza al lavoro con il più alto rapporto tra costo del ritardo e durata."]
+  ],
+  "lean-startup": [
+    ["Come definisce Ries una startup?", "Un'istituzione umana progettata per creare un nuovo prodotto o servizio in condizioni di estrema incertezza, anche dentro una grande azienda."],
+    ["Qual è l'unità di progresso di una startup?", "L'apprendimento convalidato, non l'output."],
+    ["Cos'è un prodotto minimo funzionante?", "La versione più semplice che permette di completare un giro del ciclo costruire, misurare, imparare."],
+    ["Che differenza c'è tra metriche di vanità e metriche azionabili?", "Le prime fanno sentire bene ma non aiutano a decidere; le seconde mostrano il rapporto tra causa ed effetto."],
+    ["Cos'è un pivot?", "Una correzione strutturata della strategia per testare una nuova ipotesi fondamentale, mantenendo ciò che si è imparato."]
+  ],
+  "phoenix-project": [
+    ["Quali sono i quattro tipi di lavoro?", "Progetti di business, progetti interni dell'IT, cambiamenti e lavoro non pianificato."],
+    ["Perché il lavoro non pianificato è il più distruttivo?", "Perché ruba tempo a tutto il resto e genera nuovi problemi, creando un circolo vizioso."],
+    ["Cosa rappresenta Brent?", "Il collo di bottiglia umano: tutto passa da lui, e ogni ora persa da lui è persa per l'azienda."],
+    ["Quali sono le tre vie?", "Flusso da sinistra a destra, feedback da destra a sinistra, apprendimento continuo."],
+    ["Cosa insegna la gestione dei cambiamenti nel romanzo?", "Che un controllo efficace è proporzionato al rischio: approvazione rapida per i cambiamenti a basso rischio, attenzione a quelli rischiosi."]
+  ],
+  "accelerate": [
+    ["Quali sono le quattro metriche chiave?", "Tempo di consegna delle modifiche, frequenza dei rilasci, tempo di ripristino del servizio, percentuale di cambiamenti che falliscono."],
+    ["Velocità e stabilità sono in conflitto?", "No. I team migliori sono migliori in tutte e quattro le metriche contemporaneamente."],
+    ["Cosa ha scoperto la ricerca sui comitati di approvazione esterni?", "Che non aumentano la stabilità, ma rallentano consegne e rilasci."],
+    ["Quali sono i tre tipi di cultura secondo Westrum?", "Patologica, orientata al potere; burocratica, orientata alle regole; generativa, orientata alle prestazioni."],
+    ["Quale caratteristica dell'architettura conta di più?", "Che sia debolmente accoppiata: i team possono cambiare, testare e rilasciare in modo indipendente."]
+  ],
+  "team-topologies": [
+    ["Cosa dice la legge di Conway?", "I sistemi riflettono la struttura delle comunicazioni dell'organizzazione che li progetta."],
+    ["Quali sono i quattro tipi di team?", "Allineato al flusso, abilitante, di sottosistema complicato e di piattaforma."],
+    ["Quali sono le tre modalità di interazione?", "Collaborazione, servizio e facilitazione."],
+    ["Cos'è il carico cognitivo del team?", "La quantità di sistemi, tecnologie e domini che il team deve gestire. Se è troppo alto il team rallenta e sbaglia."],
+    ["Cosa fa un buon team abilitante?", "Aiuta gli altri team ad acquisire una competenza per un periodo limitato, poi si rende inutile e passa al successivo."]
+  ],
+  "peopleware": [
+    ["Qual è la tesi principale di Peopleware?", "I problemi dei progetti software sono soprattutto sociologici, non tecnologici."],
+    ["Cosa mostrarono i giochi di guerra della programmazione?", "Che le prestazioni dipendevano molto dall'ambiente di lavoro: i migliori lavoravano in ambienti più tranquilli e con meno interruzioni."],
+    ["Cos'è il fattore ambiente?", "Il rapporto tra ore di lavoro ininterrotto e ore di presenza."],
+    ["Cos'è il teamicidio?", "L'insieme di pratiche che distruggono i team: gestione difensiva, burocrazia, separazione fisica, frammentazione del tempo, qualità ridotta, scadenze finte."],
+    ["Cosa consigliano gli autori per assumere?", "Vedere le persone lavorare, come chiedere a un giocoliere di fare giochi davanti a te."]
+  ],
+  "mythical-man-month": [
+    ["Cosa dice la legge di Brooks?", "Aggiungere persone a un progetto software in ritardo lo fa ritardare ancora di più."],
+    ["Perché il mese persona è un mito?", "Perché persone e tempo non sono intercambiabili: dividere il lavoro richiede formazione e comunicazione, che crescono più in fretta del numero di persone."],
+    ["Come arriva un progetto in ritardo di un anno?", "Un giorno alla volta."],
+    ["Cos'è l'integrità concettuale?", "La coerenza di un sistema che riflette un unico insieme di idee, come se fosse progettato da una sola mente."],
+    ["Cosa significa nessun proiettile d'argento?", "Nessuno strumento da solo migliora di dieci volte la produttività, perché la complessità essenziale del problema non si elimina."]
+  ],
+  "team-of-teams": [
+    ["Che differenza c'è tra complicato e complesso?", "Un sistema complicato è prevedibile, uno complesso no: le sue parti interagiscono continuamente e piccoli cambiamenti hanno grandi effetti."],
+    ["Qual era il problema della task force all'inizio?", "Era efficiente ma lenta: le squadre erano forti, ma tra le squadre mancavano fiducia e condivisione."],
+    ["Cos'è la consapevolezza condivisa?", "Ogni persona vede il quadro generale e capisce come il proprio lavoro si collega a quello degli altri."],
+    ["Cos'è l'esecuzione autonoma?", "Le decisioni vengono prese da chi è più vicino ai fatti, dopo aver costruito la consapevolezza condivisa."],
+    ["Che differenza c'è tra leader scacchista e leader giardiniere?", "Lo scacchista muove i pezzi e decide tutto; il giardiniere crea le condizioni perché le persone agiscano da sole."]
+  ],
+  "inspired": [
+    ["Quante idee non funzionano secondo Cagan?", "Almeno la metà, e anche quelle buone richiedono di solito diverse iterazioni."],
+    ["Che differenza c'è tra scoperta e consegna?", "La scoperta serve a capire cosa costruire, la consegna a costruirlo bene. Entrambe sono continue."],
+    ["Quali sono i quattro rischi?", "Valore, usabilità, fattibilità e sostenibilità per il business."],
+    ["Cosa significa team missionari e non mercenari?", "Team che credono nella visione e si sentono responsabili di risolvere i problemi, non che eseguono ciò che gli viene detto."],
+    ["Perché Cagan è critico verso le roadmap tradizionali?", "Perché trasformano ipotesi in promesse con date, spostando l'attenzione dai risultati alle funzionalità."]
+  ],
+  "escaping-build-trap": [
+    ["Cos'è la trappola del costruire?", "Misurare il successo in base a ciò che si produce invece che ai risultati ottenuti."],
+    ["Che differenza c'è tra output e risultati?", "L'output sono funzionalità e rilasci; i risultati sono i cambiamenti nel comportamento dei clienti e nei numeri dell'azienda."],
+    ["Quali sono i modi sbagliati di interpretare il ruolo di product manager?", "Il mini amministratore delegato, il cameriere che prende ordini e il project manager travestito."],
+    ["Cosa intende Perri per strategia?", "Un sistema di decisioni che definisce l'intento a ogni livello e lascia libertà su come raggiungerlo, non un piano rigido."],
+    ["Quali sono i passi del kata del prodotto?", "Capire la direzione, analizzare la situazione attuale, fissare il prossimo obiettivo, scegliere la strada."]
+  ],
+  "managers-path": [
+    ["Chi è il primo responsabile della tua crescita secondo Fournier?", "Tu stesso: il tuo manager non può leggerti nel pensiero."],
+    ["Cos'è il tech lead secondo Fournier?", "Un ruolo di leadership che fa funzionare tecnicamente il team, non il miglior programmatore."],
+    ["Perché il tech lead non deve tenere per sé il lavoro più interessante?", "Perché toglie opportunità di crescita agli altri e lo rende un collo di bottiglia."],
+    ["Come si affronta un collaboratore che non rende?", "Senza rimandare: individuare il problema, comunicarlo chiaramente, concordare un piano con obiettivi precisi e, se non funziona, decidere."],
+    ["Quanto deve restare tecnico un manager?", "Abbastanza da capire le decisioni e i rischi, senza diventare il collo di bottiglia tecnico del team."]
+  ],
+  "elegant-puzzle": [
+    ["Quante persone dovrebbe supportare un manager secondo Larson?", "Tra sei e otto ingegneri."],
+    ["Quali sono i quattro stati di un team?", "In ritardo, a galla, ripagare il debito, innovare."],
+    ["Cosa serve a un team che sta solo a galla?", "Ridurre il lavoro in corso e consolidare gli sforzi, non aggiungere persone."],
+    ["Quali sono le tre fasi di una migrazione?", "Ridurre il rischio partendo dai casi più difficili, rendere facile la migrazione agli altri, portarla a termine spegnendo il vecchio sistema."],
+    ["Perché trasformare le eccezioni in politiche?", "Per rendere le decisioni più eque e liberare tempo per i problemi davvero nuovi."]
+  ],
+  "turn-ship-around": [
+    ["Che differenza c'è tra modello leader seguace e leader leader?", "Nel primo il leader decide e gli altri eseguono; nel secondo ogni persona pensa, decide e si assume la responsabilità."],
+    ["Cosa cambia dicendo ho intenzione di invece di chiedere il permesso?", "Chi dichiara un'intenzione si assume la responsabilità e deve aver pensato a cosa fare, perché e con quali rischi."],
+    ["Quali sono i tre pilastri di Marquet?", "Controllo, competenza e chiarezza."],
+    ["Cosa significa spostare l'autorità verso le informazioni?", "Lasciare decidere chi ha le informazioni, invece di far salire le informazioni fino a chi ha l'autorità."],
+    ["Perché meccanismi e non programmi?", "Perché le persone credono alle procedure più che ai discorsi: si cambia la cultura cambiando concretamente chi decide."]
+  ],
+  "multipliers": [
+    ["Che differenza c'è tra moltiplicatori e diminutori?", "I moltiplicatori amplificano l'intelligenza delle persone, i diminutori la risucchiano. I primi ottengono circa il doppio."],
+    ["Quali sono le cinque discipline dei moltiplicatori?", "Attrattore di talenti, liberatore, sfidante, costruttore di dibattiti e investitore."],
+    ["Cos'è il genio naturale?", "Ciò che una persona fa in modo eccellente e senza sforzo, spesso senza accorgersene."],
+    ["Cos'è un diminutore involontario?", "Un leader con buone intenzioni che diminuisce gli altri senza accorgersene, ad esempio intervenendo sempre o dando sempre le risposte."],
+    ["Cosa significa dare il cinquantuno per cento del voto?", "Affidare a un collaboratore la maggioranza della responsabilità su una decisione, perché sia chiaro che è sua."]
+  ],
+  "fearless-organization": [
+    ["Cos'è la sicurezza psicologica?", "La convinzione condivisa di poter parlare apertamente, fare domande e ammettere errori senza conseguenze negative."],
+    ["Cosa scoprì Edmondson studiando gli errori negli ospedali?", "Che i team migliori non commettevano più errori: ne segnalavano di più."],
+    ["Qual è la zona più pericolosa della matrice di Edmondson?", "L'ansia: bassa sicurezza e standard alti. Sembra produttiva ma accumula rischi nascosti."],
+    ["Quali sono i tre gruppi di strumenti del leader?", "Preparare il terreno, invitare la partecipazione, rispondere in modo produttivo."],
+    ["Quali sono i tre tipi di fallimento?", "Prevenibili, complessi e intelligenti. Questi ultimi vanno celebrati come fonte di apprendimento."]
+  ],
+  "dare-to-lead": [
+    ["Come definisce Brené Brown un leader?", "Chiunque si assuma la responsabilità di trovare il potenziale in persone e processi e abbia il coraggio di svilupparlo."],
+    ["Cosa significa chiaro è gentile?", "Che essere vaghi per non ferire crea incertezza: dire le cose con chiarezza è la forma più vera di gentilezza."],
+    ["A cosa serve la frase la storia che mi sto raccontando è?", "A condividere la propria interpretazione come un'ipotesi e non come un fatto, dando all'altro la possibilità di correggerla."],
+    ["Quanti valori fondamentali suggerisce di scegliere?", "Due, tradotti in comportamenti concreti."],
+    ["Cos'è la squadra del quadratino?", "L'elenco, scritto su un pezzetto di carta, delle poche persone la cui opinione su di te conta davvero."]
+  ],
+  "coaching-habit": [
+    ["Quali sono le sette domande?", "Cosa hai in mente, e cos'altro, qual è la vera sfida qui per te, cosa vuoi, come posso aiutarti, se dici sì a questo a cosa dici no, cosa ti è stato più utile."],
+    ["Cos'è il mostro dei consigli?", "L'impulso a dare subito un consiglio, spesso sul problema sbagliato e togliendo all'altro la possibilità di pensare."],
+    ["Quale domanda considera la migliore del mondo?", "E cos'altro?"],
+    ["Quali sono i tre circoli viziosi?", "Dipendenza eccessiva, sovraccarico e disconnessione."],
+    ["Qual è la formula per costruire un'abitudine?", "Quando succede questo, invece di fare quello, farò quest'altro."]
+  ],
+  "crucial-conversations": [
+    ["Quando una conversazione è cruciale?", "Quando la posta in gioco è alta, le opinioni sono diverse e le emozioni sono forti."],
+    ["Cos'è il bacino del significato condiviso?", "L'insieme di informazioni e punti di vista che le persone mettono in comune dialogando. Più è ricco, migliori sono le decisioni."],
+    ["Quali sono le due reazioni tipiche sotto stress?", "Il silenzio e la violenza."],
+    ["Quali due condizioni rendono sicura una conversazione?", "Lo scopo comune e il rispetto reciproco."],
+    ["Quali sono le tre storie pericolose?", "La storia della vittima, del cattivo e dell'impotente."]
+  ],
+  "parole-finestre": [
+    ["Quali sono le quattro componenti della comunicazione nonviolenta?", "Osservazioni, sentimenti, bisogni e richieste."],
+    ["Che differenza c'è tra osservazione e valutazione?", "L'osservazione descrive i fatti come una telecamera; la valutazione aggiunge un giudizio."],
+    ["Cosa sono gli pseudosentimenti?", "Interpretazioni del comportamento altrui travestite da emozioni, come mi sento ignorato o tradito."],
+    ["Dove nascono i conflitti secondo Rosenberg?", "Al livello delle strategie. Al livello dei bisogni, universali, ci si può sempre capire."],
+    ["Come si distingue una richiesta da una pretesa?", "Dalla reazione a un no: se arrivano critiche o punizioni, era una pretesa."]
+  ],
+  "getting-to-yes": [
+    ["Quali sono i quattro principi della negoziazione sul merito?", "Separare le persone dal problema, concentrarsi sugli interessi, inventare opzioni di reciproco vantaggio, insistere su criteri oggettivi."],
+    ["Cosa insegna l'esempio della finestra in biblioteca?", "Dietro posizioni opposte ci sono interessi compatibili: aria fresca senza corrente."],
+    ["Cosa insegna l'esempio dell'arancia?", "Che parlando degli interessi entrambe le parti possono ottenere tutto ciò che vogliono."],
+    ["Cos'è la migliore alternativa a un accordo negoziato?", "Ciò che faresti se la negoziazione fallisse. Protegge da accordi sbagliati ed è la vera fonte di potere."],
+    ["Cos'è la procedura del testo unico?", "Un solo testo comune migliorato più volte con le critiche delle parti, usato a Camp David."]
+  ],
+  "thanks-for-feedback": [
+    ["Quali sono i tre tipi di feedback?", "Apprezzamento, coaching e valutazione."],
+    ["Quali sono i tre inneschi?", "Verità, relazione e identità."],
+    ["Cos'è il cambio di binario?", "Quando due conversazioni si sovrappongono: tu parli del mio lavoro e io rispondo su come mi tratti."],
+    ["Quale domanda suggeriscono per chiedere feedback?", "Qual è una cosa che mi vedi fare, o non fare, che mi ostacola?"],
+    ["Perché esistono i punti ciechi?", "Perché ci giudichiamo dalle intenzioni, mentre gli altri ci giudicano dal comportamento e dal suo impatto."]
+  ],
+  "mindset": [
+    ["Che differenza c'è tra mentalità fissa e di crescita?", "La prima crede che le capacità siano innate e immutabili, la seconda che si sviluppino con impegno, strategie e aiuto."],
+    ["Cosa mostrò l'esperimento sulla lode?", "I bambini lodati per l'intelligenza evitavano le sfide e si scoraggiavano; quelli lodati per l'impegno cercavano compiti difficili e miglioravano."],
+    ["Cos'è il potere del non ancora?", "Trasformare un fallimento in un passo del percorso: non ci sei ancora riuscito."],
+    ["Cos'è la falsa mentalità di crescita?", "Dirsi orientati alla crescita o lodare l'impegno senza risultati, senza cambiare strategia quando non funziona."],
+    ["Come influisce la mentalità del leader sul team?", "Un leader con mentalità fissa giudica in fretta e non investe; uno con mentalità di crescita investe nello sviluppo e cerca il dissenso."]
+  ],
+  "atomic-habits": [
+    ["Quanto si migliora con l'uno per cento al giorno per un anno?", "Circa trentasette volte."],
+    ["Perché concentrarsi sui sistemi più che sugli obiettivi?", "Perché vincitori e perdenti hanno gli stessi obiettivi: a fare la differenza è il processo quotidiano."],
+    ["Cosa significa che ogni azione è un voto?", "Ogni azione conferma il tipo di persona che vuoi diventare: il cambiamento più forte parte dall'identità."],
+    ["Quali sono le quattro leggi del cambiamento del comportamento?", "Rendila evidente, attraente, facile e soddisfacente."],
+    ["Cos'è la regola dei due minuti?", "Ridurre una nuova abitudine a qualcosa che richiede meno di due minuti, per rendere automatico l'inizio."]
+  ],
+  "deep-work": [
+    ["Che differenza c'è tra lavoro profondo e superficiale?", "Il primo è concentrato, spinge le capacità al limite e crea valore; il secondo è logistico, distratto e facile da replicare."],
+    ["Cos'è il residuo dell'attenzione?", "La parte di attenzione che resta sull'attività precedente quando cambiamo compito, riducendo le prestazioni."],
+    ["Qual è la formula di Newport per il lavoro di alta qualità?", "Tempo impiegato moltiplicato per l'intensità della concentrazione."],
+    ["Quali sono le quattro filosofie del lavoro profondo?", "Monastica, bimodale, ritmica e giornalistica."],
+    ["A cosa serve il rituale di chiusura?", "A chiudere la giornata lavorativa pianificando il giorno dopo, così che il cervello possa riposare."]
+  ],
+  "pensieri-lenti-veloci": [
+    ["Che differenza c'è tra sistema uno e sistema due?", "Il sistema uno è veloce, automatico e intuitivo; il sistema due è lento, deliberato e faticoso, ma pigro."],
+    ["Cosa significa quello che vedi è tutto quello che c'è?", "La mente costruisce storie coerenti con le informazioni disponibili, ignorando quelle che mancano, e ne ricava una sicurezza ingiustificata."],
+    ["Cos'è l'ancoraggio?", "La tendenza a farsi influenzare nelle stime da un numero visto prima, anche se irrilevante."],
+    ["Come si combatte l'errore di pianificazione?", "Partendo dalla visione dall'esterno: come sono andati progetti simili?"],
+    ["Cos'è l'analisi preventiva?", "Immaginare che il progetto sia fallito e scrivere come è andata male, per far emergere i rischi prima di decidere."]
+  ],
+  "partire-dal-perche": [
+    ["Cos'è il cerchio d'oro?", "Tre cerchi concentrici: al centro il perché, poi il come, all'esterno il cosa. Chi ispira parte dal perché."],
+    ["Che differenza c'è tra manipolare e ispirare?", "La manipolazione spinge ad agire nel breve periodo; l'ispirazione crea lealtà."],
+    ["Cosa sono chiarezza, disciplina e coerenza?", "Chiarezza del perché, disciplina del come, cioè valori che guidano le decisioni, e coerenza del cosa con il perché."],
+    ["Cos'è il test del sedano?", "Usare il perché come filtro per decidere cosa fare e cosa no, invece di seguire tutti i consigli."],
+    ["Cos'è il test dello scuolabus?", "Chiedersi se l'organizzazione continuerebbe a vivere secondo lo stesso perché senza il suo fondatore."]
+  ]
+}

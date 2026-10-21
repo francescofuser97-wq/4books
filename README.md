@@ -8,10 +8,13 @@ Web app installabile su iPhone (PWA), ispirata a 4books: riassunti in formato au
 - **9 percorsi guidati**: Da collaboratore a manager · Scrum Master al massimo livello · Guidare team tecnici · Lean e flusso del valore · Software, DevOps e organizzazione · Guidare le persone · Conversazioni difficili · Pensare in termini di prodotto · La crescita personale del leader.
 - **Ricerca** per titolo, autore o tema e filtri per categoria.
 - **Player audio** con velocità (0,8×–2×), salti di 15/30 secondi, capitoli, timer di spegnimento, controlli dalla schermata di blocco e riproduzione in background.
+- **Ascolto continuo nei percorsi**: alla fine di un riassunto parte da solo il successivo del percorso (si può disattivare in Libreria).
+- **Pratica**: esercizi da spuntare per ogni libro, una sfida della settimana, note personali e ripasso con 250 schede domanda e risposta che tornano a intervalli crescenti (1, 3, 7, 14 e 30 giorni).
+- **Strumenti**: 17 schede operative per Scrum Master e team leader (retrospettive, Daily, riunioni individuali, feedback, conversazioni difficili, conflitti, decisioni, flusso, metriche), ognuna collegata ai libri da cui nasce.
 - **Modalità lettura** con dimensione del testo regolabile.
 - **Libreria**: progressi salvati, libri salvati, completati, minuti ascoltati.
 - **Offline**: l'app e i testi funzionano senza rete; gli audio si possono scaricare sul dispositivo.
-- **Copertine originali** scaricate durante il deploy da Open Library (con Google Books come riserva). Se una copertina non si trova, l'app mostra quella grafica; per forzare un'edizione aggiungi `"coverIsbn"` al libro in `data/books.json`.
+- **Copertine delle edizioni italiane**, scaricate durante il deploy da Open Library e Google Books. Se un libro non ha un'edizione italiana con copertina si usa quella originale, e se manca anche quella l'app mostra una copertina grafica. Per forzare un'edizione precisa aggiungi `"coverIsbn"` al libro in `data/books.json`; `covers/sources.json` indica da dove arriva ogni copertina.
 
 ## Come viene generato l'audio
 
@@ -24,6 +27,14 @@ Se gli MP3 non sono disponibili, l'app legge il testo con la voce italiana del d
 1. Su GitHub apri **Settings → Pages** e in **Source** scegli **GitHub Actions**.
 2. Fai il merge su `main` (oppure avvia a mano il workflow **Genera audio e pubblica** da **Actions**).
 3. Al termine (la prima generazione degli audio richiede qualche decina di minuti) l'app è online su `https://<utente>.github.io/4books/`.
+
+### Copertine italiane più complete (facoltativo)
+
+Senza chiave, Google Books condivide un limite giornaliero di richieste che spesso è già esaurito, e molte copertine italiane non si trovano. Per usare una chiave gratuita:
+
+1. Su [Google Cloud Console](https://console.cloud.google.com/) crea un progetto, abilita **Books API** e crea una **chiave API**.
+2. Nel repository GitHub apri **Settings → Secrets and variables → Actions → New repository secret**, nome `GOOGLE_BOOKS_API_KEY`, valore la chiave.
+3. Rilancia il workflow da **Actions → Genera audio e pubblica → Run workflow**.
 
 ## Installazione su iPhone
 

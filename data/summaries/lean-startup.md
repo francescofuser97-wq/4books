@@ -1,8 +1,8 @@
-# The Lean Startup
+# Partire leggeri
 
 ## Introduzione
 
-Benvenuto. In questo riassunto parliamo di The Lean Startup, scritto da Eric Ries e pubblicato nel 2011. Il sottotitolo è: come le aziende di oggi usano l'innovazione continua per creare imprese di successo. È diventato uno dei libri più influenti sull'innovazione, letto non solo dai fondatori di startup ma anche dai manager di grandi aziende.
+Benvenuto. In questo riassunto parliamo di Partire leggeri, titolo italiano di The Lean Startup, scritto da Eric Ries e pubblicato nel 2011. Il sottotitolo è: come le aziende di oggi usano l'innovazione continua per creare imprese di successo. È diventato uno dei libri più influenti sull'innovazione, letto non solo dai fondatori di startup ma anche dai manager di grandi aziende.
 
 Ries racconta di aver vissuto in prima persona il fallimento. All'inizio della sua carriera ha lavorato a una startup che, dopo anni di sviluppo e molti soldi spesi, ha lanciato un prodotto tecnicamente eccellente che nessuno voleva. Il team aveva lavorato benissimo, ma sulla cosa sbagliata. Questa esperienza lo ha portato a una domanda: come si può evitare di costruire, con grande efficienza, qualcosa che nessuno vuole?
 
@@ -96,7 +96,7 @@ Quinto: programma ogni trimestre una discussione esplicita: perseveriamo o cambi
 
 ## I punti cardine
 
-Ricapitoliamo i punti cardine di The Lean Startup.
+Ricapitoliamo i punti cardine di Partire leggeri.
 
 Primo: una startup è qualsiasi iniziativa che crea qualcosa di nuovo in condizioni di estrema incertezza.
 
