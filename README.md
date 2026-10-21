@@ -4,9 +4,9 @@ Web app installabile su iPhone (PWA), ispirata a 4books: riassunti in formato au
 
 ## Cosa contiene
 
-- **13 riassunti in italiano** (ognuno con capitoli, idee chiave, una storia o un caso concreto, una sezione su come applicarlo da Scrum Master e team leader in un contesto lean e agile, esercizi pratici e i punti cardine finali):
-  Il manager minuto · The Making of a Manager · I primi 90 giorni · Le 7 regole per avere successo · Il manager efficace · High Output Management · Radical Candor · Come trattare gli altri e farseli amici · Intelligenza emotiva · Drive · Le cinque disfunzioni del team · Leaders Eat Last · Extreme Ownership
-- **2 percorsi guidati**: "Da collaboratore a manager" e "Guidare le persone".
+- **50 riassunti in italiano** da circa 15 minuti, ognuno con capitoli, idee chiave, una storia o un caso concreto, una sezione su come applicarlo da Scrum Master e team leader in un contesto lean e agile, esercizi pratici e i punti cardine finali.
+- **9 percorsi guidati**: Da collaboratore a manager · Scrum Master al massimo livello · Guidare team tecnici · Lean e flusso del valore · Software, DevOps e organizzazione · Guidare le persone · Conversazioni difficili · Pensare in termini di prodotto · La crescita personale del leader.
+- **Ricerca** per titolo, autore o tema e filtri per categoria.
 - **Player audio** con velocità (0,8×–2×), salti di 15/30 secondi, capitoli, timer di spegnimento, controlli dalla schermata di blocco e riproduzione in background.
 - **Modalità lettura** con dimensione del testo regolabile.
 - **Libreria**: progressi salvati, libri salvati, completati, minuti ascoltati.

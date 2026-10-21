@@ -3,14 +3,152 @@
     {
       "id": "nuovo-manager",
       "title": "Da collaboratore a manager",
+      "colors": [
+        "#ff7a59",
+        "#6a5af9"
+      ],
       "description": "Il percorso essenziale per chi guida un team per la prima volta: metodo, primi mesi, abitudini e strumenti.",
-      "books": ["manager-minuto", "making-of-a-manager", "primi-90-giorni", "sette-regole", "manager-efficace", "high-output-management"]
+      "books": [
+        "manager-minuto",
+        "making-of-a-manager",
+        "primi-90-giorni",
+        "sette-regole",
+        "manager-efficace",
+        "high-output-management"
+      ]
+    },
+    {
+      "id": "agile-scrum",
+      "title": "Scrum Master al massimo livello",
+      "colors": [
+        "#0061ff",
+        "#5f2c82"
+      ],
+      "description": "Scrum, coaching, retrospettive e conversazioni: gli strumenti quotidiani dello Scrum Master.",
+      "books": [
+        "scrum-sutherland",
+        "scrum-mastery",
+        "coaching-agile-teams",
+        "agile-retrospectives",
+        "coaching-habit",
+        "agile-conversations",
+        "user-story-mapping"
+      ]
+    },
+    {
+      "id": "team-tecnici",
+      "title": "Guidare team tecnici",
+      "colors": [
+        "#2c3e50",
+        "#4ca1af"
+      ],
+      "description": "Dal tech lead al responsabile di più team: crescere come leader in un contesto IT.",
+      "books": [
+        "managers-path",
+        "elegant-puzzle",
+        "turn-ship-around",
+        "multipliers",
+        "fearless-organization",
+        "dare-to-lead"
+      ]
+    },
+    {
+      "id": "lean-flusso",
+      "title": "Lean e flusso del valore",
+      "colors": [
+        "#cb2d3e",
+        "#134e5e"
+      ],
+      "description": "Dalla fabbrica Toyota allo sviluppo software: valore, flusso, colli di bottiglia e lotti piccoli.",
+      "books": [
+        "toyota-way",
+        "lean-thinking",
+        "this-is-lean",
+        "la-meta",
+        "kanban",
+        "product-development-flow"
+      ]
+    },
+    {
+      "id": "it-devops",
+      "title": "Software, DevOps e organizzazione",
+      "colors": [
+        "#f12711",
+        "#302b63"
+      ],
+      "description": "Come lavorano i team software ad alte prestazioni e come organizzarli.",
+      "books": [
+        "mythical-man-month",
+        "peopleware",
+        "phoenix-project",
+        "accelerate",
+        "team-topologies",
+        "team-of-teams"
+      ]
     },
     {
       "id": "persone",
       "title": "Guidare le persone",
+      "colors": [
+        "#11998e",
+        "#2a5298"
+      ],
       "description": "Feedback, fiducia, motivazione e lavoro di squadra: il lato umano della leadership.",
-      "books": ["radical-candor", "carnegie", "intelligenza-emotiva", "drive", "cinque-disfunzioni", "leader-ultimi", "extreme-ownership"]
+      "books": [
+        "radical-candor",
+        "carnegie",
+        "intelligenza-emotiva",
+        "drive",
+        "cinque-disfunzioni",
+        "leader-ultimi",
+        "extreme-ownership"
+      ]
+    },
+    {
+      "id": "comunicazione",
+      "title": "Conversazioni difficili",
+      "colors": [
+        "#c33764",
+        "#614385"
+      ],
+      "description": "Parlare quando la posta in gioco è alta, negoziare, dare e ricevere feedback.",
+      "books": [
+        "crucial-conversations",
+        "parole-finestre",
+        "getting-to-yes",
+        "thanks-for-feedback"
+      ]
+    },
+    {
+      "id": "prodotto",
+      "title": "Pensare in termini di prodotto",
+      "colors": [
+        "#ff512f",
+        "#7f00ff"
+      ],
+      "description": "Dal backlog ai risultati: scoprire cosa vale davvero la pena costruire.",
+      "books": [
+        "lean-startup",
+        "inspired",
+        "escaping-build-trap",
+        "user-story-mapping"
+      ]
+    },
+    {
+      "id": "crescita",
+      "title": "La crescita personale del leader",
+      "colors": [
+        "#f7797d",
+        "#000428"
+      ],
+      "description": "Mentalità, abitudini, concentrazione e decisioni: lavorare prima di tutto su se stessi.",
+      "books": [
+        "mindset",
+        "atomic-habits",
+        "deep-work",
+        "pensieri-lenti-veloci",
+        "partire-dal-perche"
+      ]
     }
   ],
   "books": [
@@ -21,9 +159,16 @@
       "author": "Ken Blanchard e Spencer Johnson",
       "year": 1982,
       "category": "Management",
-      "colors": ["#ff7a59", "#ffb347"],
+      "colors": [
+        "#ff7a59",
+        "#ffb347"
+      ],
       "tagline": "Tre strumenti da un minuto per guidare le persone e ottenere risultati.",
-      "keyIdeas": ["Obiettivi da un minuto", "Elogi da un minuto", "Correzioni da un minuto"]
+      "keyIdeas": [
+        "Obiettivi da un minuto",
+        "Elogi da un minuto",
+        "Correzioni da un minuto"
+      ]
     },
     {
       "id": "making-of-a-manager",
@@ -32,9 +177,16 @@
       "author": "Julie Zhuo",
       "year": 2019,
       "category": "Primo incarico",
-      "colors": ["#6a5af9", "#b06ab3"],
+      "colors": [
+        "#6a5af9",
+        "#b06ab3"
+      ],
       "tagline": "Cosa fare quando, per la prima volta, tutti guardano a te.",
-      "keyIdeas": ["Scopo, persone, processo", "Riunioni individuali", "Feedback e sindrome dell'impostore"]
+      "keyIdeas": [
+        "Scopo, persone, processo",
+        "Riunioni individuali",
+        "Feedback e sindrome dell'impostore"
+      ]
     },
     {
       "id": "primi-90-giorni",
@@ -43,9 +195,16 @@
       "author": "Michael D. Watkins",
       "year": 2003,
       "category": "Primo incarico",
-      "colors": ["#11998e", "#38ef7d"],
+      "colors": [
+        "#11998e",
+        "#38ef7d"
+      ],
       "tagline": "Le strategie per affrontare un nuovo ruolo e raggiungere in fretta il punto di pareggio.",
-      "keyIdeas": ["Promuovi te stesso", "Il modello STARS", "Le cinque conversazioni con il capo"]
+      "keyIdeas": [
+        "Promuovi te stesso",
+        "Il modello STARS",
+        "Le cinque conversazioni con il capo"
+      ]
     },
     {
       "id": "sette-regole",
@@ -54,9 +213,16 @@
       "author": "Stephen R. Covey",
       "year": 1989,
       "category": "Crescita personale",
-      "colors": ["#1e3c72", "#2a5298"],
+      "colors": [
+        "#1e3c72",
+        "#2a5298"
+      ],
       "tagline": "Sette abitudini per passare dalla dipendenza all'interdipendenza.",
-      "keyIdeas": ["Cerchio di influenza", "Il secondo quadrante", "Prima capire, poi farsi capire"]
+      "keyIdeas": [
+        "Cerchio di influenza",
+        "Il secondo quadrante",
+        "Prima capire, poi farsi capire"
+      ]
     },
     {
       "id": "manager-efficace",
@@ -65,9 +231,16 @@
       "author": "Peter F. Drucker",
       "year": 1967,
       "category": "Produttività",
-      "colors": ["#373b44", "#4286f4"],
+      "colors": [
+        "#373b44",
+        "#4286f4"
+      ],
       "tagline": "Le cinque pratiche che trasformano intelligenza e talento in risultati.",
-      "keyIdeas": ["Conosci il tuo tempo", "Costruisci sui punti di forza", "Decisioni efficaci"]
+      "keyIdeas": [
+        "Conosci il tuo tempo",
+        "Costruisci sui punti di forza",
+        "Decisioni efficaci"
+      ]
     },
     {
       "id": "high-output-management",
@@ -76,9 +249,16 @@
       "author": "Andrew S. Grove",
       "year": 1983,
       "category": "Management",
-      "colors": ["#0f2027", "#2c5364"],
+      "colors": [
+        "#0f2027",
+        "#2c5364"
+      ],
       "tagline": "Il manuale dell'ex CEO di Intel: il risultato di un manager è il risultato del suo team.",
-      "keyIdeas": ["Leva manageriale", "Riunioni individuali", "Maturità rispetto al compito"]
+      "keyIdeas": [
+        "Leva manageriale",
+        "Riunioni individuali",
+        "Maturità rispetto al compito"
+      ]
     },
     {
       "id": "radical-candor",
@@ -87,9 +267,16 @@
       "author": "Kim Scott",
       "year": 2017,
       "category": "Feedback",
-      "colors": ["#e52d27", "#b31217"],
+      "colors": [
+        "#e52d27",
+        "#b31217"
+      ],
       "tagline": "Tenere alle persone e sfidarle direttamente: come essere un capo franco e umano.",
-      "keyIdeas": ["I quattro quadranti", "Chiedere feedback", "Rockstar e superstar"]
+      "keyIdeas": [
+        "I quattro quadranti",
+        "Chiedere feedback",
+        "Rockstar e superstar"
+      ]
     },
     {
       "id": "carnegie",
@@ -98,9 +285,16 @@
       "author": "Dale Carnegie",
       "year": 1936,
       "category": "Comunicazione",
-      "colors": ["#f7971e", "#ffd200"],
+      "colors": [
+        "#f7971e",
+        "#ffd200"
+      ],
       "tagline": "Il classico senza tempo sulle relazioni, la persuasione e la leadership.",
-      "keyIdeas": ["Non criticare", "Apprezzamento sincero", "Correggere senza offendere"]
+      "keyIdeas": [
+        "Non criticare",
+        "Apprezzamento sincero",
+        "Correggere senza offendere"
+      ]
     },
     {
       "id": "intelligenza-emotiva",
@@ -109,9 +303,16 @@
       "author": "Daniel Goleman",
       "year": 1995,
       "category": "Crescita personale",
-      "colors": ["#c94b4b", "#4b134f"],
+      "colors": [
+        "#c94b4b",
+        "#4b134f"
+      ],
       "tagline": "Perché le emozioni contano più del quoziente intellettivo nel lavoro e nella vita.",
-      "keyIdeas": ["Sequestro emotivo", "I cinque pilastri", "Il clima creato dal leader"]
+      "keyIdeas": [
+        "Sequestro emotivo",
+        "I cinque pilastri",
+        "Il clima creato dal leader"
+      ]
     },
     {
       "id": "drive",
@@ -120,9 +321,16 @@
       "author": "Daniel H. Pink",
       "year": 2009,
       "category": "Motivazione",
-      "colors": ["#00b09b", "#96c93d"],
+      "colors": [
+        "#00b09b",
+        "#96c93d"
+      ],
       "tagline": "La sorprendente verità su ciò che ci motiva: autonomia, padronanza e scopo.",
-      "keyIdeas": ["Oltre il bastone e la carota", "Autonomia e padronanza", "Lo scopo"]
+      "keyIdeas": [
+        "Oltre il bastone e la carota",
+        "Autonomia e padronanza",
+        "Lo scopo"
+      ]
     },
     {
       "id": "cinque-disfunzioni",
@@ -131,9 +339,16 @@
       "author": "Patrick Lencioni",
       "year": 2002,
       "category": "Team",
-      "colors": ["#834d9b", "#d04ed6"],
+      "colors": [
+        "#834d9b",
+        "#d04ed6"
+      ],
       "tagline": "Una favola aziendale sulla fiducia, il conflitto e la responsabilità nel team.",
-      "keyIdeas": ["Fiducia e vulnerabilità", "Conflitto costruttivo", "Risultati collettivi"]
+      "keyIdeas": [
+        "Fiducia e vulnerabilità",
+        "Conflitto costruttivo",
+        "Risultati collettivi"
+      ]
     },
     {
       "id": "leader-ultimi",
@@ -142,9 +357,16 @@
       "author": "Simon Sinek",
       "year": 2014,
       "category": "Leadership",
-      "colors": ["#141e30", "#243b55"],
+      "colors": [
+        "#141e30",
+        "#243b55"
+      ],
       "tagline": "Perché alcuni team si fidano e altri no: il cerchio di sicurezza.",
-      "keyIdeas": ["Cerchio di sicurezza", "Biologia della fiducia", "Leadership è una scelta"]
+      "keyIdeas": [
+        "Cerchio di sicurezza",
+        "Biologia della fiducia",
+        "Leadership è una scelta"
+      ]
     },
     {
       "id": "extreme-ownership",
@@ -153,9 +375,682 @@
       "author": "Jocko Willink e Leif Babin",
       "year": 2015,
       "category": "Leadership",
-      "colors": ["#3a6073", "#16222a"],
+      "colors": [
+        "#3a6073",
+        "#16222a"
+      ],
       "tagline": "Le lezioni dei Navy SEAL: il leader è responsabile di tutto.",
-      "keyIdeas": ["Responsabilità totale", "Semplicità", "Comando decentralizzato"]
+      "keyIdeas": [
+        "Responsabilità totale",
+        "Semplicità",
+        "Comando decentralizzato"
+      ]
+    },
+    {
+      "id": "scrum-sutherland",
+      "title": "Scrum",
+      "originalTitle": "Scrum: The Art of Doing Twice the Work in Half the Time",
+      "author": "Jeff Sutherland",
+      "year": 2014,
+      "category": "Agile",
+      "colors": [
+        "#0061ff",
+        "#1fa2ff"
+      ],
+      "tagline": "Il co-creatore di Scrum spiega come fare il doppio del lavoro nella metà del tempo.",
+      "keyIdeas": [
+        "Cicli brevi e ispezione",
+        "Pianificare la realtà, non la fantasia",
+        "Il costo del lavoro lasciato a metà"
+      ]
+    },
+    {
+      "id": "scrum-mastery",
+      "title": "Scrum Mastery",
+      "originalTitle": "Scrum Mastery: From Good to Great Servant-Leadership",
+      "author": "Geoff Watts",
+      "year": 2013,
+      "category": "Agile",
+      "colors": [
+        "#5f2c82",
+        "#49a09d"
+      ],
+      "tagline": "Da buono a grande Scrum Master: la leadership al servizio del team.",
+      "keyIdeas": [
+        "Leadership al servizio",
+        "Coach, non risolutore di problemi",
+        "Rendersi sempre meno necessari"
+      ]
+    },
+    {
+      "id": "coaching-agile-teams",
+      "title": "Coaching Agile Teams",
+      "originalTitle": "Coaching Agile Teams",
+      "author": "Lyssa Adkins",
+      "year": 2010,
+      "category": "Agile",
+      "colors": [
+        "#f857a6",
+        "#ff5858"
+      ],
+      "tagline": "Guidare i team agili verso prestazioni elevate con la postura del coach.",
+      "keyIdeas": [
+        "Aspettarsi prestazioni elevate",
+        "I ruoli del coach agile",
+        "I cinque livelli del conflitto"
+      ]
+    },
+    {
+      "id": "agile-retrospectives",
+      "title": "Agile Retrospectives",
+      "originalTitle": "Agile Retrospectives: Making Good Teams Great",
+      "author": "Esther Derby e Diana Larsen",
+      "year": 2006,
+      "category": "Agile",
+      "colors": [
+        "#fc5c7d",
+        "#6a82fb"
+      ],
+      "tagline": "Come trasformare le retrospettive nel motore del miglioramento continuo.",
+      "keyIdeas": [
+        "Le cinque fasi",
+        "La direttiva primaria",
+        "Poche azioni, concrete"
+      ]
+    },
+    {
+      "id": "user-story-mapping",
+      "title": "User Story Mapping",
+      "originalTitle": "User Story Mapping",
+      "author": "Jeff Patton",
+      "year": 2014,
+      "category": "Prodotto",
+      "colors": [
+        "#f2994a",
+        "#eb5757"
+      ],
+      "tagline": "Costruire una comprensione condivisa del prodotto, una storia alla volta.",
+      "keyIdeas": [
+        "Le storie si raccontano",
+        "La mappa del prodotto",
+        "Meno output, più risultati"
+      ]
+    },
+    {
+      "id": "agile-conversations",
+      "title": "Agile Conversations",
+      "originalTitle": "Agile Conversations",
+      "author": "Douglas Squirrel e Jeffrey Fredrick",
+      "year": 2020,
+      "category": "Comunicazione",
+      "colors": [
+        "#00c6ff",
+        "#0072ff"
+      ],
+      "tagline": "Cambiare la cultura del team cambiando le conversazioni.",
+      "keyIdeas": [
+        "Le quattro R",
+        "Il metodo delle due colonne",
+        "Le cinque conversazioni"
+      ]
+    },
+    {
+      "id": "toyota-way",
+      "title": "The Toyota Way",
+      "originalTitle": "The Toyota Way",
+      "author": "Jeffrey K. Liker",
+      "year": 2004,
+      "category": "Lean",
+      "colors": [
+        "#cb2d3e",
+        "#ef473a"
+      ],
+      "tagline": "I 14 principi che hanno reso Toyota un modello di eccellenza.",
+      "keyIdeas": [
+        "Filosofia di lungo periodo",
+        "Fermarsi per risolvere i problemi",
+        "Andare a vedere di persona"
+      ]
+    },
+    {
+      "id": "lean-thinking",
+      "title": "Lean Thinking",
+      "originalTitle": "Lean Thinking",
+      "author": "James P. Womack e Daniel T. Jones",
+      "year": 1996,
+      "category": "Lean",
+      "colors": [
+        "#134e5e",
+        "#71b280"
+      ],
+      "tagline": "I cinque principi per eliminare lo spreco e far scorrere il valore.",
+      "keyIdeas": [
+        "Valore e flusso del valore",
+        "Flusso e sistema a trazione",
+        "La ricerca della perfezione"
+      ]
+    },
+    {
+      "id": "this-is-lean",
+      "title": "This Is Lean",
+      "originalTitle": "This Is Lean: Resolving the Efficiency Paradox",
+      "author": "Niklas Modig e Pär Åhlström",
+      "year": 2012,
+      "category": "Lean",
+      "colors": [
+        "#1d976c",
+        "#2c7744"
+      ],
+      "tagline": "Il paradosso dell'efficienza: far scorrere il lavoro conta più che tenere tutti occupati.",
+      "keyIdeas": [
+        "Efficienza delle risorse e del flusso",
+        "La legge di Little",
+        "Lean è una strategia"
+      ]
+    },
+    {
+      "id": "la-meta",
+      "title": "La Meta",
+      "originalTitle": "The Goal",
+      "author": "Eliyahu M. Goldratt e Jeff Cox",
+      "year": 1984,
+      "category": "Lean",
+      "colors": [
+        "#e65c00",
+        "#d4a017"
+      ],
+      "tagline": "Il romanzo industriale che insegna a trovare e gestire i colli di bottiglia.",
+      "keyIdeas": [
+        "La meta è fare soldi",
+        "Il collo di bottiglia",
+        "I cinque passi di focalizzazione"
+      ]
+    },
+    {
+      "id": "kanban",
+      "title": "Kanban",
+      "originalTitle": "Kanban: Successful Evolutionary Change for Your Technology Business",
+      "author": "David J. Anderson",
+      "year": 2010,
+      "category": "Lean",
+      "colors": [
+        "#2193b0",
+        "#1c6e8c"
+      ],
+      "tagline": "Migliorare in modo evolutivo, partendo da ciò che fai oggi.",
+      "keyIdeas": [
+        "Visualizzare il flusso",
+        "Limitare il lavoro in corso",
+        "Politiche esplicite"
+      ]
+    },
+    {
+      "id": "product-development-flow",
+      "title": "The Principles of Product Development Flow",
+      "originalTitle": "The Principles of Product Development Flow",
+      "author": "Donald G. Reinertsen",
+      "year": 2009,
+      "category": "Lean",
+      "colors": [
+        "#3a1c71",
+        "#d76d77"
+      ],
+      "tagline": "L'economia del flusso nello sviluppo di prodotto: code, lotti e costo del ritardo.",
+      "keyIdeas": [
+        "Il costo del ritardo",
+        "Code e utilizzo",
+        "Lotti piccoli e controllo decentrato"
+      ]
+    },
+    {
+      "id": "lean-startup",
+      "title": "The Lean Startup",
+      "originalTitle": "The Lean Startup",
+      "author": "Eric Ries",
+      "year": 2011,
+      "category": "Prodotto",
+      "colors": [
+        "#ff512f",
+        "#dd2476"
+      ],
+      "tagline": "Costruire, misurare, imparare: innovare riducendo lo spreco.",
+      "keyIdeas": [
+        "Prodotto minimo funzionante",
+        "Apprendimento convalidato",
+        "Perseverare o cambiare rotta"
+      ]
+    },
+    {
+      "id": "phoenix-project",
+      "title": "The Phoenix Project",
+      "originalTitle": "The Phoenix Project",
+      "author": "Gene Kim, Kevin Behr e George Spafford",
+      "year": 2013,
+      "category": "IT e DevOps",
+      "colors": [
+        "#f12711",
+        "#c2410c"
+      ],
+      "tagline": "Il romanzo sull'IT che spiega DevOps, flusso e i quattro tipi di lavoro.",
+      "keyIdeas": [
+        "I quattro tipi di lavoro",
+        "Le tre vie",
+        "Il collo di bottiglia umano"
+      ]
+    },
+    {
+      "id": "accelerate",
+      "title": "Accelerate",
+      "originalTitle": "Accelerate: The Science of Lean Software and DevOps",
+      "author": "Nicole Forsgren, Jez Humble e Gene Kim",
+      "year": 2018,
+      "category": "IT e DevOps",
+      "colors": [
+        "#4568dc",
+        "#b06ab3"
+      ],
+      "tagline": "Cosa distingue davvero i team software ad alte prestazioni, secondo i dati.",
+      "keyIdeas": [
+        "Le quattro metriche chiave",
+        "Velocità e stabilità insieme",
+        "Cultura generativa"
+      ]
+    },
+    {
+      "id": "team-topologies",
+      "title": "Team Topologies",
+      "originalTitle": "Team Topologies",
+      "author": "Matthew Skelton e Manuel Pais",
+      "year": 2019,
+      "category": "IT e DevOps",
+      "colors": [
+        "#0f0c29",
+        "#302b63"
+      ],
+      "tagline": "Organizzare i team per un flusso rapido: quattro tipi di team, tre modi di interagire.",
+      "keyIdeas": [
+        "Quattro tipi di team",
+        "Tre modalità di interazione",
+        "Il carico cognitivo"
+      ]
+    },
+    {
+      "id": "peopleware",
+      "title": "Peopleware",
+      "originalTitle": "Peopleware: Productive Projects and Teams",
+      "author": "Tom DeMarco e Timothy Lister",
+      "year": 1987,
+      "category": "Team",
+      "colors": [
+        "#56ab2f",
+        "#2f7d1e"
+      ],
+      "tagline": "I problemi dei progetti software sono soprattutto umani, non tecnologici.",
+      "keyIdeas": [
+        "Ambiente e concentrazione",
+        "Il teamicidio",
+        "Team affiatati"
+      ]
+    },
+    {
+      "id": "mythical-man-month",
+      "title": "The Mythical Man-Month",
+      "originalTitle": "The Mythical Man-Month",
+      "author": "Frederick P. Brooks Jr.",
+      "year": 1975,
+      "category": "IT e DevOps",
+      "colors": [
+        "#485563",
+        "#29323c"
+      ],
+      "tagline": "Perché aggiungere persone a un progetto in ritardo lo fa ritardare ancora di più.",
+      "keyIdeas": [
+        "La legge di Brooks",
+        "Integrità concettuale",
+        "Nessun proiettile d'argento"
+      ]
+    },
+    {
+      "id": "team-of-teams",
+      "title": "Team of Teams",
+      "originalTitle": "Team of Teams: New Rules of Engagement for a Complex World",
+      "author": "Stanley McChrystal",
+      "year": 2015,
+      "category": "Leadership",
+      "colors": [
+        "#606c88",
+        "#3f4c6b"
+      ],
+      "tagline": "Dall'efficienza all'adattabilità: guidare in un mondo complesso.",
+      "keyIdeas": [
+        "Complicato e complesso",
+        "Consapevolezza condivisa",
+        "Esecuzione autonoma"
+      ]
+    },
+    {
+      "id": "inspired",
+      "title": "Inspired",
+      "originalTitle": "Inspired: How to Create Tech Products Customers Love",
+      "author": "Marty Cagan",
+      "year": 2017,
+      "category": "Prodotto",
+      "colors": [
+        "#ff9966",
+        "#ff5e62"
+      ],
+      "tagline": "Come i migliori team di prodotto scoprono cosa vale la pena costruire.",
+      "keyIdeas": [
+        "Scoperta e consegna",
+        "I quattro rischi",
+        "Team responsabilizzati"
+      ]
+    },
+    {
+      "id": "escaping-build-trap",
+      "title": "Escaping the Build Trap",
+      "originalTitle": "Escaping the Build Trap",
+      "author": "Melissa Perri",
+      "year": 2018,
+      "category": "Prodotto",
+      "colors": [
+        "#7f00ff",
+        "#e100ff"
+      ],
+      "tagline": "Smettere di misurare l'output e iniziare a misurare i risultati.",
+      "keyIdeas": [
+        "La trappola del costruire",
+        "Risultati, non funzionalità",
+        "Il kata del prodotto"
+      ]
+    },
+    {
+      "id": "managers-path",
+      "title": "The Manager's Path",
+      "originalTitle": "The Manager's Path",
+      "author": "Camille Fournier",
+      "year": 2017,
+      "category": "Leadership tecnica",
+      "colors": [
+        "#2c3e50",
+        "#4ca1af"
+      ],
+      "tagline": "La guida per crescere da sviluppatore a leader tecnico, gradino dopo gradino.",
+      "keyIdeas": [
+        "Il tech lead",
+        "Gestire persone e team",
+        "Gestire altri manager"
+      ]
+    },
+    {
+      "id": "elegant-puzzle",
+      "title": "An Elegant Puzzle",
+      "originalTitle": "An Elegant Puzzle: Systems of Engineering Management",
+      "author": "Will Larson",
+      "year": 2019,
+      "category": "Leadership tecnica",
+      "colors": [
+        "#536976",
+        "#292e49"
+      ],
+      "tagline": "Il management dell'ingegneria come sistema: team, debito tecnico e priorità.",
+      "keyIdeas": [
+        "I quattro stati di un team",
+        "Dimensionare i team",
+        "Le migrazioni"
+      ]
+    },
+    {
+      "id": "turn-ship-around",
+      "title": "Turn the Ship Around!",
+      "originalTitle": "Turn the Ship Around!",
+      "author": "L. David Marquet",
+      "year": 2012,
+      "category": "Leadership",
+      "colors": [
+        "#003973",
+        "#3a7bd5"
+      ],
+      "tagline": "Da capo che dà ordini a leader che crea leader: la storia di un sottomarino.",
+      "keyIdeas": [
+        "Leader che crea leader",
+        "Ho intenzione di",
+        "Controllo, competenza, chiarezza"
+      ]
+    },
+    {
+      "id": "multipliers",
+      "title": "Multipliers",
+      "originalTitle": "Multipliers: How the Best Leaders Make Everyone Smarter",
+      "author": "Liz Wiseman",
+      "year": 2010,
+      "category": "Leadership",
+      "colors": [
+        "#da22ff",
+        "#9733ee"
+      ],
+      "tagline": "I leader che moltiplicano l'intelligenza delle persone e quelli che la diminuiscono.",
+      "keyIdeas": [
+        "Moltiplicatori e diminutori",
+        "Le cinque discipline",
+        "Il diminutore involontario"
+      ]
+    },
+    {
+      "id": "fearless-organization",
+      "title": "The Fearless Organization",
+      "originalTitle": "The Fearless Organization",
+      "author": "Amy C. Edmondson",
+      "year": 2018,
+      "category": "Team",
+      "colors": [
+        "#43cea2",
+        "#185a9d"
+      ],
+      "tagline": "La sicurezza psicologica come base dell'apprendimento e dell'innovazione.",
+      "keyIdeas": [
+        "Sicurezza psicologica",
+        "Sicurezza e standard elevati",
+        "Gli strumenti del leader"
+      ]
+    },
+    {
+      "id": "dare-to-lead",
+      "title": "Dare to Lead",
+      "originalTitle": "Dare to Lead",
+      "author": "Brené Brown",
+      "year": 2018,
+      "category": "Leadership",
+      "colors": [
+        "#ed4264",
+        "#b0306a"
+      ],
+      "tagline": "Il coraggio di guidare: vulnerabilità, valori e fiducia.",
+      "keyIdeas": [
+        "Vulnerabilità e coraggio",
+        "Chiaro è gentile",
+        "Gli elementi della fiducia"
+      ]
+    },
+    {
+      "id": "coaching-habit",
+      "title": "The Coaching Habit",
+      "originalTitle": "The Coaching Habit",
+      "author": "Michael Bungay Stanier",
+      "year": 2016,
+      "category": "Comunicazione",
+      "colors": [
+        "#f37335",
+        "#c0392b"
+      ],
+      "tagline": "Sette domande per parlare meno, chiedere di più e guidare meglio.",
+      "keyIdeas": [
+        "Le sette domande",
+        "Domare il mostro dei consigli",
+        "Costruire l'abitudine"
+      ]
+    },
+    {
+      "id": "crucial-conversations",
+      "title": "Crucial Conversations",
+      "originalTitle": "Crucial Conversations",
+      "author": "Kerry Patterson, Joseph Grenny, Ron McMillan e Al Switzler",
+      "year": 2002,
+      "category": "Comunicazione",
+      "colors": [
+        "#c33764",
+        "#1d2671"
+      ],
+      "tagline": "Come parlare quando la posta in gioco è alta e le emozioni sono forti.",
+      "keyIdeas": [
+        "Il bacino del significato condiviso",
+        "Rendere sicura la conversazione",
+        "Padroneggiare le proprie storie"
+      ]
+    },
+    {
+      "id": "parole-finestre",
+      "title": "Le parole sono finestre",
+      "originalTitle": "Nonviolent Communication",
+      "author": "Marshall B. Rosenberg",
+      "year": 1999,
+      "category": "Comunicazione",
+      "colors": [
+        "#0b8793",
+        "#360033"
+      ],
+      "tagline": "La comunicazione nonviolenta: osservazioni, sentimenti, bisogni e richieste.",
+      "keyIdeas": [
+        "Osservare senza giudicare",
+        "Sentimenti e bisogni",
+        "Richieste, non pretese"
+      ]
+    },
+    {
+      "id": "getting-to-yes",
+      "title": "L'arte del negoziato",
+      "originalTitle": "Getting to Yes",
+      "author": "Roger Fisher e William Ury",
+      "year": 1981,
+      "category": "Comunicazione",
+      "colors": [
+        "#614385",
+        "#516395"
+      ],
+      "tagline": "Negoziare sul merito: interessi, opzioni e criteri oggettivi.",
+      "keyIdeas": [
+        "Separare le persone dal problema",
+        "Interessi, non posizioni",
+        "La migliore alternativa"
+      ]
+    },
+    {
+      "id": "thanks-for-feedback",
+      "title": "Thanks for the Feedback",
+      "originalTitle": "Thanks for the Feedback",
+      "author": "Douglas Stone e Sheila Heen",
+      "year": 2014,
+      "category": "Feedback",
+      "colors": [
+        "#d31027",
+        "#ea384d"
+      ],
+      "tagline": "L'arte e la scienza di ricevere bene il feedback.",
+      "keyIdeas": [
+        "Tre tipi di feedback",
+        "I tre inneschi",
+        "I punti ciechi"
+      ]
+    },
+    {
+      "id": "mindset",
+      "title": "Mindset",
+      "originalTitle": "Mindset: The New Psychology of Success",
+      "author": "Carol S. Dweck",
+      "year": 2006,
+      "category": "Crescita personale",
+      "colors": [
+        "#f7797d",
+        "#c471ed"
+      ],
+      "tagline": "Mentalità fissa e mentalità di crescita: come cambiano il modo di imparare e di guidare.",
+      "keyIdeas": [
+        "Fissa o di crescita",
+        "Lodare il processo",
+        "Il potere del non ancora"
+      ]
+    },
+    {
+      "id": "atomic-habits",
+      "title": "Atomic Habits",
+      "originalTitle": "Atomic Habits",
+      "author": "James Clear",
+      "year": 2018,
+      "category": "Crescita personale",
+      "colors": [
+        "#232526",
+        "#414345"
+      ],
+      "tagline": "Piccoli cambiamenti, risultati straordinari: il sistema delle abitudini.",
+      "keyIdeas": [
+        "Migliorare dell'uno per cento",
+        "Abitudini e identità",
+        "Le quattro leggi"
+      ]
+    },
+    {
+      "id": "deep-work",
+      "title": "Deep Work",
+      "originalTitle": "Deep Work",
+      "author": "Cal Newport",
+      "year": 2016,
+      "category": "Produttività",
+      "colors": [
+        "#000428",
+        "#004e92"
+      ],
+      "tagline": "Il lavoro concentrato come superpotere in un mondo di distrazioni.",
+      "keyIdeas": [
+        "Lavoro profondo e superficiale",
+        "Il residuo dell'attenzione",
+        "Rituali e routine"
+      ]
+    },
+    {
+      "id": "pensieri-lenti-veloci",
+      "title": "Pensieri lenti e veloci",
+      "originalTitle": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "category": "Crescita personale",
+      "colors": [
+        "#ff4e50",
+        "#c9306c"
+      ],
+      "tagline": "I due sistemi del pensiero e gli errori che commettiamo quando decidiamo.",
+      "keyIdeas": [
+        "Sistema uno e sistema due",
+        "Euristiche e distorsioni",
+        "L'errore di pianificazione"
+      ]
+    },
+    {
+      "id": "partire-dal-perche",
+      "title": "Partire dal perché",
+      "originalTitle": "Start with Why",
+      "author": "Simon Sinek",
+      "year": 2009,
+      "category": "Leadership",
+      "colors": [
+        "#ed8f03",
+        "#b35a00"
+      ],
+      "tagline": "I grandi leader ispirano partendo dal perché.",
+      "keyIdeas": [
+        "Il cerchio d'oro",
+        "Ispirare, non manipolare",
+        "La legge della diffusione"
+      ]
     }
   ]
 }

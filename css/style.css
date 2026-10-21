@@ -153,6 +153,15 @@ body.has-mini #view { padding-bottom: calc(var(--tabbar-h) + var(--mini-h) + var
 .path-card .progress .bar { flex: 1; height: 5px; border-radius: 5px; background: rgba(255, 255, 255, .25); overflow: hidden; }
 .path-card .progress .bar span { display: block; height: 100%; background: #fff; }
 .paths-list { display: grid; gap: 14px; }
+.paths-row { display: grid; grid-auto-flow: column; grid-auto-columns: min(300px, 84%); gap: 12px; overflow-x: auto; margin: 0 -16px; padding: 0 16px 6px; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.paths-row::-webkit-scrollbar { display: none; }
+.paths-row > * { scroll-snap-align: start; }
+.search {
+  width: 100%; height: 44px; margin-bottom: 12px; padding: 0 14px;
+  border-radius: 12px; border: 1px solid var(--line); background: var(--bg-2); color: var(--text);
+  font: inherit; font-size: 16px; -webkit-appearance: none; appearance: none;
+}
+.search::placeholder { color: var(--text-3); }
 
 .steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
 .step { display: flex; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--line); }
